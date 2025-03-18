@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 1
+    },
+    "auditLog": "C:\\Users\\Rakib\\Desktop\\project template\\winston\\success\\.fa9cbe58adb3e1d66cce0588695c7f8fbc6e2fac-audit.json",
+    "files": [
+        {
+            "date": 1740560313859,
+            "name": "C:\\Users\\Rakib\\Desktop\\project template\\winston\\success\\26-02-2025-14-success.log",
+            "hash": "e5f50baa08f081461f20a4a893825e56cc6f5ade2b078e4dc9072a8bfff8d8c9"
+        }
+    ],
+    "hashType": "sha256"
+}

@@ -1,0 +1,95 @@
+Mon Mar 10 2025 17:3:0 [SERVER-NAME] info: 10.0.70.126 - POST /api/v1/orders/create-chaekout-session 200 - 2253.804 ms
+Mon Mar 10 2025 17:5:29 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 10 2025 17:5:32 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6007[39m
+Mon Mar 10 2025 17:5:58 [SERVER-NAME] info: 10.0.70.126 - POST /api/v1/orders/create-chaekout-session 200 - 2229.400 ms
+Mon Mar 10 2025 17:9:29 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 10 2025 17:9:32 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6007[39m
+Mon Mar 10 2025 17:10:2 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 10 2025 17:10:4 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 10 2025 17:10:6 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 10 2025 17:10:8 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6007[39m
+Mon Mar 10 2025 17:10:9 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 10 2025 17:10:11 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 10 2025 17:10:14 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6007[39m
+Mon Mar 10 2025 17:10:18 [SERVER-NAME] info: 10.0.70.126 - POST /api/v1/orders/create-chaekout-session 200 - 3192.990 ms
+Mon Mar 10 2025 17:13:8 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 10 2025 17:13:10 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6007[39m
+Mon Mar 10 2025 17:13:15 [SERVER-NAME] info: 10.0.70.126 - POST /api/v1/orders/create-chaekout-session 200 - 2170.190 ms
+Mon Mar 10 2025 17:16:18 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 10 2025 17:16:21 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6007[39m
+Mon Mar 10 2025 17:16:23 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 10 2025 17:16:26 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 10 2025 17:16:29 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6007[39m
+Mon Mar 10 2025 17:16:48 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 10 2025 17:16:50 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6007[39m
+Mon Mar 10 2025 17:16:56 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 10 2025 17:16:57 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 10 2025 17:16:58 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 10 2025 17:17:1 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6007[39m
+Mon Mar 10 2025 17:17:12 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 10 2025 17:17:14 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6007[39m
+Mon Mar 10 2025 17:30:56 [SERVER-NAME] info: 10.0.70.126 - POST /api/v1/orders/create-chaekout-session 200 - 2292.156 ms
+Mon Mar 10 2025 17:33:32 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 10 2025 17:33:35 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 10 2025 17:33:38 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6007[39m
+Mon Mar 10 2025 17:37:16 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 10 2025 17:37:17 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 10 2025 17:37:19 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 10 2025 17:37:22 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6007[39m
+Mon Mar 10 2025 17:37:25 [SERVER-NAME] info: 10.0.70.126 - POST /api/v1/orders/create-chaekout-session 200 - 2296.844 ms
+Mon Mar 10 2025 17:40:4 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 10 2025 17:40:7 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6007[39m
+Mon Mar 10 2025 17:40:9 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 10 2025 17:40:12 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6007[39m
+Mon Mar 10 2025 17:40:26 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 10 2025 17:40:29 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6007[39m
+Mon Mar 10 2025 17:41:19 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 10 2025 17:41:21 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 10 2025 17:41:24 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6007[39m
+Mon Mar 10 2025 17:41:24 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 10 2025 17:41:28 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6007[39m
+Mon Mar 10 2025 17:41:35 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 10 2025 17:41:40 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6007[39m
+Mon Mar 10 2025 17:41:49 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 10 2025 17:41:53 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 10 2025 17:41:56 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6007[39m
+Mon Mar 10 2025 17:42:8 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 10 2025 17:42:11 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 10 2025 17:42:14 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6007[39m
+Mon Mar 10 2025 17:42:38 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 10 2025 17:42:42 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 10 2025 17:42:47 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6007[39m
+Mon Mar 10 2025 17:43:4 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 10 2025 17:43:9 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 10 2025 17:43:13 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 10 2025 17:43:53 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 10 2025 17:43:57 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6007[39m
+Mon Mar 10 2025 17:44:17 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 10 2025 17:44:21 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6007[39m
+Mon Mar 10 2025 17:44:25 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 10 2025 17:44:27 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 10 2025 17:44:30 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6007[39m
+Mon Mar 10 2025 17:44:32 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 10 2025 17:44:35 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 10 2025 17:44:39 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 10 2025 17:44:42 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 10 2025 17:44:46 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6007[39m
+Mon Mar 10 2025 17:44:47 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 10 2025 17:44:50 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6007[39m
+Mon Mar 10 2025 17:45:0 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 10 2025 17:45:4 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 10 2025 17:45:9 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 10 2025 17:45:16 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 10 2025 17:45:19 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6007[39m
+Mon Mar 10 2025 17:45:25 [SERVER-NAME] info: 10.0.70.126 - POST /api/v1/orders/create-chaekout-session 200 - 5446.812 ms
+Mon Mar 10 2025 17:52:22 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 10 2025 17:52:25 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6007[39m
+Mon Mar 10 2025 17:52:47 [SERVER-NAME] info: 10.0.70.126 - POST /api/v1/orders/create-chaekout-session 200 - 2136.073 ms
+Mon Mar 10 2025 17:54:35 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 10 2025 17:54:38 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6007[39m
+Mon Mar 10 2025 17:54:49 [SERVER-NAME] info: 10.0.70.126 - POST /api/v1/orders/create-chaekout-session 200 - 2148.855 ms
+Mon Mar 10 2025 17:56:25 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 10 2025 17:56:28 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6007[39m
+Mon Mar 10 2025 17:56:38 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 10 2025 17:56:40 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 10 2025 17:56:45 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6007[39m

@@ -1,0 +1,53 @@
+Mon Mar 10 2025 17:2:59 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/stripe/webhook 404 - 0.678 ms
+Mon Mar 10 2025 17:2:59 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/stripe/webhook 404 - 0.554 ms
+Mon Mar 10 2025 17:5:57 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/stripe/webhook 404 - 1.430 ms
+Mon Mar 10 2025 17:5:58 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/stripe/webhook 404 - 0.880 ms
+Mon Mar 10 2025 17:9:34 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/stripe/webhook 404 - 1.450 ms
+Mon Mar 10 2025 17:9:35 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/orders/create-chaekout-session 400 - 2117.951 ms
+Mon Mar 10 2025 17:9:35 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/stripe/webhook 404 - 0.472 ms
+Mon Mar 10 2025 17:10:16 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/stripe/webhook 404 - 1.658 ms
+Mon Mar 10 2025 17:10:17 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/stripe/webhook 404 - 0.780 ms
+Mon Mar 10 2025 17:10:36 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/stripe/webhook 404 - 1.190 ms
+Mon Mar 10 2025 17:10:36 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/stripe/webhook 404 - 0.966 ms
+Mon Mar 10 2025 17:10:37 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/stripe/webhook 404 - 1.259 ms
+Mon Mar 10 2025 17:10:37 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/stripe/webhook 404 - 0.499 ms
+Mon Mar 10 2025 17:10:39 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/stripe/webhook 404 - 0.834 ms
+Mon Mar 10 2025 17:13:14 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/stripe/webhook 404 - 2.055 ms
+Mon Mar 10 2025 17:13:14 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/stripe/webhook 404 - 0.572 ms
+Mon Mar 10 2025 17:13:44 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/stripe/webhook 404 - 0.980 ms
+Mon Mar 10 2025 17:13:44 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/stripe/webhook 404 - 0.856 ms
+Mon Mar 10 2025 17:13:45 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/stripe/webhook 404 - 0.696 ms
+Mon Mar 10 2025 17:13:45 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/stripe/webhook 404 - 0.616 ms
+Mon Mar 10 2025 17:13:46 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/stripe/webhook 404 - 1.234 ms
+Mon Mar 10 2025 17:30:55 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/stripe/webhook 404 - 3.526 ms
+Mon Mar 10 2025 17:30:55 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/stripe/webhook 404 - 0.702 ms
+Mon Mar 10 2025 17:35:20 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/stripe/webhook 404 - 13.912 ms
+Mon Mar 10 2025 17:35:20 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/stripe/webhook 404 - 1.100 ms
+Mon Mar 10 2025 17:35:21 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/stripe/webhook 404 - 0.896 ms
+Mon Mar 10 2025 17:35:21 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/stripe/webhook 404 - 0.913 ms
+Mon Mar 10 2025 17:35:22 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/stripe/webhook 404 - 0.743 ms
+Mon Mar 10 2025 17:37:24 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/stripe/webhook 404 - 1.523 ms
+Mon Mar 10 2025 17:37:24 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/stripe/webhook 404 - 0.471 ms
+Mon Mar 10 2025 17:38:28 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/stripe/webhook 404 - 1.173 ms
+Mon Mar 10 2025 17:38:28 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/stripe/webhook 404 - 0.915 ms
+Mon Mar 10 2025 17:38:28 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/stripe/webhook 404 - 1.107 ms
+Mon Mar 10 2025 17:38:29 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/stripe/webhook 404 - 0.863 ms
+Mon Mar 10 2025 17:38:30 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/stripe/webhook 404 - 0.668 ms
+Mon Mar 10 2025 17:43:23 [SERVER-NAME] error: [31m🤢 Failed to connect Database[39m
+Mon Mar 10 2025 17:45:24 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/stripe/webhook 404 - 3.619 ms
+Mon Mar 10 2025 17:45:24 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/stripe/webhook 404 - 0.547 ms
+Mon Mar 10 2025 17:46:4 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/stripe/webhook 404 - 1.057 ms
+Mon Mar 10 2025 17:46:4 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/stripe/webhook 404 - 0.872 ms
+Mon Mar 10 2025 17:46:4 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/stripe/webhook 404 - 0.607 ms
+Mon Mar 10 2025 17:46:4 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/stripe/webhook 404 - 0.463 ms
+Mon Mar 10 2025 17:46:6 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/stripe/webhook 404 - 0.803 ms
+Mon Mar 10 2025 17:53:16 [SERVER-NAME] error: UnhandleRejection Detected Webhook signature verification failed. Error: Webhook payload must be provided as a string or a Buffer (https://nodejs.org/api/buffer.html) instance representing the _raw_ request body.Payload was provided as a parsed JavaScript object instead. 
+Signature verification is impossible without access to the original signed material. 
+
+Learn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature
+
+Mon Mar 10 2025 17:55:18 [SERVER-NAME] error: UnhandleRejection Detected Webhook signature verification failed. Error: Webhook payload must be provided as a string or a Buffer (https://nodejs.org/api/buffer.html) instance representing the _raw_ request body.Payload was provided as a parsed JavaScript object instead. 
+Signature verification is impossible without access to the original signed material. 
+
+Learn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature
+

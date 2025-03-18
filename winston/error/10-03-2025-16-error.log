@@ -1,0 +1,15 @@
+Mon Mar 10 2025 16:49:57 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/orders/create-chaekout-session 404 - 39.588 ms
+Mon Mar 10 2025 16:53:22 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/orders/create-chaekout-session 401 - 11.596 ms
+Mon Mar 10 2025 16:54:34 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/stripe/webhook 404 - 0.659 ms
+Mon Mar 10 2025 16:54:34 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/stripe/webhook 404 - 0.736 ms
+Mon Mar 10 2025 16:54:35 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/orders/create-chaekout-session 400 - 2474.391 ms
+Mon Mar 10 2025 16:57:15 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/stripe/webhook 404 - 2.224 ms
+Mon Mar 10 2025 16:57:16 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/stripe/webhook 404 - 0.574 ms
+Mon Mar 10 2025 16:57:16 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/orders/create-chaekout-session 400 - 1979.170 ms
+Mon Mar 10 2025 16:57:47 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/stripe/webhook 404 - 1.444 ms
+Mon Mar 10 2025 16:57:48 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/stripe/webhook 404 - 0.717 ms
+Mon Mar 10 2025 16:58:57 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/stripe/webhook 404 - 1.418 ms
+Mon Mar 10 2025 16:58:57 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/stripe/webhook 404 - 0.642 ms
+Mon Mar 10 2025 16:58:57 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/stripe/webhook 404 - 1.284 ms
+Mon Mar 10 2025 16:58:57 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/stripe/webhook 404 - 0.390 ms
+Mon Mar 10 2025 16:58:59 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/stripe/webhook 404 - 0.757 ms

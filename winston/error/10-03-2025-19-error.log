@@ -1,0 +1,12 @@
+Mon Mar 10 2025 19:4:0 [SERVER-NAME] error: UnhandleRejection Detected Webhook signature verification failed. Error: Webhook payload must be provided as a string or a Buffer (https://nodejs.org/api/buffer.html) instance representing the _raw_ request body.Payload was provided as a parsed JavaScript object instead. 
+Signature verification is impossible without access to the original signed material. 
+
+Learn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature
+
+Mon Mar 10 2025 19:21:53 [SERVER-NAME] error: UnhandleRejection Detected Webhook signature verification failed. Error: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? 
+ If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.
+
+Learn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature
+
+Mon Mar 10 2025 19:26:30 [SERVER-NAME] error: UnhandleRejection Detected Error handling event: ValidationError: checkoutSessionId: Path `checkoutSessionId` is required.
+Mon Mar 10 2025 19:32:16 [SERVER-NAME] error: UnhandleRejection Detected Error handling event: ValidationError: checkoutSessionId: Path `checkoutSessionId` is required., price: Path `price` is required.

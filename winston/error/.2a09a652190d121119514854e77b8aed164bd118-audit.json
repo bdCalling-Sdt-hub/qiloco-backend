@@ -1,0 +1,65 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 1
+    },
+    "auditLog": "C:\\Users\\Rakib\\Desktop\\backend templete\\winston\\error\\.2a09a652190d121119514854e77b8aed164bd118-audit.json",
+    "files": [
+        {
+            "date": 1741580648130,
+            "name": "C:\\Users\\Rakib\\Desktop\\backend templete\\winston\\error\\10-03-2025-10-error.log",
+            "hash": "ed66f2e9fdffacfe2e0f2de22187201efb9925fd633abd936d2c45a9b1ccf536"
+        },
+        {
+            "date": 1741584017651,
+            "name": "C:\\Users\\Rakib\\Desktop\\backend templete\\winston\\error\\10-03-2025-11-error.log",
+            "hash": "de2aa4db197d9d91651aff55bcf7a04a1d31b598b9b88ba2f95e788719bb4713"
+        },
+        {
+            "date": 1741586826380,
+            "name": "C:\\Users\\Rakib\\Desktop\\backend templete\\winston\\error\\10-03-2025-12-error.log",
+            "hash": "24470c73a471f757acf71c4318e02c326c72dec05c76ad4d7ecbc5a7e7495d47"
+        },
+        {
+            "date": 1741591359787,
+            "name": "C:\\Users\\Rakib\\Desktop\\backend templete\\winston\\error\\10-03-2025-13-error.log",
+            "hash": "417e37a43790750bcc4c09df4e6193bc2a0c60ab32473f402a29c3cc6c3607d7"
+        },
+        {
+            "date": 1741594798974,
+            "name": "C:\\Users\\Rakib\\Desktop\\backend templete\\winston\\error\\10-03-2025-14-error.log",
+            "hash": "ab3c1ad6d32b78f10899d4b94f98149988a60f5e2e42183c057d0bebeb974ef3"
+        },
+        {
+            "date": 1741603797648,
+            "name": "C:\\Users\\Rakib\\Desktop\\backend templete\\winston\\error\\10-03-2025-16-error.log",
+            "hash": "6dacddabeca22a68af6c01990aefa7705899f4b300f76dffa21a59a2217ad5ec"
+        },
+        {
+            "date": 1741604579307,
+            "name": "C:\\Users\\Rakib\\Desktop\\backend templete\\winston\\error\\10-03-2025-17-error.log",
+            "hash": "1e70f3d2a3d40be62f7cec21f4fdfa8c456ba32144537a6655c154bcc3d5aba8"
+        },
+        {
+            "date": 1741610113521,
+            "name": "C:\\Users\\Rakib\\Desktop\\backend templete\\winston\\error\\10-03-2025-18-error.log",
+            "hash": "c10aa92ddb30ce60fe5e6588fe8c062538b1d94bd3b7ab7ecb018647957ea76f"
+        },
+        {
+            "date": 1741611716699,
+            "name": "C:\\Users\\Rakib\\Desktop\\backend templete\\winston\\error\\10-03-2025-19-error.log",
+            "hash": "c9020bcb93865189f1ba37d45dfcb25b7c1e0fa1fb66f29b63a2277de515c050"
+        },
+        {
+            "date": 1741615222089,
+            "name": "C:\\Users\\Rakib\\Desktop\\backend templete\\winston\\error\\10-03-2025-20-error.log",
+            "hash": "d2e691d56855d81d317d85bb1c85375f3f020d0b4717b74634ea73a8b94920e6"
+        },
+        {
+            "date": 1741663853451,
+            "name": "C:\\Users\\Rakib\\Desktop\\backend templete\\winston\\error\\11-03-2025-09-error.log",
+            "hash": "359dd54f22127cd5a907196186ba14878c3fc66b0fbc2281ad5b37e9f439256a"
+        }
+    ],
+    "hashType": "sha256"
+}

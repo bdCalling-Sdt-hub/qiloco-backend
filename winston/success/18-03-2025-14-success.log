@@ -1,0 +1,6 @@
+Tue Mar 18 2025 14:1:41 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.created[22m[49m
+Tue Mar 18 2025 14:1:41 [SERVER-NAME] info: 10.0.70.126 - POST /api/v1/stripe/webhook 200 - 11.395 ms
+Tue Mar 18 2025 14:1:50 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.succeeded[22m[49m
+Tue Mar 18 2025 14:1:50 [SERVER-NAME] info: 10.0.70.126 - POST /api/v1/stripe/webhook 200 - 0.892 ms
+Tue Mar 18 2025 14:1:50 [SERVER-NAME] warn: [42m[1mUnhandled event type: charge.succeeded[22m[49m
+Tue Mar 18 2025 14:1:50 [SERVER-NAME] info: 10.0.70.126 - POST /api/v1/stripe/webhook 200 - 1.252 ms

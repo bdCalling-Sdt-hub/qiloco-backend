@@ -1,0 +1,55 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 1
+    },
+    "auditLog": "C:\\Users\\Rakib\\Desktop\\qiloco backend\\winston\\success\\.f71ca998e335f9b0e77230c509104598a8c0ecf7-audit.json",
+    "files": [
+        {
+            "date": 1742201216015,
+            "name": "C:\\Users\\Rakib\\Desktop\\qiloco backend\\winston\\success\\17-03-2025-14-success.log",
+            "hash": "c4f010bfdecbfa1921dc3a342d7072365067b920b0348b716bc50700be93f253"
+        },
+        {
+            "date": 1742202013068,
+            "name": "C:\\Users\\Rakib\\Desktop\\qiloco backend\\winston\\success\\17-03-2025-15-success.log",
+            "hash": "e9a6917d55e26b414439bdab12484d246d0306d4d3579611a7bc192141b2f7b8"
+        },
+        {
+            "date": 1742205643266,
+            "name": "C:\\Users\\Rakib\\Desktop\\qiloco backend\\winston\\success\\17-03-2025-16-success.log",
+            "hash": "a6e1c2fb2847fd506c570054760a957d2d34cc9fadb58c4e7376b856d9e335a6"
+        },
+        {
+            "date": 1742228152728,
+            "name": "C:\\Users\\Rakib\\Desktop\\qiloco backend\\winston\\success\\17-03-2025-22-success.log",
+            "hash": "3c6580e9df102406acfbc3f75b297802e3f9d2d1ef85a0bb6cca69499fc5449a"
+        },
+        {
+            "date": 1742258450495,
+            "name": "C:\\Users\\Rakib\\Desktop\\qiloco backend\\winston\\success\\18-03-2025-06-success.log",
+            "hash": "a44ba4259beb7d4ad0586674fcd3ac9fc890cadd166969298ba8aba468efe02b"
+        },
+        {
+            "date": 1742271023773,
+            "name": "C:\\Users\\Rakib\\Desktop\\qiloco backend\\winston\\success\\18-03-2025-10-success.log",
+            "hash": "ab526c962bf19d59ab01c0b8e3ceeaae034d668457c88873e607eabffabba50e"
+        },
+        {
+            "date": 1742276170893,
+            "name": "C:\\Users\\Rakib\\Desktop\\qiloco backend\\winston\\success\\18-03-2025-11-success.log",
+            "hash": "5262fc38c5d944a742c40cb63b9dfa720260862f0b85d06f432c39ae76102091"
+        },
+        {
+            "date": 1742283774190,
+            "name": "C:\\Users\\Rakib\\Desktop\\qiloco backend\\winston\\success\\18-03-2025-13-success.log",
+            "hash": "9726509d480e48c9a4cce4e003ca806062227d7d4b94390fb3ba93717613adbb"
+        },
+        {
+            "date": 1742284901850,
+            "name": "C:\\Users\\Rakib\\Desktop\\qiloco backend\\winston\\success\\18-03-2025-14-success.log",
+            "hash": "015b91138c35e560f175d34ca3a988eb96874d4b854d5b128008b0c990555884"
+        }
+    ],
+    "hashType": "sha256"
+}

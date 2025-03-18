@@ -1,0 +1,7 @@
+Mon Mar 10 2025 20:30:20 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/orders/create-chaekout-session 400 - 2561.012 ms
+Mon Mar 10 2025 20:30:26 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/orders/create-chaekout-session 400 - 1999.485 ms
+Mon Mar 10 2025 20:31:17 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/orders/create-chaekout-session 400 - 2042.886 ms
+Mon Mar 10 2025 20:35:22 [SERVER-NAME] error: UnhandleRejection Detected Error handling event: ValidationError: email: Path `email` is required.
+Mon Mar 10 2025 20:39:15 [SERVER-NAME] error: UnhandleRejection Detected Error handling event: ValidationError: email: Path `email` is required.
+Mon Mar 10 2025 20:41:55 [SERVER-NAME] error: UnhandleRejection Detected Error handling event: ValidationError: email: Path `email` is required.
+Mon Mar 10 2025 20:44:36 [SERVER-NAME] error: UnhandleRejection Detected Error handling event: ValidationError: email: Path `email` is required.

@@ -1,0 +1,16 @@
+Mon Mar 10 2025 10:24:8 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 10 2025 10:24:11 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 10 2025 10:24:13 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 10 2025 10:24:15 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6007[39m
+Mon Mar 10 2025 10:27:9 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 10 2025 10:27:15 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 10 2025 10:27:18 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6007[39m
+Mon Mar 10 2025 10:27:23 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 10 2025 10:27:25 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 10 2025 10:27:28 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6007[39m
+Mon Mar 10 2025 10:27:44 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 10 2025 10:27:45 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 10 2025 10:27:48 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6007[39m
+Mon Mar 10 2025 10:28:39 [SERVER-NAME] info: 10.0.70.126 - POST /api/v1/orders/create-payment-intent 200 - 459.430 ms
+Mon Mar 10 2025 10:30:22 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 10 2025 10:30:25 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6007[39m
