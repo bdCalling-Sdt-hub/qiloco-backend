@@ -11,7 +11,7 @@ const router = express.Router();
 router
   .route('/profile')
   .get(
-    auth(USER_ROLES.ADMIN, USER_ROLES.USER, USER_ROLES.VENDOR),
+    auth(USER_ROLES.ADMIN, USER_ROLES.USER, USER_ROLES.VENDOR, USER_ROLES.SUPER_ADMIN),
     UserController.getUserProfile,
   )
   .patch(

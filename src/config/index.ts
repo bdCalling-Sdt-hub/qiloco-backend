@@ -35,4 +35,9 @@ export default {
     facebook_client_secret: process.env.FACEBOOK_CLIENT_SECRET,
     callback_url: process.env.GOOGLE_CALLBACK_URL,
   },
+  twilio: {
+    accountSid: process.env.TWILIO_ACCOUNT_SID || '',
+    authToken: process.env.TWILIO_AUTH_TOKEN || '',
+    phoneNumber: process.env.TWILIO_PHONE_NUMBER || ''
+  },
 };

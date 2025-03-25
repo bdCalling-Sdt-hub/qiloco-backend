@@ -4,13 +4,7 @@ import { settingsService } from './sattings.service';
 import catchAsync from '../../../utils/catchAsync';
 
 const addSetting = catchAsync(async (req, res) => {
-  const settingData = {
-    privacyPolicy: '',
-    aboutUs: '',
-    support: '',
-    termsOfService: '',
-  };
-  const result = await settingsService.addSettings(settingData);
+  const result = await settingsService.upsertSettings(req.body);
   sendResponse(res, {
     statusCode: StatusCodes.OK,
     success: true,
@@ -18,6 +12,7 @@ const addSetting = catchAsync(async (req, res) => {
     data: result,
   });
 });
+
 
 const getSettings = catchAsync(async (req, res): Promise<void> => {
   const result = await settingsService.getSettings(req.query.title as string);

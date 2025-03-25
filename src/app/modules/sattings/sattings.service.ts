@@ -4,19 +4,22 @@ import Settings from './sattings.model';
 import { StatusCodes } from 'http-status-codes';
 import AppError from '../../../errors/AppError';
 
-const addSettings = async (data: Partial<ISettings>): Promise<ISettings> => {
+const upsertSettings = async (data: Partial<ISettings>): Promise<ISettings> => {
   const existingSettings = await Settings.findOne({});
   if (existingSettings) {
-    return existingSettings;
+    const updatedSettings = await Settings.findOneAndUpdate({}, data, {
+      new: true,
+    });
+    return updatedSettings!;
   } else {
-    const result = await Settings.create(data);
-
-    if (!result) {
-      throw new AppError(StatusCodes.BAD_REQUEST, 'Failed to add music');
+    const newSettings = await Settings.create(data);
+    if (!newSettings) {
+      throw new AppError(StatusCodes.BAD_REQUEST, 'Failed to add settings');
     }
-    return result;
+    return newSettings;
   }
 };
+
 
 const getSettings = async (title: string) => {
   const settings: any = await Settings.findOne().select(title);
@@ -55,7 +58,7 @@ const updateSettings = async (
 };
 
 export const settingsService = {
-  addSettings,
+  upsertSettings,
   getSettings,
   getPrivacyPolicy,
   getAccountDelete,

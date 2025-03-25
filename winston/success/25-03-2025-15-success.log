@@ -1,0 +1,218 @@
+Tue Mar 25 2025 15:1:32 [SERVER-NAME] info: 10.0.60.210 - GET /api/v1/settings 200 - 280.755 ms
+Tue Mar 25 2025 15:1:38 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/orders/my-orders?page=undefined 204 - 0.057 ms
+Tue Mar 25 2025 15:1:39 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/orders/my-orders?page=undefined 304 - 1120.093 ms
+Tue Mar 25 2025 15:1:40 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/orders/my-orders/67e25067836c1244e621c25e 204 - 0.037 ms
+Tue Mar 25 2025 15:1:41 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/orders/my-orders/67e25067836c1244e621c25e 304 - 838.814 ms
+Tue Mar 25 2025 15:1:45 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/orders/my-orders/67e23f43cc66f95cbbd3e02b 204 - 0.039 ms
+Tue Mar 25 2025 15:1:46 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/orders/my-orders/67e23f43cc66f95cbbd3e02b 304 - 838.241 ms
+Tue Mar 25 2025 15:12:17 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/product/all?limit=12&page=1 204 - 0.047 ms
+Tue Mar 25 2025 15:12:17 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/product/all?limit=12&page=1 304 - 562.406 ms
+Tue Mar 25 2025 15:12:25 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.038 ms
+Tue Mar 25 2025 15:12:25 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/product/all?limit=12&page=1 204 - 0.038 ms
+Tue Mar 25 2025 15:12:25 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/product/all?limit=12&page=1 304 - 559.501 ms
+Tue Mar 25 2025 15:12:26 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 575.935 ms
+Tue Mar 25 2025 15:12:38 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.036 ms
+Tue Mar 25 2025 15:12:38 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/product/all?limit=12&page=1 204 - 0.032 ms
+Tue Mar 25 2025 15:12:38 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/product/all?limit=12&page=1 304 - 558.475 ms
+Tue Mar 25 2025 15:12:38 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 569.673 ms
+Tue Mar 25 2025 15:12:48 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/product/all?limit=12&page=2 204 - 0.038 ms
+Tue Mar 25 2025 15:12:49 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/product/all?limit=12&page=2 200 - 570.615 ms
+Tue Mar 25 2025 15:12:49 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/product/all?limit=12&page=3 204 - 0.040 ms
+Tue Mar 25 2025 15:12:50 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/product/all?limit=12&page=3 200 - 578.864 ms
+Tue Mar 25 2025 15:14:4 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.571 ms
+Tue Mar 25 2025 15:14:4 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/product/all?limit=12&page=1 204 - 0.031 ms
+Tue Mar 25 2025 15:14:4 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/product/all?limit=12&page=1 304 - 560.629 ms
+Tue Mar 25 2025 15:14:4 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 570.496 ms
+Tue Mar 25 2025 15:15:51 [SERVER-NAME] info: 10.0.60.210 - OPTIONS /api/v1/auth/login 204 - 0.046 ms
+Tue Mar 25 2025 15:15:52 [SERVER-NAME] info: 10.0.60.210 - POST /api/v1/auth/login 200 - 531.638 ms
+Tue Mar 25 2025 15:15:52 [SERVER-NAME] info: 10.0.60.210 - OPTIONS /api/v1/users/profile 204 - 0.041 ms
+Tue Mar 25 2025 15:15:52 [SERVER-NAME] info: 10.0.60.210 - OPTIONS /api/v1/admin/dashboard/erarming?year=2025 204 - 0.038 ms
+Tue Mar 25 2025 15:15:52 [SERVER-NAME] info: 10.0.60.210 - OPTIONS /api/v1/admin/dashboard/products?page=1 204 - 0.038 ms
+Tue Mar 25 2025 15:15:52 [SERVER-NAME] info: 10.0.60.210 - OPTIONS /api/v1/admin/dashboard/overview?year=2025 204 - 0.030 ms
+Tue Mar 25 2025 15:15:52 [SERVER-NAME] info: 10.0.60.210 - OPTIONS /api/v1/admin/dashboard 204 - 0.031 ms
+Tue Mar 25 2025 15:15:52 [SERVER-NAME] info: 10.0.60.210 - GET /api/v1/admin/dashboard/erarming?year=2025 304 - 561.011 ms
+Tue Mar 25 2025 15:15:52 [SERVER-NAME] info: 10.0.60.210 - GET /api/v1/admin/dashboard/overview?year=2025 304 - 563.273 ms
+Tue Mar 25 2025 15:15:52 [SERVER-NAME] info: 10.0.60.210 - GET /api/v1/users/profile 304 - 569.341 ms
+Tue Mar 25 2025 15:15:52 [SERVER-NAME] info: 10.0.60.210 - GET /image/cannabis-1742801519684.png 304 - 0.693 ms
+Tue Mar 25 2025 15:15:53 [SERVER-NAME] info: 10.0.60.210 - GET /api/v1/admin/dashboard/products?page=1 304 - 839.867 ms
+Tue Mar 25 2025 15:15:53 [SERVER-NAME] info: 10.0.60.210 - GET /api/v1/admin/dashboard 304 - 837.048 ms
+Tue Mar 25 2025 15:15:55 [SERVER-NAME] info: 10.0.60.210 - OPTIONS /api/v1/product?page=1 204 - 0.041 ms
+Tue Mar 25 2025 15:15:56 [SERVER-NAME] info: 10.0.60.210 - GET /api/v1/product?page=1 304 - 840.335 ms
+Tue Mar 25 2025 15:15:56 [SERVER-NAME] info: 10.0.60.210 - GET //image/marijuana-1742867845489.png 304 - 2.508 ms
+Tue Mar 25 2025 15:15:56 [SERVER-NAME] info: 10.0.60.210 - GET //image/cannabis-1742809040709.png 304 - 2.327 ms
+Tue Mar 25 2025 15:15:56 [SERVER-NAME] info: 10.0.60.210 - GET //image/iveco-1742624097589.png 304 - 2.603 ms
+Tue Mar 25 2025 15:15:56 [SERVER-NAME] info: 10.0.60.210 - GET //image/cat-1742624049365.png 304 - 2.919 ms
+Tue Mar 25 2025 15:15:56 [SERVER-NAME] info: 10.0.60.210 - GET //image/minilogo-1742623398166.png 304 - 3.374 ms
+Tue Mar 25 2025 15:15:56 [SERVER-NAME] info: 10.0.60.210 - GET //image/marcedes-1742623343338.jpg 304 - 4.131 ms
+Tue Mar 25 2025 15:15:56 [SERVER-NAME] info: 10.0.60.210 - GET //image/man-1742623035859.jpg 304 - 1.031 ms
+Tue Mar 25 2025 15:15:56 [SERVER-NAME] info: 10.0.60.210 - GET //image/brand-1742622991216.png 304 - 1.496 ms
+Tue Mar 25 2025 15:15:56 [SERVER-NAME] info: 10.0.60.210 - GET //image/excavator-1742622746369.png 304 - 2.555 ms
+Tue Mar 25 2025 15:15:56 [SERVER-NAME] info: 10.0.60.210 - GET //image/towtruck-1742470698754.png 304 - 3.018 ms
+Tue Mar 25 2025 15:16:10 [SERVER-NAME] info: 10.0.60.210 - OPTIONS /api/v1/product?page=2 204 - 0.067 ms
+Tue Mar 25 2025 15:16:11 [SERVER-NAME] info: 10.0.60.210 - GET /api/v1/product?page=2 304 - 844.849 ms
+Tue Mar 25 2025 15:16:11 [SERVER-NAME] info: 10.0.60.210 - GET //image/warning-1742469209954.png 304 - 0.569 ms
+Tue Mar 25 2025 15:16:15 [SERVER-NAME] info: 10.0.60.210 - GET //image/excavator-1742622746369.png 304 - 0.449 ms
+Tue Mar 25 2025 15:16:15 [SERVER-NAME] info: 10.0.60.210 - GET //image/towtruck-1742470698754.png 304 - 0.253 ms
+Tue Mar 25 2025 15:17:8 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.070 ms
+Tue Mar 25 2025 15:17:8 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/product/all?limit=12&page=1 204 - 0.065 ms
+Tue Mar 25 2025 15:17:8 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/product/all?limit=12&page=1 304 - 561.662 ms
+Tue Mar 25 2025 15:17:8 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 563.460 ms
+Tue Mar 25 2025 15:17:28 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/product/all?limit=12&page=2 204 - 0.070 ms
+Tue Mar 25 2025 15:17:29 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/product/all?limit=12&page=2 304 - 561.867 ms
+Tue Mar 25 2025 15:17:44 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/product/all?limit=12&page=3 204 - 0.069 ms
+Tue Mar 25 2025 15:17:44 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/product/all?limit=12&page=3 304 - 561.853 ms
+Tue Mar 25 2025 15:18:38 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/product/all?page=12&searchTerm=tanvir 200 - 559.305 ms
+Tue Mar 25 2025 15:18:54 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/product/all?searchTerm=tanvir 200 - 561.853 ms
+Tue Mar 25 2025 15:20:42 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 15:20:44 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 15:20:47 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6007[39m
+Tue Mar 25 2025 15:20:58 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 15:21:1 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6007[39m
+Tue Mar 25 2025 15:21:32 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/product/all?searchTerm=tanvir 200 - 564.420 ms
+Tue Mar 25 2025 15:22:16 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.305 ms
+Tue Mar 25 2025 15:22:16 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/product/all?limit=12&page=1 204 - 0.056 ms
+Tue Mar 25 2025 15:22:17 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 569.515 ms
+Tue Mar 25 2025 15:22:17 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/product/all?limit=12&page=1 304 - 574.928 ms
+Tue Mar 25 2025 15:22:28 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/product/all?limit=12&page=2 204 - 0.051 ms
+Tue Mar 25 2025 15:22:29 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/product/all?limit=12&page=2 304 - 567.646 ms
+Tue Mar 25 2025 15:22:31 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/product/all?limit=12&page=3 204 - 0.047 ms
+Tue Mar 25 2025 15:22:31 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/product/all?limit=12&page=3 304 - 564.758 ms
+Tue Mar 25 2025 15:26:28 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/product/all?limit=12&page=1 204 - 0.063 ms
+Tue Mar 25 2025 15:26:29 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/product/all?limit=12&page=1 304 - 564.347 ms
+Tue Mar 25 2025 15:26:37 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.062 ms
+Tue Mar 25 2025 15:26:37 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/product/all?page=1&limit=12&sortBy=popularity 204 - 0.060 ms
+Tue Mar 25 2025 15:26:38 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/product/all?page=1&limit=12&sortBy=popularity 200 - 550.358 ms
+Tue Mar 25 2025 15:26:38 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 564.033 ms
+Tue Mar 25 2025 15:26:53 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/product/all?page=1&limit=12&search=t&sortBy=popularity 204 - 0.050 ms
+Tue Mar 25 2025 15:26:54 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/product/all?page=1&limit=12&search=ta&sortBy=popularity 204 - 0.060 ms
+Tue Mar 25 2025 15:26:54 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/product/all?page=1&limit=12&search=tan&sortBy=popularity 204 - 0.052 ms
+Tue Mar 25 2025 15:26:54 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/product/all?page=1&limit=12&search=t&sortBy=popularity 200 - 563.981 ms
+Tue Mar 25 2025 15:26:54 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/product/all?page=1&limit=12&search=ta&sortBy=popularity 200 - 550.228 ms
+Tue Mar 25 2025 15:26:55 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/product/all?page=1&limit=12&search=tan&sortBy=popularity 200 - 565.598 ms
+Tue Mar 25 2025 15:26:56 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/product/all?page=1&limit=12&search=tanv&sortBy=popularity 204 - 0.043 ms
+Tue Mar 25 2025 15:26:56 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/product/all?page=1&limit=12&search=tanvi&sortBy=popularity 204 - 0.043 ms
+Tue Mar 25 2025 15:26:56 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/product/all?page=1&limit=12&search=tanvir&sortBy=popularity 204 - 0.056 ms
+Tue Mar 25 2025 15:26:56 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/product/all?page=1&limit=12&search=tanv&sortBy=popularity 200 - 565.938 ms
+Tue Mar 25 2025 15:26:56 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/product/all?page=1&limit=12&search=tanvi&sortBy=popularity 200 - 549.904 ms
+Tue Mar 25 2025 15:26:56 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/product/all?page=1&limit=12&search=tanvir&sortBy=popularity 200 - 563.394 ms
+Tue Mar 25 2025 15:27:36 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.050 ms
+Tue Mar 25 2025 15:27:36 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/product/all?page=1&limit=12&sortBy=popularity 204 - 0.030 ms
+Tue Mar 25 2025 15:27:37 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 552.452 ms
+Tue Mar 25 2025 15:27:37 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/product/all?page=1&limit=12&sortBy=popularity 304 - 562.725 ms
+Tue Mar 25 2025 15:27:42 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.052 ms
+Tue Mar 25 2025 15:27:42 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/product/all?page=1&limit=12&sortBy=popularity 204 - 0.033 ms
+Tue Mar 25 2025 15:27:43 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/product/all?page=1&limit=12&sortBy=popularity 304 - 552.222 ms
+Tue Mar 25 2025 15:27:43 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 564.453 ms
+Tue Mar 25 2025 15:27:50 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.039 ms
+Tue Mar 25 2025 15:27:50 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/product/all?page=1&limit=12&sortBy=popularity 204 - 0.036 ms
+Tue Mar 25 2025 15:27:50 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/product/all?page=1&limit=12&sortBy=popularity 304 - 550.816 ms
+Tue Mar 25 2025 15:27:50 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 563.547 ms
+Tue Mar 25 2025 15:28:23 [SERVER-NAME] info: 10.0.60.210 - GET //image/cannabis-1742809040709.png 304 - 1.284 ms
+Tue Mar 25 2025 15:28:23 [SERVER-NAME] info: 10.0.60.210 - GET //image/iveco-1742624097589.png 304 - 1.805 ms
+Tue Mar 25 2025 15:28:23 [SERVER-NAME] info: 10.0.60.210 - GET //image/cat-1742624049365.png 304 - 2.134 ms
+Tue Mar 25 2025 15:28:23 [SERVER-NAME] info: 10.0.60.210 - GET //image/minilogo-1742623398166.png 304 - 2.456 ms
+Tue Mar 25 2025 15:28:23 [SERVER-NAME] info: 10.0.60.210 - GET //image/marijuana-1742867845489.png 304 - 0.770 ms
+Tue Mar 25 2025 15:28:23 [SERVER-NAME] info: 10.0.60.210 - GET //image/man-1742623035859.jpg 304 - 0.970 ms
+Tue Mar 25 2025 15:28:23 [SERVER-NAME] info: 10.0.60.210 - GET //image/brand-1742622991216.png 304 - 1.291 ms
+Tue Mar 25 2025 15:28:23 [SERVER-NAME] info: 10.0.60.210 - GET //image/marcedes-1742623343338.jpg 304 - 1.624 ms
+Tue Mar 25 2025 15:28:30 [SERVER-NAME] info: 10.0.60.210 - OPTIONS /api/v1/product?page=2 204 - 0.039 ms
+Tue Mar 25 2025 15:28:31 [SERVER-NAME] info: 10.0.60.210 - GET /api/v1/product?page=2 304 - 848.854 ms
+Tue Mar 25 2025 15:28:31 [SERVER-NAME] info: 10.0.60.210 - GET //image/warning-1742467465220.png 304 - 1.100 ms
+Tue Mar 25 2025 15:28:31 [SERVER-NAME] info: 10.0.60.210 - GET //image/warning-1742469209954.png 304 - 1.627 ms
+Tue Mar 25 2025 15:28:31 [SERVER-NAME] info: 10.0.60.210 - GET //image/warning-1742467410087.png 304 - 1.873 ms
+Tue Mar 25 2025 15:28:31 [SERVER-NAME] info: 10.0.60.210 - GET //image/warning-1742467088148.png 304 - 2.271 ms
+Tue Mar 25 2025 15:28:31 [SERVER-NAME] info: 10.0.60.210 - GET //image/warning-1742465211854.png 304 - 2.560 ms
+Tue Mar 25 2025 15:34:11 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.050 ms
+Tue Mar 25 2025 15:34:11 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/product/all?page=1&limit=12&sortBy=popularity 204 - 0.031 ms
+Tue Mar 25 2025 15:34:11 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 553.016 ms
+Tue Mar 25 2025 15:34:11 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/product/all?page=1&limit=12&sortBy=popularity 304 - 563.538 ms
+Tue Mar 25 2025 15:35:34 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/product/all?page=1&limit=12&moodTags=Chill&sortBy=popularity 204 - 0.081 ms
+Tue Mar 25 2025 15:35:34 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/product/all?page=1&limit=12&moodTags=Chill&sortBy=popularity 200 - 564.627 ms
+Tue Mar 25 2025 15:35:36 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/product/all?page=1&limit=12&moodTags=Soothing&sortBy=popularity 204 - 0.080 ms
+Tue Mar 25 2025 15:35:36 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/product/all?page=1&limit=12&moodTags=Soothing&sortBy=popularity 200 - 566.747 ms
+Tue Mar 25 2025 15:35:37 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/product/all?page=1&limit=12&moodTags=Soothing%2CEuphoric&sortBy=popularity 204 - 0.084 ms
+Tue Mar 25 2025 15:35:38 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/product/all?page=1&limit=12&moodTags=Soothing%2CEuphoric&sortBy=popularity 200 - 566.111 ms
+Tue Mar 25 2025 15:37:19 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 15:37:22 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6007[39m
+Tue Mar 25 2025 15:38:37 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 15:38:42 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 15:38:45 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6007[39m
+Tue Mar 25 2025 15:38:48 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 15:38:51 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6007[39m
+Tue Mar 25 2025 15:38:55 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 15:39:0 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6007[39m
+Tue Mar 25 2025 15:39:56 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/product/all?limit=12&page=1 204 - 1.484 ms
+Tue Mar 25 2025 15:39:56 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.362 ms
+Tue Mar 25 2025 15:39:56 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/product/all?limit=12&page=1 304 - 592.687 ms
+Tue Mar 25 2025 15:39:56 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 594.728 ms
+Tue Mar 25 2025 15:40:5 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/product/all?limit=12&page=1 204 - 0.100 ms
+Tue Mar 25 2025 15:40:6 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/product/all?limit=12&page=1 304 - 563.298 ms
+Tue Mar 25 2025 15:40:7 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/product/all?limit=12&page=1 304 - 565.061 ms
+Tue Mar 25 2025 15:40:7 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/product/all?limit=12&page=1 304 - 561.251 ms
+Tue Mar 25 2025 15:40:8 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/product/all?limit=12&page=1 304 - 562.370 ms
+Tue Mar 25 2025 15:40:8 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/product/all?limit=12&page=1 304 - 562.137 ms
+Tue Mar 25 2025 15:40:9 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/product/all?limit=12&page=1 304 - 561.043 ms
+Tue Mar 25 2025 15:40:17 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/product/all?limit=12&page=2 204 - 0.134 ms
+Tue Mar 25 2025 15:40:18 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/product/all?limit=12&page=2 304 - 562.762 ms
+Tue Mar 25 2025 15:40:20 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/product/all?limit=12&page=3 204 - 0.134 ms
+Tue Mar 25 2025 15:40:21 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/product/all?limit=12&page=3 304 - 560.587 ms
+Tue Mar 25 2025 15:40:29 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/product/all?limit=12&page=3 204 - 0.088 ms
+Tue Mar 25 2025 15:40:30 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/product/all?limit=12&page=3 304 - 559.629 ms
+Tue Mar 25 2025 15:40:31 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/product/all?limit=12&page=3 304 - 559.584 ms
+Tue Mar 25 2025 15:40:35 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/product/all?limit=12&page=3 204 - 0.127 ms
+Tue Mar 25 2025 15:40:36 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/product/all?limit=12&page=3 304 - 560.027 ms
+Tue Mar 25 2025 15:40:36 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/product/all?limit=12&page=3 304 - 561.868 ms
+Tue Mar 25 2025 15:40:37 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/product/all?limit=12&page=3 304 - 560.715 ms
+Tue Mar 25 2025 15:40:38 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/product/all?limit=12&page=3 304 - 561.273 ms
+Tue Mar 25 2025 15:40:38 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/product/all?limit=12&page=3 304 - 560.199 ms
+Tue Mar 25 2025 15:40:39 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/product/all?limit=12&page=3 304 - 558.801 ms
+Tue Mar 25 2025 15:40:40 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/product/all?limit=12&page=3 304 - 559.147 ms
+Tue Mar 25 2025 15:40:40 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/product/all?limit=12&page=3 304 - 559.039 ms
+Tue Mar 25 2025 15:40:41 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/product/all?limit=12&page=3 304 - 560.010 ms
+Tue Mar 25 2025 15:40:41 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/product/all?limit=12&page=3 304 - 563.962 ms
+Tue Mar 25 2025 15:40:43 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.124 ms
+Tue Mar 25 2025 15:40:43 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/product/all?limit=12&page=1 204 - 0.182 ms
+Tue Mar 25 2025 15:40:44 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/product/all?limit=12&page=1 304 - 563.718 ms
+Tue Mar 25 2025 15:40:44 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 566.074 ms
+Tue Mar 25 2025 15:42:59 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.115 ms
+Tue Mar 25 2025 15:42:59 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/product/all?limit=12&page=1&sortBy=popularity 204 - 0.069 ms
+Tue Mar 25 2025 15:42:59 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 560.301 ms
+Tue Mar 25 2025 15:42:59 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/product/all?limit=12&page=1&sortBy=popularity 200 - 564.324 ms
+Tue Mar 25 2025 15:43:19 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 15:43:22 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6007[39m
+Tue Mar 25 2025 15:43:41 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 15:43:44 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6007[39m
+Tue Mar 25 2025 15:44:14 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.986 ms
+Tue Mar 25 2025 15:44:14 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/product/all?limit=12&page=1&sortBy=popularity 204 - 0.062 ms
+Tue Mar 25 2025 15:44:14 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 556.831 ms
+Tue Mar 25 2025 15:44:14 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/product/all?limit=12&page=1&sortBy=popularity 304 - 572.633 ms
+Tue Mar 25 2025 15:44:28 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 15:44:29 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 15:44:32 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6007[39m
+Tue Mar 25 2025 15:47:33 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/product/all?limit=12&page=1&sortBy=popularity 204 - 0.589 ms
+Tue Mar 25 2025 15:47:33 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.093 ms
+Tue Mar 25 2025 15:47:34 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 577.552 ms
+Tue Mar 25 2025 15:47:34 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/product/all?limit=12&page=1&sortBy=popularity 304 - 580.019 ms
+Tue Mar 25 2025 15:49:9 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 15:49:12 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6007[39m
+Tue Mar 25 2025 15:49:22 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 15:49:25 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6007[39m
+Tue Mar 25 2025 15:51:21 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/product/all?limit=12&page=1 204 - 1.131 ms
+Tue Mar 25 2025 15:51:21 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/product/all?limit=12&page=1 - - - ms
+Tue Mar 25 2025 15:51:22 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.161 ms
+Tue Mar 25 2025 15:51:22 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 562.083 ms
+Tue Mar 25 2025 15:51:22 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/product/all?limit=12&page=1 200 - 569.319 ms
+Tue Mar 25 2025 15:51:31 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.107 ms
+Tue Mar 25 2025 15:51:31 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/product/all?limit=12&page=1 204 - 0.086 ms
+Tue Mar 25 2025 15:51:31 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/product/all?limit=12&page=1 304 - 557.158 ms
+Tue Mar 25 2025 15:51:31 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 573.281 ms
+Tue Mar 25 2025 15:54:19 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.160 ms
+Tue Mar 25 2025 15:54:19 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/product/all?limit=12&page=1 204 - 0.098 ms
+Tue Mar 25 2025 15:54:19 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/product/all?limit=12&page=1 304 - 551.690 ms
+Tue Mar 25 2025 15:54:19 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 566.071 ms
+Tue Mar 25 2025 15:54:42 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/orders/my-orders?page=undefined 204 - 0.142 ms
+Tue Mar 25 2025 15:54:43 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/orders/my-orders?page=undefined 304 - 1159.324 ms
+Tue Mar 25 2025 15:54:45 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/orders/my-orders/67e25067836c1244e621c25e 204 - 0.116 ms
+Tue Mar 25 2025 15:54:46 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/orders/my-orders/67e25067836c1244e621c25e 304 - 851.711 ms
+Tue Mar 25 2025 15:54:49 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/orders/my-orders/67e23f43cc66f95cbbd3e02b 204 - 0.259 ms
+Tue Mar 25 2025 15:54:50 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/orders/my-orders/67e23f43cc66f95cbbd3e02b 304 - 850.619 ms

@@ -7,6 +7,7 @@ import config from '../config';
 import stripe from '../config/stripe';
 import AppError from '../errors/AppError';
 import { Order } from '../app/modules/order/order.model';
+import { Product } from '../app/modules/products/product.model';
 
 // Handle Stripe Webhook
 const handleStripeWebhook = async (req: Request, res: Response) => {
@@ -61,23 +62,39 @@ const handlePaymentIntentSucceeded = async (event: Stripe.Event) => {
   // Log shipping address to ensure it's being retrieved
   const shippingAddress = session.shipping_details?.address;
   const phone = session.customer_details?.phone as string;
-  const isExistOrder = await Order.findOne({
+  
+  // Find all orders associated with this checkout session
+  const orders = await Order.find({
     checkoutSessionId: session.id,
   });
-  if (!isExistOrder) {
-    throw new AppError(StatusCodes.NOT_FOUND, 'Order not found');
+  
+  if (orders.length === 0) {
+    throw new AppError(StatusCodes.NOT_FOUND, 'No orders found for this session');
   }
 
   if (shippingAddress) {
     // Formatting the shipping address string
-    const formattedAddress = `${shippingAddress.line1}, ${shippingAddress.line2}, ${shippingAddress.city}, ${shippingAddress.country}`;
-    // Update the order fields
-    isExistOrder.paymentStatus = 'paid';
-    isExistOrder.paymentIntentId = paymentIntentId;
-    isExistOrder.phoneNumber = phone;
-    isExistOrder.address = formattedAddress;
-    // Save the updated order
-    await isExistOrder.save();
+    const formattedAddress = `${shippingAddress.line1}${shippingAddress.line2 ? ', ' + shippingAddress.line2 : ''}, ${shippingAddress.city}, ${shippingAddress.country}`;
+    
+    // Update all orders associated with this checkout session
+    for (const order of orders) {
+      // Update the order fields
+      order.paymentStatus = 'paid';
+      order.paymentIntentId = paymentIntentId;
+      order.phoneNumber = phone;
+      order.address = formattedAddress;
+      
+      // Save the updated order
+      await order.save();
+      
+      // Update inventory for each product in this order
+      for (const product of order.products) {
+        await Product.findByIdAndUpdate(
+          product.productId,
+          { $inc: { quantity: -product.quantity } }
+        );
+      }
+    }
   } else {
     console.log('Shipping Address is not available');
   }

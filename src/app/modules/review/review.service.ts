@@ -1,8 +1,6 @@
 import { StatusCodes } from 'http-status-codes';
-import { IReview } from '../products/product.interface';
 import { Product } from '../products/product.model';
 import AppError from '../../../errors/AppError';
-import { ObjectId } from 'mongoose';
 
 // Helper function to find product
 const findProductById = async (productId: string) => {
@@ -15,8 +13,8 @@ const findProductById = async (productId: string) => {
 
 // Create a review
 const createReviewToDB = async (
-  payload: IReview,
-  userId: ObjectId,
+  payload: any,
+  userId: any,
   productId: string,
 ) => {
   const { rating, comment } = payload;
@@ -51,8 +49,8 @@ const createReviewToDB = async (
 // Update a review
 // Update a review
 const updateReviewInDB = async (
-  payload: IReview,
-  userId: ObjectId,
+  payload: any,
+  userId: any,
   productId: string,
 ) => {
   const { rating, comment } = payload;
@@ -103,6 +101,69 @@ const deleteReviewFromDB = async (userId: string, productId: string) => {
 
   return { message: 'Review deleted successfully' };
 };
+const getProductReviewStats = async (productId: string) => {
+
+  const product = await Product.aggregate([
+    {
+      $match: { _id: productId }, 
+    },
+    {
+      $unwind: '$reviews',
+    },
+    {
+      $group: {
+        _id: '$reviews.rating',
+        count: { $sum: 1 }, 
+      },
+    },
+    {
+      $sort: { _id: 1 },
+    },
+  ]);
+
+
+  if (!product || product.length === 0) {
+    throw new AppError(
+      StatusCodes.NOT_FOUND,
+      'No reviews found for the product',
+    );
+  }
+
+  // Calculate the total count of reviews
+  const totalReviews = product.reduce(
+    (sum: number, item: any) => sum + item.count,
+    0,
+  );
+
+  // Calculate the average rating
+  const averageRating =
+    product.reduce((sum: number, item: any) => sum + item._id * item.count, 0) /
+    totalReviews;
+
+  // Prepare the result
+  const ratingsDistribution: { [key in '1' | '2' | '3' | '4' | '5']: number } =
+    {
+      '1': 0,
+      '2': 0,
+      '3': 0,
+      '4': 0,
+      '5': 0,
+    };
+
+  // Ensure that item._id is treated as a valid key for the ratingsDistribution object
+  product.forEach((item: any) => {
+    const ratingKey = item._id.toString() as '1' | '2' | '3' | '4' | '5'; // Typecast _id to string and restrict it to valid rating keys
+    ratingsDistribution[ratingKey] = item.count;
+  });
+
+  return {
+    averageRating,
+    totalReviews,
+    ratingsDistribution,
+  };
+};
+
+
 
 export const ReviewService = {
   createReviewToDB,

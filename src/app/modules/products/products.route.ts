@@ -20,7 +20,7 @@ router.get(
   auth(USER_ROLES.ADMIN, USER_ROLES.VENDOR, USER_ROLES.SUPER_ADMIN),
   ProductController.getAllProducts,
 );
-router.get('/all', auth(USER_ROLES.USER), ProductController.getAllProductsUser);
+router.get('/all', ProductController.getAllProductsUser);
 router.get(
   '/:id',
   auth(

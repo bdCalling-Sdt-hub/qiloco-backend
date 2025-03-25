@@ -6,7 +6,7 @@ import auth from '../../middleware/auth';
 
 const SettingsRouter = express.Router();
 
-SettingsRouter.post(
+SettingsRouter.put(
   '/',
   auth(USER_ROLES.ADMIN, USER_ROLES.SUPER_ADMIN),
   settingsController.addSetting

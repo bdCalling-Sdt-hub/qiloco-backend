@@ -1,4 +1,4 @@
-import mongoose, { Types } from "mongoose";
+import mongoose, { Types } from 'mongoose';
 
 // order.interface.ts
 export type OrderStatus = 'pending' | 'processing' | 'delivered' | 'canceled';
@@ -16,6 +16,7 @@ export interface OrderItem {
 
 export interface IOrder {
   customerId: mongoose.Types.ObjectId;
+  sellerId: mongoose.Types.ObjectId;
   orderNumber: string;
   products: OrderItem[];
   totalPrice: number;

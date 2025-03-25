@@ -30,7 +30,6 @@ const getAllProducts = catchAsync(async (req, res) => {
   });
 });
 const getAllProductsUser = catchAsync(async (req, res) => {
-  const { id }: any = req.user;
   const query = req.query;
   const result = await ProductService.getAllProductsUser(query);
   sendResponse(res, {

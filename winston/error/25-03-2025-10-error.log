@@ -1,0 +1,12 @@
+Tue Mar 25 2025 10:4:26 [SERVER-NAME] error: 10.0.70.210 - PATCH /api/v1/orders/67dfb4d9257ff7104ec9aeed 400 - 564.092 ms
+Tue Mar 25 2025 10:4:30 [SERVER-NAME] error: 10.0.70.210 - PATCH /api/v1/orders/67dfb4d9257ff7104ec9aeed 400 - 564.201 ms
+Tue Mar 25 2025 10:4:34 [SERVER-NAME] error: 10.0.70.210 - PATCH /api/v1/orders/67dfb4d9257ff7104ec9aeed 400 - 560.907 ms
+Tue Mar 25 2025 10:7:7 [SERVER-NAME] error: 10.0.70.210 - PATCH /api/v1/orders/67dfb4d9257ff7104ec9aeed 400 - 602.849 ms
+Tue Mar 25 2025 10:7:12 [SERVER-NAME] error: 10.0.70.210 - PATCH /api/v1/orders/67dfb4d9257ff7104ec9aeed 400 - 583.803 ms
+Tue Mar 25 2025 10:7:15 [SERVER-NAME] error: 10.0.70.210 - PATCH /api/v1/orders/67dfb4d9257ff7104ec9aeed 400 - 559.945 ms
+Tue Mar 25 2025 10:7:23 [SERVER-NAME] error: 10.0.70.210 - PATCH /api/v1/orders/67dfb4d9257ff7104ec9aeed 400 - 559.106 ms
+Tue Mar 25 2025 10:7:28 [SERVER-NAME] error: 10.0.70.210 - PATCH /api/v1/orders/67dfb4d9257ff7104ec9aeed 400 - 565.650 ms
+Tue Mar 25 2025 10:7:41 [SERVER-NAME] error: 10.0.70.210 - PATCH /api/v1/orders/67dfb4d9257ff7104ec9aeed 400 - 559.616 ms
+Tue Mar 25 2025 10:8:26 [SERVER-NAME] error: 10.0.70.210 - PATCH /api/v1/orders/67e12688791a8257defbddc2 400 - 566.171 ms
+Tue Mar 25 2025 10:8:32 [SERVER-NAME] error: 10.0.70.210 - PATCH /api/v1/orders/67e12688791a8257defbddc2 400 - 564.433 ms
+Tue Mar 25 2025 10:48:28 [SERVER-NAME] error: 10.0.70.147 - POST /api/v1/orders/create-chaekout-session 404 - 865.560 ms

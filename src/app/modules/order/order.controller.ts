@@ -37,6 +37,7 @@ const getSingleOrder = catchAsync(async (req, res) => {
     data: result,
   });
 });
+// update order status 
 const updateOrderStatus = catchAsync(async (req, res) => {
   const { id } = req.params;
   const { status } = req.body;
@@ -49,9 +50,34 @@ const updateOrderStatus = catchAsync(async (req, res) => {
   });
 });
 
+// get my orders 
+const getMyOrders = catchAsync(async (req, res) => {
+  const { id }: any = req.user;
+  const result = await OrderServices.userOrders(id, req.query);
+  sendResponse(res, {
+    success: true,
+    statusCode: StatusCodes.OK,
+    message: 'Order retrieved successfully',
+    data: result,
+  });
+});
+// get my order 
+const getMyOrder = catchAsync(async (req, res) => {
+  const { id } = req.params;
+  const result = await OrderServices.userSingleOrder(id);
+  sendResponse(res, {
+    success: true,
+    statusCode: StatusCodes.OK,
+    message: 'Order retrieved successfully',
+    data: result,
+  });
+});
+
 export const OrderController = {
   createOrder,
   getOrders,
   getSingleOrder,
   updateOrderStatus,
+  getMyOrders,
+  getMyOrder
 };

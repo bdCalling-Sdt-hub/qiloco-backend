@@ -1,0 +1,5 @@
+Tue Mar 25 2025 11:8:52 [SERVER-NAME] error: 10.0.70.210 - GET /blob:http://10.0.70.210:3007/21479969-e5db-40e8-b084-df2d66f9af31 404 - 0.776 ms
+Tue Mar 25 2025 11:8:53 [SERVER-NAME] error: 10.0.70.210 - GET /blob:http://10.0.70.210:3007/d1ab1556-b94a-4798-98a7-3a043dd0dee7 404 - 0.516 ms
+Tue Mar 25 2025 11:28:38 [SERVER-NAME] error: 10.0.70.147 - POST /api/v1/orders/create-chaekout-session 404 - 834.039 ms
+Tue Mar 25 2025 11:49:12 [SERVER-NAME] error: 10.0.70.210 - PATCH /api/v1/orders/67e23f43cc66f95cbbd3e02b 400 - 601.938 ms
+Tue Mar 25 2025 11:49:15 [SERVER-NAME] error: 10.0.70.210 - PATCH /api/v1/orders/67e23f43cc66f95cbbd3e02b 400 - 598.304 ms

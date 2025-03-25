@@ -48,7 +48,6 @@ const userSchema = new Schema<IUser, UserModel>(
       default: false,
     },
     userName: { type: String, default: '' },
-    contactNumber: { type: String, default: '' },
     company: { type: String, default: '' },
     address: {
       street: { type: String, default: '' },

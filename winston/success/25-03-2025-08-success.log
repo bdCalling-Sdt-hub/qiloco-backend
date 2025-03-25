@@ -1,0 +1,194 @@
+Tue Mar 25 2025 8:3:6 [SERVER-NAME] info: 10.0.70.210 - GET /api/v1/orders/67df7d750ce1774408122e8d 200 - 548.365 ms
+Tue Mar 25 2025 8:4:32 [SERVER-NAME] info: 10.0.70.210 - GET /api/v1/orders/67df7d750ce1774408122e8d 200 - 552.192 ms
+Tue Mar 25 2025 8:4:56 [SERVER-NAME] info: 10.0.70.210 - GET /api/v1/orders 200 - 824.776 ms
+Tue Mar 25 2025 8:5:37 [SERVER-NAME] info: 10.0.70.210 - GET /api/v1/orders 200 - 821.129 ms
+Tue Mar 25 2025 8:5:47 [SERVER-NAME] info: 10.0.70.210 - GET /api/v1/orders/67df7d750ce1774408122e8d 200 - 547.294 ms
+Tue Mar 25 2025 8:6:29 [SERVER-NAME] info: 10.0.70.210 - OPTIONS /api/v1/users/profile 204 - 0.042 ms
+Tue Mar 25 2025 8:6:29 [SERVER-NAME] info: 10.0.70.210 - OPTIONS /api/v1/orders 204 - 0.032 ms
+Tue Mar 25 2025 8:6:29 [SERVER-NAME] info: 10.0.70.210 - GET /api/v1/users/profile 304 - 559.476 ms
+Tue Mar 25 2025 8:6:29 [SERVER-NAME] info: 10.0.70.210 - GET /image/cannabis-1742801519684.png 304 - 0.334 ms
+Tue Mar 25 2025 8:6:29 [SERVER-NAME] info: 10.0.70.210 - GET /api/v1/orders 304 - 819.297 ms
+Tue Mar 25 2025 8:17:26 [SERVER-NAME] info: 10.0.70.210 - GET /image/cannabis-1742801519684.png 304 - 0.429 ms
+Tue Mar 25 2025 8:17:40 [SERVER-NAME] info: 10.0.70.210 - OPTIONS /api/v1/admin/dashboard/erarming?year=2025 204 - 0.045 ms
+Tue Mar 25 2025 8:17:40 [SERVER-NAME] info: 10.0.70.210 - OPTIONS /api/v1/admin/dashboard/overview?year=2025 204 - 0.030 ms
+Tue Mar 25 2025 8:17:40 [SERVER-NAME] info: 10.0.70.210 - OPTIONS /api/v1/admin/dashboard/products 204 - 0.026 ms
+Tue Mar 25 2025 8:17:40 [SERVER-NAME] info: 10.0.70.210 - OPTIONS /api/v1/admin/dashboard 204 - 0.025 ms
+Tue Mar 25 2025 8:17:40 [SERVER-NAME] info: 10.0.70.210 - GET /api/v1/admin/dashboard/erarming?year=2025 304 - 590.818 ms
+Tue Mar 25 2025 8:17:40 [SERVER-NAME] info: 10.0.70.210 - GET /api/v1/admin/dashboard/overview?year=2025 304 - 603.473 ms
+Tue Mar 25 2025 8:17:41 [SERVER-NAME] info: 10.0.70.210 - GET /api/v1/admin/dashboard 304 - 900.418 ms
+Tue Mar 25 2025 8:17:41 [SERVER-NAME] info: 10.0.70.210 - GET /api/v1/admin/dashboard/products 304 - 921.847 ms
+Tue Mar 25 2025 8:19:42 [SERVER-NAME] info: 10.0.70.210 - OPTIONS /api/v1/users/profile 204 - 0.043 ms
+Tue Mar 25 2025 8:19:43 [SERVER-NAME] info: 10.0.70.210 - GET /api/v1/users/profile 304 - 568.216 ms
+Tue Mar 25 2025 8:20:16 [SERVER-NAME] info: 10.0.70.210 - OPTIONS /api/v1/users/profile 204 - 0.041 ms
+Tue Mar 25 2025 8:20:17 [SERVER-NAME] info: 10.0.70.210 - GET /api/v1/users/profile 304 - 567.852 ms
+Tue Mar 25 2025 8:20:30 [SERVER-NAME] info: 10.0.70.210 - OPTIONS /api/v1/users/profile 204 - 0.039 ms
+Tue Mar 25 2025 8:20:31 [SERVER-NAME] info: 10.0.70.210 - GET /api/v1/users/profile 304 - 568.408 ms
+Tue Mar 25 2025 8:20:31 [SERVER-NAME] info: 10.0.70.210 - GET /image/cannabis-1742801519684.png 304 - 0.263 ms
+Tue Mar 25 2025 8:25:30 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.created[22m[49m
+Tue Mar 25 2025 8:25:30 [SERVER-NAME] info: 10.0.70.126 - POST /api/v1/stripe/webhook 200 - 2.170 ms
+Tue Mar 25 2025 8:25:44 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.succeeded[22m[49m
+Tue Mar 25 2025 8:25:44 [SERVER-NAME] info: 10.0.70.126 - POST /api/v1/stripe/webhook 200 - 1.246 ms
+Tue Mar 25 2025 8:25:44 [SERVER-NAME] warn: [42m[1mUnhandled event type: charge.succeeded[22m[49m
+Tue Mar 25 2025 8:25:44 [SERVER-NAME] info: 10.0.70.126 - POST /api/v1/stripe/webhook 200 - 2.367 ms
+Tue Mar 25 2025 8:28:6 [SERVER-NAME] info: 10.0.70.210 - OPTIONS /api/v1/users/profile 204 - 0.068 ms
+Tue Mar 25 2025 8:28:7 [SERVER-NAME] info: 10.0.70.210 - GET /api/v1/users/profile 304 - 577.736 ms
+Tue Mar 25 2025 8:28:7 [SERVER-NAME] info: 10.0.70.210 - GET /image/cannabis-1742801519684.png 304 - 0.276 ms
+Tue Mar 25 2025 8:28:10 [SERVER-NAME] info: 10.0.70.210 - GET /api/v1/users/profile 304 - 568.063 ms
+Tue Mar 25 2025 8:28:10 [SERVER-NAME] info: 10.0.70.210 - GET /image/cannabis-1742801519684.png 304 - 0.266 ms
+Tue Mar 25 2025 8:28:31 [SERVER-NAME] info: 10.0.70.210 - OPTIONS /api/v1/users/profile 204 - 0.047 ms
+Tue Mar 25 2025 8:28:32 [SERVER-NAME] info: 10.0.70.210 - GET /api/v1/users/profile 304 - 579.650 ms
+Tue Mar 25 2025 8:28:32 [SERVER-NAME] info: 10.0.70.210 - GET //image/marijuana-1742800297329.png 304 - 0.292 ms
+Tue Mar 25 2025 8:29:57 [SERVER-NAME] info: 10.0.70.210 - GET /api/v1/orders 200 - 856.739 ms
+Tue Mar 25 2025 8:30:32 [SERVER-NAME] info: 10.0.70.210 - GET /api/v1/orders/67df7d750ce1774408122e8d 200 - 568.665 ms
+Tue Mar 25 2025 8:32:21 [SERVER-NAME] info: 10.0.70.210 - POST /api/v1/auth/login 200 - 613.419 ms
+Tue Mar 25 2025 8:33:19 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/orders/ 200 - 883.262 ms
+Tue Mar 25 2025 8:33:49 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/orders/67df7d750ce1774408122e8d 200 - 593.698 ms
+Tue Mar 25 2025 8:38:24 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 8:38:27 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6007[39m
+Tue Mar 25 2025 8:39:22 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 8:39:25 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6007[39m
+Tue Mar 25 2025 8:39:27 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 8:39:30 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6007[39m
+Tue Mar 25 2025 8:40:6 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 8:40:7 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 8:40:10 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6007[39m
+Tue Mar 25 2025 8:40:41 [SERVER-NAME] info: 10.0.70.210 - PATCH /api/v1/orders/67df7d750ce1774408122e8d 200 - 907.119 ms
+Tue Mar 25 2025 8:40:56 [SERVER-NAME] info: 10.0.70.210 - OPTIONS /api/v1/vendor/dashboard/erarming?year=2025 204 - 0.582 ms
+Tue Mar 25 2025 8:40:56 [SERVER-NAME] info: 10.0.70.210 - OPTIONS /api/v1/vendor/dashboard/overview?year=2025 204 - 0.360 ms
+Tue Mar 25 2025 8:40:56 [SERVER-NAME] info: 10.0.70.210 - OPTIONS /api/v1/vendor/dashboard 204 - 0.208 ms
+Tue Mar 25 2025 8:40:57 [SERVER-NAME] info: 10.0.70.210 - GET /api/v1/vendor/dashboard/overview?year=2025 304 - 575.860 ms
+Tue Mar 25 2025 8:40:57 [SERVER-NAME] info: 10.0.70.210 - GET /api/v1/vendor/dashboard/erarming?year=2025 304 - 580.982 ms
+Tue Mar 25 2025 8:40:57 [SERVER-NAME] info: 10.0.70.210 - GET /api/v1/vendor/dashboard 304 - 1135.970 ms
+Tue Mar 25 2025 8:41:1 [SERVER-NAME] info: 10.0.70.210 - OPTIONS /api/v1/admin/dashboard/erarming?year=2025 204 - 0.109 ms
+Tue Mar 25 2025 8:41:1 [SERVER-NAME] info: 10.0.70.210 - OPTIONS /api/v1/admin/dashboard/products 204 - 0.094 ms
+Tue Mar 25 2025 8:41:1 [SERVER-NAME] info: 10.0.70.210 - OPTIONS /api/v1/admin/dashboard/overview?year=2025 204 - 0.219 ms
+Tue Mar 25 2025 8:41:1 [SERVER-NAME] info: 10.0.70.210 - OPTIONS /api/v1/admin/dashboard 204 - 1.433 ms
+Tue Mar 25 2025 8:41:1 [SERVER-NAME] info: 10.0.70.210 - GET /api/v1/admin/dashboard/erarming?year=2025 304 - 589.736 ms
+Tue Mar 25 2025 8:41:1 [SERVER-NAME] info: 10.0.70.210 - GET /api/v1/admin/dashboard/overview?year=2025 304 - 600.741 ms
+Tue Mar 25 2025 8:41:1 [SERVER-NAME] info: 10.0.70.210 - GET /api/v1/admin/dashboard/products 304 - 880.674 ms
+Tue Mar 25 2025 8:41:2 [SERVER-NAME] info: 10.0.70.210 - OPTIONS /api/v1/product/ 204 - 0.113 ms
+Tue Mar 25 2025 8:41:3 [SERVER-NAME] info: 10.0.70.210 - GET /api/v1/admin/dashboard 304 - 2380.788 ms
+Tue Mar 25 2025 8:41:3 [SERVER-NAME] info: 10.0.70.210 - GET /api/v1/product/ 304 - 874.784 ms
+Tue Mar 25 2025 8:41:3 [SERVER-NAME] info: 10.0.70.210 - OPTIONS /api/v1/orders 204 - 0.245 ms
+Tue Mar 25 2025 8:41:4 [SERVER-NAME] info: 10.0.70.210 - GET /api/v1/orders 200 - 873.889 ms
+Tue Mar 25 2025 8:41:7 [SERVER-NAME] info: 10.0.70.210 - OPTIONS /api/v1/users/profile 204 - 0.141 ms
+Tue Mar 25 2025 8:41:8 [SERVER-NAME] info: 10.0.70.210 - GET /api/v1/users/profile 304 - 602.041 ms
+Tue Mar 25 2025 8:41:8 [SERVER-NAME] info: 10.0.70.210 - GET /image/cannabis-1742801519684.png 304 - 1.134 ms
+Tue Mar 25 2025 8:41:8 [SERVER-NAME] info: 10.0.70.210 - GET /api/v1/orders 304 - 867.595 ms
+Tue Mar 25 2025 8:41:15 [SERVER-NAME] info: 10.0.70.210 - OPTIONS /api/v1/orders/67df7d750ce1774408122e8d 204 - 0.094 ms
+Tue Mar 25 2025 8:41:15 [SERVER-NAME] info: 10.0.70.210 - PATCH /api/v1/orders/67df7d750ce1774408122e8d 200 - 847.413 ms
+Tue Mar 25 2025 8:41:17 [SERVER-NAME] info: 10.0.70.210 - OPTIONS /api/v1/users/profile 204 - 0.144 ms
+Tue Mar 25 2025 8:41:17 [SERVER-NAME] info: 10.0.70.210 - OPTIONS /api/v1/orders 204 - 0.076 ms
+Tue Mar 25 2025 8:41:17 [SERVER-NAME] info: 10.0.70.210 - GET /api/v1/users/profile 304 - 569.492 ms
+Tue Mar 25 2025 8:41:17 [SERVER-NAME] info: 10.0.70.210 - GET /image/cannabis-1742801519684.png 304 - 0.765 ms
+Tue Mar 25 2025 8:41:18 [SERVER-NAME] info: 10.0.70.210 - GET /api/v1/orders 200 - 848.446 ms
+Tue Mar 25 2025 8:41:30 [SERVER-NAME] info: 10.0.70.210 - GET /api/v1/orders 200 - 843.666 ms
+Tue Mar 25 2025 8:46:5 [SERVER-NAME] info: 10.0.70.210 - OPTIONS /api/v1/users/profile 204 - 0.067 ms
+Tue Mar 25 2025 8:46:5 [SERVER-NAME] info: 10.0.70.210 - OPTIONS /api/v1/orders 204 - 0.041 ms
+Tue Mar 25 2025 8:46:5 [SERVER-NAME] info: 10.0.70.210 - GET /api/v1/users/profile 304 - 582.956 ms
+Tue Mar 25 2025 8:46:6 [SERVER-NAME] info: 10.0.70.210 - GET /api/v1/orders 304 - 880.538 ms
+Tue Mar 25 2025 8:46:10 [SERVER-NAME] info: 10.0.70.210 - GET /image/cannabis-1742801519684.png 304 - 0.304 ms
+Tue Mar 25 2025 8:46:12 [SERVER-NAME] info: 10.0.70.210 - OPTIONS /api/v1/users/profile 204 - 0.049 ms
+Tue Mar 25 2025 8:46:12 [SERVER-NAME] info: 10.0.70.210 - OPTIONS /api/v1/orders 204 - 0.036 ms
+Tue Mar 25 2025 8:46:13 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 8:46:16 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6007[39m
+Tue Mar 25 2025 8:46:20 [SERVER-NAME] info: 10.0.70.210 - GET /api/v1/users/profile 304 - 566.595 ms
+Tue Mar 25 2025 8:46:20 [SERVER-NAME] info: 10.0.70.210 - GET /image/cannabis-1742801519684.png 304 - 0.943 ms
+Tue Mar 25 2025 8:46:20 [SERVER-NAME] info: 10.0.70.210 - GET /api/v1/orders 304 - 810.277 ms
+Tue Mar 25 2025 8:46:24 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 8:46:27 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6007[39m
+Tue Mar 25 2025 8:46:29 [SERVER-NAME] info: 10.0.70.210 - OPTIONS /api/v1/orders/67dfb4d9257ff7104ec9aef0 204 - 0.983 ms
+Tue Mar 25 2025 8:46:30 [SERVER-NAME] info: 10.0.70.210 - PATCH /api/v1/orders/67dfb4d9257ff7104ec9aef0 200 - 862.881 ms
+Tue Mar 25 2025 8:46:30 [SERVER-NAME] info: 10.0.70.210 - OPTIONS /api/v1/orders 204 - 0.179 ms
+Tue Mar 25 2025 8:46:41 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 8:46:44 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6007[39m
+Tue Mar 25 2025 8:46:46 [SERVER-NAME] info: 10.0.70.210 - OPTIONS /api/v1/users/profile 204 - 0.655 ms
+Tue Mar 25 2025 8:46:46 [SERVER-NAME] info: 10.0.70.210 - GET /api/v1/orders 200 - 856.557 ms
+Tue Mar 25 2025 8:46:48 [SERVER-NAME] info: 10.0.70.210 - GET /api/v1/users/profile 304 - 2028.339 ms
+Tue Mar 25 2025 8:46:48 [SERVER-NAME] info: 10.0.70.210 - GET /image/cannabis-1742801519684.png 304 - 0.685 ms
+Tue Mar 25 2025 8:47:3 [SERVER-NAME] info: 10.0.70.210 - OPTIONS /api/v1/orders/67df7d750ce1774408122e8d 204 - 0.114 ms
+Tue Mar 25 2025 8:47:3 [SERVER-NAME] info: 10.0.70.210 - OPTIONS /api/v1/orders 204 - 0.051 ms
+Tue Mar 25 2025 8:47:5 [SERVER-NAME] info: 10.0.70.210 - GET /api/v1/orders 304 - 1257.996 ms
+Tue Mar 25 2025 8:47:5 [SERVER-NAME] info: 10.0.70.210 - OPTIONS /api/v1/users/profile 204 - 0.111 ms
+Tue Mar 25 2025 8:47:6 [SERVER-NAME] info: 10.0.70.210 - GET /api/v1/users/profile 304 - 549.543 ms
+Tue Mar 25 2025 8:47:6 [SERVER-NAME] info: 10.0.70.210 - GET /image/cannabis-1742801519684.png 304 - 0.565 ms
+Tue Mar 25 2025 8:47:6 [SERVER-NAME] info: 10.0.70.210 - GET /api/v1/orders 304 - 844.923 ms
+Tue Mar 25 2025 8:52:15 [SERVER-NAME] info: 10.0.70.210 - OPTIONS /api/v1/users/profile 204 - 0.159 ms
+Tue Mar 25 2025 8:52:15 [SERVER-NAME] info: 10.0.70.210 - OPTIONS /api/v1/orders 204 - 0.113 ms
+Tue Mar 25 2025 8:52:16 [SERVER-NAME] info: 10.0.70.210 - GET /api/v1/users/profile 304 - 585.913 ms
+Tue Mar 25 2025 8:52:16 [SERVER-NAME] info: 10.0.70.210 - GET /api/v1/orders 304 - 835.909 ms
+Tue Mar 25 2025 8:52:22 [SERVER-NAME] info: 10.0.70.210 - OPTIONS /api/v1/users/profile 204 - 0.120 ms
+Tue Mar 25 2025 8:52:22 [SERVER-NAME] info: 10.0.70.210 - OPTIONS /api/v1/orders 204 - 0.083 ms
+Tue Mar 25 2025 8:52:23 [SERVER-NAME] info: 10.0.70.210 - GET /api/v1/users/profile 304 - 551.624 ms
+Tue Mar 25 2025 8:52:23 [SERVER-NAME] info: 10.0.70.210 - GET /api/v1/orders 304 - 847.280 ms
+Tue Mar 25 2025 8:52:30 [SERVER-NAME] info: 10.0.70.210 - OPTIONS /api/v1/users/profile 204 - 0.233 ms
+Tue Mar 25 2025 8:52:30 [SERVER-NAME] info: 10.0.70.210 - OPTIONS /api/v1/orders 204 - 0.106 ms
+Tue Mar 25 2025 8:52:31 [SERVER-NAME] info: 10.0.70.210 - GET /api/v1/users/profile 304 - 561.649 ms
+Tue Mar 25 2025 8:52:31 [SERVER-NAME] info: 10.0.70.210 - GET /api/v1/orders 304 - 823.343 ms
+Tue Mar 25 2025 8:52:34 [SERVER-NAME] info: 10.0.70.210 - GET /api/v1/users/profile 304 - 557.648 ms
+Tue Mar 25 2025 8:52:34 [SERVER-NAME] info: 10.0.70.210 - GET /api/v1/orders 304 - 869.880 ms
+Tue Mar 25 2025 8:52:39 [SERVER-NAME] info: 10.0.70.210 - OPTIONS /api/v1/users/profile 204 - 0.123 ms
+Tue Mar 25 2025 8:52:39 [SERVER-NAME] info: 10.0.70.210 - OPTIONS /api/v1/orders 204 - 0.081 ms
+Tue Mar 25 2025 8:52:40 [SERVER-NAME] info: 10.0.70.210 - GET /api/v1/users/profile 304 - 581.313 ms
+Tue Mar 25 2025 8:52:41 [SERVER-NAME] info: 10.0.70.210 - GET /api/v1/orders 304 - 1344.112 ms
+Tue Mar 25 2025 8:52:48 [SERVER-NAME] info: 10.0.70.210 - OPTIONS /api/v1/users/profile 204 - 0.112 ms
+Tue Mar 25 2025 8:52:48 [SERVER-NAME] info: 10.0.70.210 - OPTIONS /api/v1/orders 204 - 0.130 ms
+Tue Mar 25 2025 8:52:49 [SERVER-NAME] info: 10.0.70.210 - GET /api/v1/users/profile 304 - 548.240 ms
+Tue Mar 25 2025 8:52:49 [SERVER-NAME] info: 10.0.70.210 - GET /api/v1/orders 304 - 862.664 ms
+Tue Mar 25 2025 8:52:51 [SERVER-NAME] info: 10.0.70.210 - GET /api/v1/users/profile 304 - 561.915 ms
+Tue Mar 25 2025 8:52:51 [SERVER-NAME] info: 10.0.70.210 - GET /api/v1/orders 304 - 821.633 ms
+Tue Mar 25 2025 8:52:54 [SERVER-NAME] info: 10.0.70.210 - GET /image/cannabis-1742801519684.png 304 - 0.544 ms
+Tue Mar 25 2025 8:52:56 [SERVER-NAME] info: 10.0.70.210 - OPTIONS /api/v1/admin/dashboard/erarming?year=2025 204 - 0.097 ms
+Tue Mar 25 2025 8:52:56 [SERVER-NAME] info: 10.0.70.210 - OPTIONS /api/v1/admin/dashboard/overview?year=2025 204 - 0.081 ms
+Tue Mar 25 2025 8:52:56 [SERVER-NAME] info: 10.0.70.210 - OPTIONS /api/v1/admin/dashboard/products 204 - 0.071 ms
+Tue Mar 25 2025 8:52:56 [SERVER-NAME] info: 10.0.70.210 - OPTIONS /api/v1/admin/dashboard 204 - 0.062 ms
+Tue Mar 25 2025 8:52:57 [SERVER-NAME] info: 10.0.70.210 - GET /api/v1/admin/dashboard/erarming?year=2025 304 - 571.582 ms
+Tue Mar 25 2025 8:52:57 [SERVER-NAME] info: 10.0.70.210 - GET /api/v1/admin/dashboard/overview?year=2025 304 - 615.127 ms
+Tue Mar 25 2025 8:52:57 [SERVER-NAME] info: 10.0.70.210 - GET /api/v1/admin/dashboard 304 - 902.198 ms
+Tue Mar 25 2025 8:52:57 [SERVER-NAME] info: 10.0.70.210 - GET /api/v1/admin/dashboard/products 304 - 910.995 ms
+Tue Mar 25 2025 8:52:59 [SERVER-NAME] info: 10.0.70.210 - OPTIONS /api/v1/product/ 204 - 0.082 ms
+Tue Mar 25 2025 8:53:1 [SERVER-NAME] info: 10.0.70.210 - GET /api/v1/product/ 304 - 1413.299 ms
+Tue Mar 25 2025 8:53:1 [SERVER-NAME] info: 10.0.70.210 - GET //image/marijuana-1742867845489.png 304 - 1.372 ms
+Tue Mar 25 2025 8:53:1 [SERVER-NAME] info: 10.0.70.210 - GET //image/cannabis-1742809040709.png 304 - 2.009 ms
+Tue Mar 25 2025 8:53:1 [SERVER-NAME] info: 10.0.70.210 - GET //image/cat-1742624049365.png 304 - 2.547 ms
+Tue Mar 25 2025 8:53:1 [SERVER-NAME] info: 10.0.70.210 - GET //image/iveco-1742624097589.png 304 - 4.497 ms
+Tue Mar 25 2025 8:53:1 [SERVER-NAME] info: 10.0.70.210 - GET //image/minilogo-1742623398166.png 304 - 2.341 ms
+Tue Mar 25 2025 8:53:1 [SERVER-NAME] info: 10.0.70.210 - GET //image/brand-1742622991216.png 304 - 3.902 ms
+Tue Mar 25 2025 8:53:1 [SERVER-NAME] info: 10.0.70.210 - GET //image/excavator-1742622746369.png 304 - 4.639 ms
+Tue Mar 25 2025 8:53:1 [SERVER-NAME] info: 10.0.70.210 - GET //image/man-1742623035859.jpg 304 - 4.515 ms
+Tue Mar 25 2025 8:53:1 [SERVER-NAME] info: 10.0.70.210 - GET //image/marcedes-1742623343338.jpg 304 - 1.918 ms
+Tue Mar 25 2025 8:53:1 [SERVER-NAME] info: 10.0.70.210 - GET //image/towtruck-1742470698754.png 304 - 4.562 ms
+Tue Mar 25 2025 8:55:33 [SERVER-NAME] info: 10.0.70.147 - POST /api/v1/auth/login 200 - 497.934 ms
+Tue Mar 25 2025 8:56:11 [SERVER-NAME] info: 10.0.70.147 - OPTIONS /api/v1/users/profile 204 - 0.083 ms
+Tue Mar 25 2025 8:56:11 [SERVER-NAME] info: 10.0.70.147 - OPTIONS /api/v1/product/all?limit=12&page=1 204 - 0.060 ms
+Tue Mar 25 2025 8:56:12 [SERVER-NAME] info: 10.0.70.147 - GET /api/v1/users/profile 200 - 596.496 ms
+Tue Mar 25 2025 8:56:12 [SERVER-NAME] info: 10.0.70.147 - GET /api/v1/product/all?limit=12&page=1 200 - 601.730 ms
+Tue Mar 25 2025 8:56:12 [SERVER-NAME] info: 10.0.70.147 - GET /image/marijuana-1742867845489.png 200 - 2.051 ms
+Tue Mar 25 2025 8:56:12 [SERVER-NAME] info: 10.0.70.147 - GET /image/marijuana-1742867881687.png 200 - 1.050 ms
+Tue Mar 25 2025 8:56:12 [SERVER-NAME] info: 10.0.70.147 - GET /image/marijuana-1742800297329.png 200 - 7.603 ms
+Tue Mar 25 2025 8:56:12 [SERVER-NAME] info: 10.0.70.147 - GET /image/cat-1742788877704.png 200 - 1.742 ms
+Tue Mar 25 2025 8:56:12 [SERVER-NAME] info: 10.0.70.147 - GET /image/marijuana-1742788653097.png 200 - 6.997 ms
+Tue Mar 25 2025 8:56:12 [SERVER-NAME] info: 10.0.70.147 - GET /image/marijuana-1742783764465.png 200 - 7.510 ms
+Tue Mar 25 2025 8:56:12 [SERVER-NAME] info: 10.0.70.147 - GET /image/warning-1742788903471.png 200 - 22.479 ms
+Tue Mar 25 2025 8:56:12 [SERVER-NAME] info: 10.0.70.147 - GET /image/cannabis-1742802783132.png 200 - 25.149 ms
+Tue Mar 25 2025 8:56:12 [SERVER-NAME] info: 10.0.70.147 - GET /image/top1-1742781911734.png 200 - 12.238 ms
+Tue Mar 25 2025 8:56:49 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 8:56:52 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6007[39m
+Tue Mar 25 2025 8:57:20 [SERVER-NAME] info: 10.0.70.147 - OPTIONS /api/v1/users/profile 204 - 0.656 ms
+Tue Mar 25 2025 8:57:21 [SERVER-NAME] info: 10.0.70.147 - GET /api/v1/users/profile 304 - 609.664 ms
+Tue Mar 25 2025 8:57:21 [SERVER-NAME] info: 10.0.70.147 - GET /image/marijuana-1742800297329.png 200 - 1.369 ms
+Tue Mar 25 2025 8:58:5 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 8:58:8 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6007[39m
+Tue Mar 25 2025 8:58:9 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 8:58:12 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6007[39m
+Tue Mar 25 2025 8:58:13 [SERVER-NAME] info: 10.0.70.210 - OPTIONS /api/v1/orders/67dfb4d9257ff7104ec9aef0 204 - 0.555 ms
+Tue Mar 25 2025 8:58:14 [SERVER-NAME] info: 10.0.70.210 - PATCH /api/v1/orders/67dfb4d9257ff7104ec9aef0 200 - 855.322 ms
+Tue Mar 25 2025 8:58:14 [SERVER-NAME] info: 10.0.70.210 - OPTIONS /api/v1/orders 204 - 0.110 ms
+Tue Mar 25 2025 8:58:15 [SERVER-NAME] info: 10.0.70.210 - GET /api/v1/orders 200 - 848.179 ms
+Tue Mar 25 2025 8:58:17 [SERVER-NAME] info: 10.0.70.210 - OPTIONS /api/v1/users/profile 204 - 0.052 ms
+Tue Mar 25 2025 8:58:18 [SERVER-NAME] info: 10.0.70.210 - GET /api/v1/users/profile 304 - 565.256 ms
+Tue Mar 25 2025 8:58:18 [SERVER-NAME] info: 10.0.70.210 - GET /image/cannabis-1742801519684.png 304 - 0.896 ms
+Tue Mar 25 2025 8:58:18 [SERVER-NAME] info: 10.0.70.210 - GET /api/v1/orders 304 - 839.077 ms
+Tue Mar 25 2025 8:58:26 [SERVER-NAME] info: 10.0.70.210 - OPTIONS /api/v1/orders/67df7d750ce1774408122e8d 204 - 0.050 ms
+Tue Mar 25 2025 8:58:27 [SERVER-NAME] info: 10.0.70.210 - OPTIONS /api/v1/orders 204 - 0.050 ms
+Tue Mar 25 2025 8:58:28 [SERVER-NAME] info: 10.0.70.210 - GET /api/v1/orders 304 - 836.284 ms

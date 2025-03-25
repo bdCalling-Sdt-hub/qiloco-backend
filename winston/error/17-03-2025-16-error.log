@@ -1,6 +1,0 @@
-Mon Mar 17 2025 16:0:52 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/orders/create-chaekout-session 400 - 2342.656 ms
-Mon Mar 17 2025 16:3:29 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/orders/create-chaekout-session 400 - 1747.079 ms
-Mon Mar 17 2025 16:3:33 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/orders/create-chaekout-session 400 - 1511.006 ms
-Mon Mar 17 2025 16:3:58 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/orders/create-chaekout-session 400 - 2045.905 ms
-Mon Mar 17 2025 16:7:19 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/orders/create-chaekout-session 400 - 1997.948 ms
-Mon Mar 17 2025 16:9:41 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/orders/create-chaekout-session 400 - 1714.115 ms

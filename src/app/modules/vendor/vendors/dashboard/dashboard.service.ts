@@ -6,7 +6,7 @@ import { StatusCodes } from 'http-status-codes';
 // get total sell
 const getTotalSell = async (id: string) => {
   const total = await Order.countDocuments({
-    userId: id,
+    sellerId: id,
     paymentStatus: 'paid',
     deliveryStatus: 'delivered',
   });
@@ -14,9 +14,8 @@ const getTotalSell = async (id: string) => {
 };
 // get total Order
 const getTotalOrder = async (id: string) => {
-  console.log('user id', id);
   const total = await Order.countDocuments({
-    userId: id,
+    sellerId: id,
     paymentStatus: 'paid',
     deliveryStatus: { $in: ['pending', 'processing'] },
   });
@@ -27,7 +26,7 @@ const getTotalEarning = async (id: string) => {
   const total = await Order.aggregate([
     {
       $match: {
-        userId: new Types.ObjectId(id),
+        sellerId: new Types.ObjectId(id),
         paymentStatus: 'paid',
         deliveryStatus: 'delivered',
       },
@@ -50,7 +49,7 @@ const orderOverview = async (year: number, id: string) => {
   const revenueChart = await Order.aggregate([
     {
       $match: {
-        userId: new Types.ObjectId(id),
+        sellerId: new Types.ObjectId(id),
         paymentStatus: 'paid',
         deliveryStatus: 'delivered',
         createdAt: { $gte: startDate, $lt: endDate },
@@ -149,7 +148,7 @@ const earningOverviewChart = async (year: number, id: string) => {
   const earningsData = await Order.aggregate([
     {
       $match: {
-        userId: new Types.ObjectId(id),
+        sellerId: new Types.ObjectId(id),
         paymentStatus: 'paid',
         deliveryStatus: 'delivered',
         createdAt: {
@@ -215,10 +214,10 @@ const earningOverviewChart = async (year: number, id: string) => {
 };
 const resentSellingProduct = async (
   query: Record<string, unknown>,
-  userId: string,
+  sellerId: string,
 ) => {
   const queryBuilder = new QueryBuilder(
-    Order.find({ userId, paymentStatus: 'paid' }),
+    Order.find({ sellerId, paymentStatus: 'paid' }),
     query,
   );
 

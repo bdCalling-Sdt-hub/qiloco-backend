@@ -4,12 +4,12 @@ import { IProduct } from './product.interface';
 // Review Schema embedded inside the Product Schema
 const reviewSchema = new Schema(
   {
-    userId: { type: mongoose.Schema.ObjectId, required: true },
+    userId: { type: mongoose.Schema.ObjectId, ref: 'User', required: true },
     rating: { type: Number, required: true, min: 1, max: 5 },
     comment: { type: String, required: true },
-    date: { type: Date, default: Date.now }, 
+    date: { type: Date, default: Date.now },
   },
-  { _id: false }
+  { _id: false },
 );
 
 const productSchema = new Schema<IProduct>(
@@ -28,12 +28,10 @@ const productSchema = new Schema<IProduct>(
     scent: { type: String, required: true },
     image: { type: [String], default: [] },
     isDeleted: { type: Boolean, required: false },
-    reviews: { type: [reviewSchema], default: [] },  // Array of review objects
+    reviews: { type: [reviewSchema], default: [] }, // Array of review objects
   },
-  { timestamps: true }
+  { timestamps: true },
 );
-
-
 
 productSchema.pre('find', function (next) {
   this.find({ isDeleted: { $ne: true } });

@@ -1,0 +1,15 @@
+Tue Mar 25 2025 15:1:21 [SERVER-NAME] error: 10.0.60.210 - GET /api/v1/users/profile 401 - 1.018 ms
+Tue Mar 25 2025 15:1:21 [SERVER-NAME] error: 10.0.60.210 - GET /api/v1/admin/dashboard/erarming?year=2025 401 - 1.053 ms
+Tue Mar 25 2025 15:1:21 [SERVER-NAME] error: 10.0.60.210 - GET /api/v1/admin/dashboard/overview?year=2025 401 - 1.632 ms
+Tue Mar 25 2025 15:1:21 [SERVER-NAME] error: 10.0.60.210 - GET /api/v1/admin/dashboard/products?page=1 401 - 1.972 ms
+Tue Mar 25 2025 15:1:21 [SERVER-NAME] error: 10.0.60.210 - GET /api/v1/admin/dashboard 401 - 2.424 ms
+Tue Mar 25 2025 15:2:30 [SERVER-NAME] error: 10.0.60.210 - GET /api/v1/users/profile 401 - 1.077 ms
+Tue Mar 25 2025 15:15:17 [SERVER-NAME] error: 10.0.60.210 - GET /api/v1/admin/dashboard/erarming?year=2025 401 - 2.105 ms
+Tue Mar 25 2025 15:15:17 [SERVER-NAME] error: 10.0.60.210 - GET /api/v1/users/profile 401 - 3.955 ms
+Tue Mar 25 2025 15:15:17 [SERVER-NAME] error: 10.0.60.210 - GET /api/v1/admin/dashboard 401 - 5.000 ms
+Tue Mar 25 2025 15:15:17 [SERVER-NAME] error: 10.0.60.210 - GET /api/v1/admin/dashboard/products?page=1 401 - 5.647 ms
+Tue Mar 25 2025 15:15:17 [SERVER-NAME] error: 10.0.60.210 - GET /api/v1/admin/dashboard/overview?year=2025 401 - 6.566 ms
+Tue Mar 25 2025 15:15:25 [SERVER-NAME] error: 10.0.60.210 - GET /api/v1/product?page=1 401 - 1.007 ms
+Tue Mar 25 2025 15:15:28 [SERVER-NAME] error: 10.0.60.210 - GET /api/v1/users/profile 401 - 0.877 ms
+Tue Mar 25 2025 15:15:28 [SERVER-NAME] error: 10.0.60.210 - GET /api/v1/product?page=1 401 - 1.385 ms
+Tue Mar 25 2025 15:15:31 [SERVER-NAME] error: 10.0.60.210 - GET /api/v1/orders?page={page} 401 - 1.423 ms

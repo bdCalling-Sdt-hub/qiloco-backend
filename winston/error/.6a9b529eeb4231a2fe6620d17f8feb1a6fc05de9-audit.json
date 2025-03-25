@@ -6,24 +6,64 @@
     "auditLog": "C:\\Users\\Rakib\\Desktop\\qiloco backend\\winston\\error\\.6a9b529eeb4231a2fe6620d17f8feb1a6fc05de9-audit.json",
     "files": [
         {
-            "date": 1742197799562,
-            "name": "C:\\Users\\Rakib\\Desktop\\qiloco backend\\winston\\error\\17-03-2025-13-error.log",
-            "hash": "f738f8df7508b6f2f7ba3487ff43e642723cd80ac92c0bedb12b3204175adc48"
+            "date": 1742811709802,
+            "name": "C:\\Users\\Rakib\\Desktop\\qiloco backend\\winston\\error\\24-03-2025-16-error.log",
+            "hash": "237b06944aa72de6bfd5c360400436ba7b700d553e2daec8d3eda489c8867c3e"
         },
         {
-            "date": 1742201216019,
-            "name": "C:\\Users\\Rakib\\Desktop\\qiloco backend\\winston\\error\\17-03-2025-14-error.log",
-            "hash": "5f0f435b1c54bf032787ef7afc484fcdf46bf68a2dc4e0855000178aac106d6f"
+            "date": 1742814142284,
+            "name": "C:\\Users\\Rakib\\Desktop\\qiloco backend\\winston\\error\\24-03-2025-17-error.log",
+            "hash": "5a088476fc96ef8c2f5e31a2e11bec5c8e4e4db1366d7438eb5cb628a47b3ad2"
         },
         {
-            "date": 1742202013071,
-            "name": "C:\\Users\\Rakib\\Desktop\\qiloco backend\\winston\\error\\17-03-2025-15-error.log",
-            "hash": "054d6447181f8bad55803af94279e7ce8fb8b5ef5efbc13e4634a02d70a5a80f"
+            "date": 1742867092382,
+            "name": "C:\\Users\\Rakib\\Desktop\\qiloco backend\\winston\\error\\25-03-2025-07-error.log",
+            "hash": "10f07e15c86b4d0c5395ae77a8a53ef0a2e893ffad14f390d56474d6a9f129fb"
         },
         {
-            "date": 1742205643269,
-            "name": "C:\\Users\\Rakib\\Desktop\\qiloco backend\\winston\\error\\17-03-2025-16-error.log",
-            "hash": "a8e248278713d562ee537d5ec593f8e2a67357c9cb24d176824f1d6885e06a12"
+            "date": 1742868203702,
+            "name": "C:\\Users\\Rakib\\Desktop\\qiloco backend\\winston\\error\\25-03-2025-08-error.log",
+            "hash": "4b2edd1225a584333c2090f75c66d8b60eeaa68904532a04e6a66a9aa98db0fe"
+        },
+        {
+            "date": 1742871886684,
+            "name": "C:\\Users\\Rakib\\Desktop\\qiloco backend\\winston\\error\\25-03-2025-09-error.log",
+            "hash": "ad6614e381b61f0fbb2d8fca1983c3a72542de5232a55b25cd4e10e1dac77fe7"
+        },
+        {
+            "date": 1742875466070,
+            "name": "C:\\Users\\Rakib\\Desktop\\qiloco backend\\winston\\error\\25-03-2025-10-error.log",
+            "hash": "ae48b94ce43fc3b5bbea3a648ce8010a4224e51ccbe4a0e92f4f6479a2eeafb2"
+        },
+        {
+            "date": 1742879332320,
+            "name": "C:\\Users\\Rakib\\Desktop\\qiloco backend\\winston\\error\\25-03-2025-11-error.log",
+            "hash": "2dee3f021711e6c020c9bf0d4ac712441d053b6fdc018c0580f55517c70ce017"
+        },
+        {
+            "date": 1742882594563,
+            "name": "C:\\Users\\Rakib\\Desktop\\qiloco backend\\winston\\error\\25-03-2025-12-error.log",
+            "hash": "12c55eb55ab2bfabc7c9760662d385f6b160a4f676161cb4206aeac9d214d681"
+        },
+        {
+            "date": 1742888034573,
+            "name": "C:\\Users\\Rakib\\Desktop\\qiloco backend\\winston\\error\\25-03-2025-13-error.log",
+            "hash": "f044e6abeae783c96411305eade2914d1e114b3398b155db22bf48229dbb315d"
+        },
+        {
+            "date": 1742891526598,
+            "name": "C:\\Users\\Rakib\\Desktop\\qiloco backend\\winston\\error\\25-03-2025-14-error.log",
+            "hash": "c0777c7db546597c6013dec9363f4a5b6e1a2eba5852c2eb1b4dbe9b60ed809a"
+        },
+        {
+            "date": 1742893281782,
+            "name": "C:\\Users\\Rakib\\Desktop\\qiloco backend\\winston\\error\\25-03-2025-15-error.log",
+            "hash": "cf3008c0c5d0f18fd9f71b5efd2f8a8b51e5a19f10e918d4212d7fd274a73d25"
+        },
+        {
+            "date": 1742897481034,
+            "name": "C:\\Users\\Rakib\\Desktop\\qiloco backend\\winston\\error\\25-03-2025-16-error.log",
+            "hash": "81857027c6b1449ab2547857a5667d05a8ca32854de108224be3083428e6a83d"
         }
     ],
     "hashType": "sha256"

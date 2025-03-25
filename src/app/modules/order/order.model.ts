@@ -41,6 +41,11 @@ const orderSchema = new Schema<IOrder>(
       ref: 'User',
       required: true,
     },
+    sellerId:{
+      type: Schema.Types.ObjectId,
+      ref: 'User',
+      required: true,
+    },
     orderNumber: {
       type: String,
       required: true,

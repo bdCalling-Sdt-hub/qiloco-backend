@@ -1,0 +1,2 @@
+Tue Mar 25 2025 13:33:54 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/vendor/dashboard 403 - 310.286 ms
+Tue Mar 25 2025 13:54:24 [SERVER-NAME] error: 10.0.60.210 - GET /api/v1/users/profile 401 - 1.366 ms

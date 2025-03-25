@@ -1,0 +1,40 @@
+Tue Mar 25 2025 16:11:21 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 16:11:24 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6007[39m
+Tue Mar 25 2025 16:11:34 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 16:11:37 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6007[39m
+Tue Mar 25 2025 16:12:11 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 16:12:13 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 16:12:17 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 16:12:21 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 16:12:25 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 16:12:28 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 16:12:31 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 16:12:34 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6007[39m
+Tue Mar 25 2025 16:12:41 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 16:12:44 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6007[39m
+Tue Mar 25 2025 16:13:3 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/reviews/67e0d90d311d504b270ca6c1 204 - 0.576 ms
+Tue Mar 25 2025 16:13:4 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/reviews/67e0d90d311d504b270ca6c1 200 - 883.222 ms
+Tue Mar 25 2025 16:15:27 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.115 ms
+Tue Mar 25 2025 16:15:27 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 569.920 ms
+Tue Mar 25 2025 16:17:44 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.111 ms
+Tue Mar 25 2025 16:17:45 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 571.090 ms
+Tue Mar 25 2025 16:19:29 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.111 ms
+Tue Mar 25 2025 16:19:30 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 572.999 ms
+Tue Mar 25 2025 16:19:37 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/reviews/67e0d90d311d504b270ca6c1 204 - 0.114 ms
+Tue Mar 25 2025 16:19:48 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.160 ms
+Tue Mar 25 2025 16:19:49 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 1083.923 ms
+Tue Mar 25 2025 16:20:3 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.151 ms
+Tue Mar 25 2025 16:20:3 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 571.269 ms
+Tue Mar 25 2025 16:20:8 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/reviews/67e0d90d311d504b270ca6c1 204 - 0.127 ms
+Tue Mar 25 2025 16:20:19 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/orders/my-orders/67e23f43cc66f95cbbd3e02b 204 - 0.219 ms
+Tue Mar 25 2025 16:20:20 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/orders/my-orders/67e23f43cc66f95cbbd3e02b 304 - 871.626 ms
+Tue Mar 25 2025 16:20:36 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/reviews/67e0bdd7311d504b270ca4a6 204 - 0.155 ms
+Tue Mar 25 2025 16:20:37 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/reviews/67e0bdd7311d504b270ca4a6 200 - 873.036 ms
+Tue Mar 25 2025 16:20:42 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.106 ms
+Tue Mar 25 2025 16:20:43 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 570.218 ms
+Tue Mar 25 2025 16:27:49 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/orders/my-orders?page=undefined 204 - 0.058 ms
+Tue Mar 25 2025 16:27:50 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/orders/my-orders?page=undefined 304 - 1156.543 ms
+Tue Mar 25 2025 16:28:10 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/orders/my-orders/67e25067836c1244e621c25e 204 - 0.049 ms
+Tue Mar 25 2025 16:28:11 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/orders/my-orders/67e25067836c1244e621c25e 304 - 857.576 ms
+Tue Mar 25 2025 16:28:15 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/orders/my-orders/67e25067836c1244e621c255 204 - 0.060 ms
+Tue Mar 25 2025 16:28:16 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/orders/my-orders/67e25067836c1244e621c255 304 - 865.308 ms

@@ -1,2 +1,0 @@
-Tue Mar 18 2025 6:40:50 [SERVER-NAME] warn: [42m[1mUnhandled event type: balance.available[22m[49m
-Tue Mar 18 2025 6:40:50 [SERVER-NAME] info: 10.0.70.126 - POST /api/v1/stripe/webhook 200 - 11.191 ms

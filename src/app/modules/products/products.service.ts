@@ -37,15 +37,18 @@ const getAllProductsUser = async (query: Record<string, unknown>) => {
       : (query.moodTag as string).split(',');
     queryBuilder.filterByMoodTag(moodTags);
   }
-  const products = await queryBuilder.filter().sort().paginate().fields()
-    .modelQuery;
+  const products = await queryBuilder.search(["name"]).filter().sort().paginate().fields()
+    .modelQuery
   const meta = await queryBuilder.countTotal();
   return { products, meta };
 };
 
 // get product by id
 const getProductById = async (id: string) => {
-  const product = await Product.findById(id);
+  const product = await Product.findById(id).populate({
+    path: 'reviews.userId',
+    select: 'image name email',
+  });
   if (!product) {
     throw new AppError(StatusCodes.NOT_FOUND, 'Product not found');
   }
