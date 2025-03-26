@@ -46,5 +46,21 @@ const deleteReview = catchAsync(async (req, res) => {
     message: result.message,
   });
 });
+// Delete a review
+const analisysReview = catchAsync(async (req, res) => {
+  const productId = req.params.id;
+  const result = await ReviewService.getProductReviewStats(productId);
+  sendResponse(res, {
+    statusCode: StatusCodes.OK,
+    success: true,
+    message: 'Review analysis retrieved successfully',
+    data: result,
+  });
+});
 
-export const ReviewController = { createReview, updateReview, deleteReview };
+export const ReviewController = {
+  createReview,
+  updateReview,
+  deleteReview,
+  analisysReview,
+};

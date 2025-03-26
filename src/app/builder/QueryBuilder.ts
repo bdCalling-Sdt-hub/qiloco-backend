@@ -45,14 +45,9 @@ class QueryBuilder<T> {
 
   // Sorting (by price, latest, popularity, etc.)
   sort() {
-    const sort = this.query?.sort as string;
-    if (sort) {
-      const [field, direction] = sort.split(',');
-      const sortDirection = direction === 'desc' ? -1 : 1;
-      this.modelQuery = this.modelQuery.sort({ [field]: sortDirection });
-    } else {
-      this.modelQuery = this.modelQuery.sort({ createdAt: -1 });
-    }
+    const sort =
+      (this?.query?.sort as string)?.split(',')?.join(' ') || '-createdAt';
+    this.modelQuery = this.modelQuery.sort(sort as string);
 
     return this;
   }

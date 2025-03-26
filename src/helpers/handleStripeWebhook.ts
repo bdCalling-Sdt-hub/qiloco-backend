@@ -8,6 +8,7 @@ import stripe from '../config/stripe';
 import AppError from '../errors/AppError';
 import { Order } from '../app/modules/order/order.model';
 import { Product } from '../app/modules/products/product.model';
+import { sendNotifications } from './notificationsHelper';
 
 // Handle Stripe Webhook
 const handleStripeWebhook = async (req: Request, res: Response) => {
@@ -57,46 +58,102 @@ const handleStripeWebhook = async (req: Request, res: Response) => {
 };
 
 const handlePaymentIntentSucceeded = async (event: Stripe.Event) => {
-  const session = event.data.object as Stripe.Checkout.Session;
-  const paymentIntentId = session.payment_intent as string;
-  // Log shipping address to ensure it's being retrieved
-  const shippingAddress = session.shipping_details?.address;
-  const phone = session.customer_details?.phone as string;
-  
-  // Find all orders associated with this checkout session
-  const orders = await Order.find({
-    checkoutSessionId: session.id,
-  });
-  
-  if (orders.length === 0) {
-    throw new AppError(StatusCodes.NOT_FOUND, 'No orders found for this session');
-  }
+  try {
+    const session = event.data.object as Stripe.Checkout.Session;
 
-  if (shippingAddress) {
-    // Formatting the shipping address string
-    const formattedAddress = `${shippingAddress.line1}${shippingAddress.line2 ? ', ' + shippingAddress.line2 : ''}, ${shippingAddress.city}, ${shippingAddress.country}`;
-    
-    // Update all orders associated with this checkout session
-    for (const order of orders) {
-      // Update the order fields
-      order.paymentStatus = 'paid';
-      order.paymentIntentId = paymentIntentId;
-      order.phoneNumber = phone;
-      order.address = formattedAddress;
-      
-      // Save the updated order
-      await order.save();
-      
-      // Update inventory for each product in this order
-      for (const product of order.products) {
-        await Product.findByIdAndUpdate(
-          product.productId,
-          { $inc: { quantity: -product.quantity } }
-        );
-      }
+    if (!session.id) {
+      console.error('No session ID found');
+      throw new AppError(StatusCodes.BAD_REQUEST, 'Invalid checkout session');
     }
-  } else {
-    console.log('Shipping Address is not available');
+
+    const paymentIntentId = session.payment_intent as string;
+    const shippingAddress = session.shipping_details?.address;
+    const phone = session.customer_details?.phone as string;
+
+    // More robust order finding
+    const orders = await Order.find({
+      checkoutSessionId: session.id,
+    }).lean();
+
+    if (orders.length === 0) {
+      console.error('No orders found for session:', session.id);
+      throw new AppError(
+        StatusCodes.NOT_FOUND,
+        'No orders found for this session',
+      );
+    }
+
+    if (!shippingAddress) {
+      console.error('No shipping address available');
+      return;
+    }
+
+    const formattedAddress = `${shippingAddress.line1}${shippingAddress.line2 ? ', ' + shippingAddress.line2 : ''}, ${shippingAddress.city}, ${shippingAddress.country}`;
+
+    await Promise.all(
+      orders.map(async (order) => {
+        try {
+          const updatedOrder = await Order.findByIdAndUpdate(
+            order._id,
+            {
+              paymentStatus: 'paid',
+              paymentIntentId: paymentIntentId,
+              phoneNumber: phone,
+              address: formattedAddress,
+            },
+            { new: true },
+          );
+
+          // Prepare notification data
+          const notificationData = {
+            receiver: order.sellerId.toString(),
+            title: 'Order Confermatione',
+            message: `You have a new order!\nOrder Number: ${order.orderNumber}\nProducts: ${order.products
+              .map(
+                (product: any) =>
+                  `${product.name} (Quantity: ${product.quantity})`,
+              )
+              .join(
+                '\n',
+              )}\n\nPlease review the order and prepare for shipment.`,
+            type: 'ORDER',
+            read: false,
+          };
+
+          // Send notification with error handling
+          try {
+            await sendNotifications(notificationData);
+            console.log('Notification sent successfully');
+          } catch (notificationError) {
+            console.error('Failed to send notification:', notificationError);
+          }
+
+          // Update inventory with error handling
+          await Promise.all(
+            order.products.map(async (product: any) => {
+              try {
+                const updatedProduct = await Product.findByIdAndUpdate(
+                  product.productId,
+                  { $inc: { quantity: -product.quantity } },
+                  { new: true },
+                );
+                console.log('Updated Product:', updatedProduct);
+              } catch (productUpdateError) {
+                console.error(
+                  'Failed to update product inventory:',
+                  productUpdateError,
+                );
+              }
+            }),
+          );
+        } catch (orderUpdateError) {
+          console.error('Failed to process order:', orderUpdateError);
+        }
+      }),
+    );
+  } catch (error) {
+    console.error('Overall webhook processing error:', error);
+    // Consider sending an error response or logging to a monitoring service
   }
 };
 

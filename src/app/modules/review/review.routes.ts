@@ -12,6 +12,12 @@ router.post(
   validateRequest(ReviewValidation.reviewZodSchema),
   ReviewController.createReview,
 );
+router.get(
+  '/:id',
+  ReviewController.analisysReview,
+);
+
+
 // Update a review
 router.put(
   '/:id',

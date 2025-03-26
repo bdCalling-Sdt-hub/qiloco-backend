@@ -1,0 +1,50 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 1
+    },
+    "auditLog": "C:\\Users\\Rakib\\OneDrive\\Desktop\\qiloco backend\\winston\\error\\.6523601c1001473f1d8a7f399a998663885286b4-audit.json",
+    "files": [
+        {
+            "date": 1742906091062,
+            "name": "C:\\Users\\Rakib\\OneDrive\\Desktop\\qiloco backend\\winston\\error\\25-03-2025-18-error.log",
+            "hash": "6eb41f3b3b409b21acb5cca66c316b0d724796b12485e944106c5852bd09d62d"
+        },
+        {
+            "date": 1742956896123,
+            "name": "C:\\Users\\Rakib\\OneDrive\\Desktop\\qiloco backend\\winston\\error\\26-03-2025-08-error.log",
+            "hash": "9425493ffb6614359a7addc5ab51ec7db3ccdb2786e599e15bbe6fcb8d3ff79e"
+        },
+        {
+            "date": 1742965098117,
+            "name": "C:\\Users\\Rakib\\OneDrive\\Desktop\\qiloco backend\\winston\\error\\26-03-2025-10-error.log",
+            "hash": "ce62d6d85d7f4fc79ca376df7dbc21de797714a17dee31594a77f71a3c8dc8b4"
+        },
+        {
+            "date": 1742965200494,
+            "name": "C:\\Users\\Rakib\\OneDrive\\Desktop\\qiloco backend\\winston\\error\\26-03-2025-11-error.log",
+            "hash": "b4b54b197a87e1440a0d221ec429a062ca684b1ded5bf447f535cf1599819f76"
+        },
+        {
+            "date": 1742968913004,
+            "name": "C:\\Users\\Rakib\\OneDrive\\Desktop\\qiloco backend\\winston\\error\\26-03-2025-12-error.log",
+            "hash": "27f164e79a1bbde050dcf59f696db8c7d8c2ad8e4223d93dcd4a297979dc0437"
+        },
+        {
+            "date": 1742972674310,
+            "name": "C:\\Users\\Rakib\\OneDrive\\Desktop\\qiloco backend\\winston\\error\\26-03-2025-13-error.log",
+            "hash": "4b1e3f185b35c6e5000f15be4afe5971cf444984c522809b24a3eac4bdc2732d"
+        },
+        {
+            "date": 1742976012602,
+            "name": "C:\\Users\\Rakib\\OneDrive\\Desktop\\qiloco backend\\winston\\error\\26-03-2025-14-error.log",
+            "hash": "384ffa19e9a74880f9457490842393662dbb74eae8e86f8e5ccd502ee6b251fb"
+        },
+        {
+            "date": 1742979678567,
+            "name": "C:\\Users\\Rakib\\OneDrive\\Desktop\\qiloco backend\\winston\\error\\26-03-2025-15-error.log",
+            "hash": "edcaad02559e6fc73cbd8d4db624c6bf711d5b523d0c8a0600fa8c75aa4200b4"
+        }
+    ],
+    "hashType": "sha256"
+}

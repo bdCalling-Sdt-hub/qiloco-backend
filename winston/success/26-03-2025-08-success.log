@@ -1,0 +1,18 @@
+Wed Mar 26 2025 8:41:36 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed Mar 26 2025 8:41:39 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6007[39m
+Wed Mar 26 2025 8:46:4 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.695 ms
+Wed Mar 26 2025 8:46:4 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/product/all?limit=12&page=1 204 - 0.158 ms
+Wed Mar 26 2025 8:46:4 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/product/all?limit=12&page=1 200 - 588.124 ms
+Wed Mar 26 2025 8:46:4 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 592.120 ms
+Wed Mar 26 2025 8:47:16 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.057 ms
+Wed Mar 26 2025 8:47:16 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/product/all?limit=12&page=1 204 - 0.094 ms
+Wed Mar 26 2025 8:47:17 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/product/all?limit=12&page=1 304 - 572.276 ms
+Wed Mar 26 2025 8:47:17 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 583.716 ms
+Wed Mar 26 2025 8:51:49 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/product/all?limit=12&page=1 204 - 0.088 ms
+Wed Mar 26 2025 8:51:49 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.150 ms
+Wed Mar 26 2025 8:51:49 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 565.589 ms
+Wed Mar 26 2025 8:51:49 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/product/all?limit=12&page=1 304 - 578.186 ms
+Wed Mar 26 2025 8:57:15 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.347 ms
+Wed Mar 26 2025 8:57:15 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/product/all?limit=12&page=1 204 - 0.412 ms
+Wed Mar 26 2025 8:57:16 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 567.874 ms
+Wed Mar 26 2025 8:57:16 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/product/all?limit=12&page=1 304 - 579.474 ms

@@ -1,6 +1,9 @@
 import { JwtPayload } from 'jsonwebtoken';
 import { INotification } from './notification.interface';
 import { Notification } from './notification.model';
+import AppError from '../../../errors/AppError';
+import { StatusCodes } from 'http-status-codes';
+import { sendNotifications } from '../../../helpers/notificationsHelper';
 
 // get notifications
 const getNotificationFromDB = async (user: JwtPayload): Promise<INotification> => {
@@ -48,10 +51,30 @@ const adminReadNotificationToDB = async (): Promise<INotification | null> => {
     );
     return result;
 };
-
+const adminSendNotificationFromDB = async (payload: any) => {
+    const { title, message, receiver } = payload;
+  
+    // Validate input
+    if (!title || !message) {
+      throw new AppError(
+        StatusCodes.BAD_REQUEST,
+        'Title and message are required',
+      );
+    }
+    const notificationData = {
+      title,
+      referenceModel:"MESSAGE",
+      text: message,
+      type: 'ADMIN',
+      receiver: receiver || null,
+    };
+  
+    const result = await sendNotifications(notificationData);
+  };
 export const NotificationService = {
     adminNotificationFromDB,
     getNotificationFromDB,
     readNotificationToDB,
-    adminReadNotificationToDB
+    adminReadNotificationToDB,
+    adminSendNotificationFromDB
 };

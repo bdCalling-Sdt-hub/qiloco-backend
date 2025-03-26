@@ -1,6 +1,7 @@
 import { StatusCodes } from 'http-status-codes';
 import { Product } from '../products/product.model';
 import AppError from '../../../errors/AppError';
+import mongoose from 'mongoose';
 
 // Helper function to find product
 const findProductById = async (productId: string) => {
@@ -102,31 +103,30 @@ const deleteReviewFromDB = async (userId: string, productId: string) => {
   return { message: 'Review deleted successfully' };
 };
 const getProductReviewStats = async (productId: string) => {
-
+  // Aggregation to get reviews by rating
   const product = await Product.aggregate([
     {
-      $match: { _id: productId }, 
+      $match: { _id: new mongoose.Types.ObjectId(productId) }, 
     },
     {
-      $unwind: '$reviews',
+      $unwind: '$reviews', // Unwind reviews array
     },
     {
       $group: {
-        _id: '$reviews.rating',
-        count: { $sum: 1 }, 
+        _id: '$reviews.rating', // Group by the rating value
+        count: { $sum: 1 }, // Count number of reviews for each rating
       },
     },
     {
-      $sort: { _id: 1 },
+      $sort: { _id: 1 }, // Sort by rating in ascending order
     },
   ]);
 
+  // Debugging the result of aggregation
+  console.log(product);
 
   if (!product || product.length === 0) {
-    throw new AppError(
-      StatusCodes.NOT_FOUND,
-      'No reviews found for the product',
-    );
+    throw new AppError(StatusCodes.NOT_FOUND, 'No reviews found for the product');
   }
 
   // Calculate the total count of reviews
@@ -140,19 +140,18 @@ const getProductReviewStats = async (productId: string) => {
     product.reduce((sum: number, item: any) => sum + item._id * item.count, 0) /
     totalReviews;
 
-  // Prepare the result
-  const ratingsDistribution: { [key in '1' | '2' | '3' | '4' | '5']: number } =
-    {
-      '1': 0,
-      '2': 0,
-      '3': 0,
-      '4': 0,
-      '5': 0,
-    };
+  // Prepare the result with ratings distribution
+  const ratingsDistribution: { [key in '1' | '2' | '3' | '4' | '5']: number } = {
+    '1': 0,
+    '2': 0,
+    '3': 0,
+    '4': 0,
+    '5': 0,
+  };
 
-  // Ensure that item._id is treated as a valid key for the ratingsDistribution object
+  // Distribute the counts of each rating to corresponding keys
   product.forEach((item: any) => {
-    const ratingKey = item._id.toString() as '1' | '2' | '3' | '4' | '5'; // Typecast _id to string and restrict it to valid rating keys
+    const ratingKey = item._id.toString() as '1' | '2' | '3' | '4' | '5';
     ratingsDistribution[ratingKey] = item.count;
   });
 
@@ -165,8 +164,10 @@ const getProductReviewStats = async (productId: string) => {
 
 
 
+
 export const ReviewService = {
   createReviewToDB,
   updateReviewInDB,
   deleteReviewFromDB,
+  getProductReviewStats
 };
