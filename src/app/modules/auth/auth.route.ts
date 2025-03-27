@@ -11,17 +11,7 @@ router.post(
   validateRequest(AuthValidation.createLoginZodSchema),
   AuthController.loginUser,
 );
-router.post(
-  '/vendor/login',
-  validateRequest(AuthValidation.createLoginZodSchema),
-  AuthController.loginUser,
-);
 
-router.post(
-  '/admin/login',
-  validateRequest(AuthValidation.createLoginZodSchema),
-  AuthController.loginUser,
-);
 router.post(
   '/login',
   validateRequest(AuthValidation.createLoginZodSchema),

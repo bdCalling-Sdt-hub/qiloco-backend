@@ -50,17 +50,17 @@ productSchema.pre('aggregate', function (next) {
 
 // Virtual field to calculate the total number of reviews
 productSchema.virtual('totalRatings').get(function () {
-  return this.reviews.length;
+  return this.reviews?.length;
 });
 
 // Virtual field to calculate the average rating
 productSchema.virtual('averageRating').get(function () {
-  if (this.reviews.length === 0) {
+  if (this.reviews?.length === 0) {
     return 0;
   }
 
-  const total = this.reviews.reduce((acc, review) => acc + review.rating, 0);
-  return total / this.reviews.length;
+  const total = this.reviews?.reduce((acc, review) => acc + review.rating, 0);
+  return total / this.reviews?.length;
 });
 
 // Ensure virtuals are included in the output of queries

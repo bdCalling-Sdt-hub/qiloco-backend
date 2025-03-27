@@ -5,8 +5,9 @@ import { AdminDashboardService } from './dashboard.service';
 
 // total analysis
 const totalAnalysis = catchAsync(async (req, res) => {
+  const { id }: any = req.user;
   const totalUser = await AdminDashboardService.getTotalUser();
-  const totalRevenue = await AdminDashboardService.totalRevenue();
+  const totalRevenue = await AdminDashboardService.totalRevenue(id);
   sendResponse(res, {
     success: true,
     statusCode: StatusCodes.OK,
@@ -40,6 +41,7 @@ const productSelingOverview = catchAsync(async (req, res) => {
 });
 // Earning Overview
 const earningOverview = catchAsync(async (req, res) => {
+  const { id }: any = req .user;
   const { year } = req.query;
   if (!year) {
     return sendResponse(res, {
@@ -51,7 +53,7 @@ const earningOverview = catchAsync(async (req, res) => {
 
   // Convert the year to a number
   const yearInt = parseInt(year as string);
-  const result = await AdminDashboardService.earningOverviewChart(yearInt);
+  const result = await AdminDashboardService.earningOverviewChart(yearInt, id);
   sendResponse(res, {
     success: true,
     statusCode: StatusCodes.OK,
