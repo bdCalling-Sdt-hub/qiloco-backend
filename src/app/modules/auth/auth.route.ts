@@ -11,6 +11,22 @@ router.post(
   validateRequest(AuthValidation.createLoginZodSchema),
   AuthController.loginUser,
 );
+router.post(
+  '/vendor/login',
+  validateRequest(AuthValidation.createLoginZodSchema),
+  AuthController.loginUser,
+);
+
+router.post(
+  '/admin/login',
+  validateRequest(AuthValidation.createLoginZodSchema),
+  AuthController.loginUser,
+);
+router.post(
+  '/login',
+  validateRequest(AuthValidation.createLoginZodSchema),
+  AuthController.loginUser,
+);
 
 router.post(
   '/forget-password',
@@ -44,7 +60,12 @@ router.post(
 
 router.post(
   '/change-password',
-  auth(USER_ROLES.ADMIN, USER_ROLES.USER, USER_ROLES.VENDOR,USER_ROLES.SUPER_ADMIN),
+  auth(
+    USER_ROLES.ADMIN,
+    USER_ROLES.USER,
+    USER_ROLES.VENDOR,
+    USER_ROLES.SUPER_ADMIN,
+  ),
   validateRequest(AuthValidation.createChangePasswordZodSchema),
   AuthController.changePassword,
 );

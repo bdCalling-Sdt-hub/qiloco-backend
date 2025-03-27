@@ -10,6 +10,8 @@ import { AdminEarningRoute } from '../app/modules/admin/earning/earning.route';
 import { VendorDashboardRoute } from '../app/modules/vendor/vendors/dashboard/dashboard.route';
 import { VendorEarningRoute } from '../app/modules/vendor/vendors/earning/earning.route';
 import { ReviewRoutes } from '../app/modules/review/review.routes';
+import { NotificationRoutes } from '../app/modules/notification/notification.routes';
+import { ContactRoutes } from '../app/modules/contcatus/contactus.route';
 
 const router = express.Router();
 const routes = [
@@ -56,6 +58,14 @@ const routes = [
   {
     path: '/reviews',
     route: ReviewRoutes,
+  },
+  {
+    path: '/notification',
+    route: NotificationRoutes,
+  },
+  {
+    path: '/contact',
+    route: ContactRoutes,
   },
 ];
 

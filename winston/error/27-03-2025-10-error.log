@@ -1,0 +1,16 @@
+Thu Mar 27 2025 10:0:16 [SERVER-NAME] error: 10.0.60.210 - PATCH /api/v1//notification/undefined 400 - 283.890 ms
+Thu Mar 27 2025 10:2:42 [SERVER-NAME] error: 10.0.60.210 - PATCH /api/v1//notification/undefined 400 - 290.062 ms
+Thu Mar 27 2025 10:3:1 [SERVER-NAME] error: 10.0.60.210 - PATCH /api/v1//notification/undefined 400 - 286.379 ms
+Thu Mar 27 2025 10:3:2 [SERVER-NAME] error: 10.0.60.210 - PATCH /api/v1//notification/undefined 400 - 293.305 ms
+Thu Mar 27 2025 10:22:55 [SERVER-NAME] error: 10.0.60.210 - PATCH /api/v1/notification/real-all 400 - 303.874 ms
+Thu Mar 27 2025 10:23:25 [SERVER-NAME] error: 10.0.60.210 - PATCH /api/v1/notification/real-all 400 - 309.658 ms
+Thu Mar 27 2025 10:24:29 [SERVER-NAME] error: 10.0.60.210 - PATCH /api/v1/notification/real-all 400 - 289.435 ms
+Thu Mar 27 2025 10:25:50 [SERVER-NAME] error: 10.0.60.210 - PATCH /api/v1/notification/real/all 404 - 4.474 ms
+Thu Mar 27 2025 10:26:1 [SERVER-NAME] error: 10.0.60.210 - PATCH /api/v1/notification/real/all 404 - 3.044 ms
+Thu Mar 27 2025 10:28:10 [SERVER-NAME] error: 10.0.60.210 - PATCH /api/v1/notification/real/all 404 - 1.548 ms
+Thu Mar 27 2025 10:28:40 [SERVER-NAME] error: 10.0.60.210 - PATCH /api/v1/notification/real/all 404 - 1.582 ms
+Thu Mar 27 2025 10:35:27 [SERVER-NAME] error: 10.0.60.210 - PATCH /api/v1//notification/undefined 400 - 305.528 ms
+Thu Mar 27 2025 10:36:55 [SERVER-NAME] error: 10.0.60.210 - PATCH /api/v1//notification/undefined 400 - 295.010 ms
+Thu Mar 27 2025 10:46:32 [SERVER-NAME] error: 10.0.60.210 - PATCH /api/v1//notification/undefined 400 - 297.241 ms
+Thu Mar 27 2025 10:53:39 [SERVER-NAME] error: 10.0.60.210 - PATCH /api/v1//notification/undefined 400 - 301.242 ms
+Thu Mar 27 2025 10:53:41 [SERVER-NAME] error: 10.0.60.210 - PATCH /api/v1//notification/undefined 400 - 302.881 ms

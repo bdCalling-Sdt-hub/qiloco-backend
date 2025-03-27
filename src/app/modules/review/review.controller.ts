@@ -1,4 +1,3 @@
-import { Request, Response } from 'express';
 import { ReviewService } from './review.service';
 import sendResponse from '../../../shared/sendResponse';
 import { StatusCodes } from 'http-status-codes';

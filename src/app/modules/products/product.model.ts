@@ -28,7 +28,7 @@ const productSchema = new Schema<IProduct>(
     scent: { type: String, required: true },
     image: { type: [String], default: [] },
     isDeleted: { type: Boolean, required: false },
-    reviews: { type: [reviewSchema], default: [] }, // Array of review objects
+    reviews: { type: [reviewSchema], default: [] }, 
   },
   { timestamps: true },
 );
@@ -47,4 +47,25 @@ productSchema.pre('aggregate', function (next) {
   this.pipeline().unshift({ $match: { isDeleted: { $ne: true } } });
   next();
 });
+
+// Virtual field to calculate the total number of reviews
+productSchema.virtual('totalRatings').get(function () {
+  return this.reviews.length;
+});
+
+// Virtual field to calculate the average rating
+productSchema.virtual('averageRating').get(function () {
+  if (this.reviews.length === 0) {
+    return 0;
+  }
+
+  const total = this.reviews.reduce((acc, review) => acc + review.rating, 0);
+  return total / this.reviews.length;
+});
+
+// Ensure virtuals are included in the output of queries
+productSchema.set('toJSON', {
+  virtuals: true,
+});
+
 export const Product = model<IProduct>('Product', productSchema);

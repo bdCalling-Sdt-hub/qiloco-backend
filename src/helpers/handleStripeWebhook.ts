@@ -108,10 +108,10 @@ const handlePaymentIntentSucceeded = async (event: Stripe.Event) => {
           const notificationData = {
             receiver: order.sellerId.toString(),
             title: 'Order Confermatione',
-            message: `You have a new order!\nOrder Number: ${order.orderNumber}\nProducts: ${order.products
+            message: `You have a new order!\nOrder Number: ${order?.orderNumber}\nProducts: ${order?.products
               .map(
                 (product: any) =>
-                  `${product.name} (Quantity: ${product.quantity})`,
+                  `${product?.productName} (Quantity: ${product?.quantity})`,
               )
               .join(
                 '\n',
@@ -123,9 +123,11 @@ const handlePaymentIntentSucceeded = async (event: Stripe.Event) => {
           // Send notification with error handling
           try {
             await sendNotifications(notificationData);
-            console.log('Notification sent successfully');
           } catch (notificationError) {
-            console.error('Failed to send notification:', notificationError);
+            throw new AppError(
+              StatusCodes.INTERNAL_SERVER_ERROR,
+              'Failed to send notification',
+            );
           }
 
           // Update inventory with error handling
@@ -137,23 +139,27 @@ const handlePaymentIntentSucceeded = async (event: Stripe.Event) => {
                   { $inc: { quantity: -product.quantity } },
                   { new: true },
                 );
-                console.log('Updated Product:', updatedProduct);
               } catch (productUpdateError) {
-                console.error(
-                  'Failed to update product inventory:',
-                  productUpdateError,
+                throw new AppError(
+                  StatusCodes.BAD_REQUEST,
+                  'Failed to update product inventory',
                 );
               }
             }),
           );
         } catch (orderUpdateError) {
-          console.error('Failed to process order:', orderUpdateError);
+          throw new AppError(
+            StatusCodes.BAD_REQUEST,
+            'Failed to process order',
+          );
         }
       }),
     );
   } catch (error) {
-    console.error('Overall webhook processing error:', error);
-    // Consider sending an error response or logging to a monitoring service
+    throw new AppError(
+      StatusCodes.INTERNAL_SERVER_ERROR,
+      `Overall webhook processing error: ${error}`,
+    );
   }
 };
 
