@@ -10,6 +10,10 @@ router.post(
   auth(USER_ROLES.USER),
   ContactController.createContact,
 );
-router.get('/', auth(USER_ROLES.ADMIN), ContactController.getAllContacts);
+router.get(
+  '/',
+  auth(USER_ROLES.ADMIN, USER_ROLES.SUPER_ADMIN),
+  ContactController.getAllContacts,
+);
 
 export const ContactRoutes = router;

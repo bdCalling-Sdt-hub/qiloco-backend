@@ -7,7 +7,6 @@ import { notFound } from './app/middleware/notFound';
 import { welcome } from './utils/welcome';
 import handleStripeWebhook from './helpers/handleStripeWebhook';
 
-
 const app: Application = express();
 
 //morgan
@@ -18,22 +17,26 @@ app.post(
   '/api/v1/stripe/webhook',
   express.raw({ type: 'application/json' }),
   handleStripeWebhook,
-);  
+);
 //body parser
 app.use(
   cors({
     origin: '*',
-    credentials: true,
+    credentials: false,
   }),
 );
-
+// app.use(
+//   cors({
+//     origin: ['http://10.0.60.210:3003', 'http://10.0.60.210:3004'],
+//     credentials: false,
+//   }),
+// );
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 //file retrieve
 app.use(express.static('uploads'));
 app.use(express.static('public'));
-
 
 app.use('/api/v1', router);
 //live response

@@ -1,0 +1,6 @@
+Sat Apr 05 2025 11:24:33 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/users/profile 401 - 1.270 ms
+Sat Apr 05 2025 11:46:26 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/users/profile 401 - 1.937 ms
+Sat Apr 05 2025 11:47:13 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/users/profile 401 - 0.743 ms
+Sat Apr 05 2025 11:49:6 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/users/profile 401 - 5.598 ms
+Sat Apr 05 2025 11:51:38 [SERVER-NAME] error: 10.0.60.126 - GET /favicon.ico 404 - 1.610 ms
+Sat Apr 05 2025 11:59:1 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/users/profile 401 - 3.431 ms

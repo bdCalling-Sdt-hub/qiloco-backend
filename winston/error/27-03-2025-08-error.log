@@ -1,5 +1,0 @@
-Thu Mar 27 2025 8:4:20 [SERVER-NAME] error: 10.0.60.210 - GET /api/v1/admin/dashboard/products?page=1 403 - 292.885 ms
-Thu Mar 27 2025 8:4:20 [SERVER-NAME] error: 10.0.60.210 - GET /api/v1/admin/dashboard/overview?year=2025 403 - 301.911 ms
-Thu Mar 27 2025 8:4:20 [SERVER-NAME] error: 10.0.60.210 - GET /api/v1/admin/dashboard 403 - 305.585 ms
-Thu Mar 27 2025 8:4:20 [SERVER-NAME] error: 10.0.60.210 - GET /api/v1/admin/dashboard/erarming?year=2025 403 - 307.883 ms
-Thu Mar 27 2025 8:10:42 [SERVER-NAME] error: 10.0.60.210 - PATCH /api/v1//notification/undefined 400 - 303.005 ms

@@ -1,0 +1,4 @@
+Thu Apr 03 2025 17:56:28 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/auth/login 200 - 474.618 ms
+Thu Apr 03 2025 17:57:46 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Apr 03 2025 17:57:49 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6007[39m
+Thu Apr 03 2025 17:57:53 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/contact 200 - 556.980 ms

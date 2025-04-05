@@ -1,0 +1,8 @@
+Thu Apr 03 2025 10:13:8 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Apr 03 2025 10:13:11 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6007[39m
+Thu Apr 03 2025 10:13:45 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Apr 03 2025 10:13:48 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6007[39m
+Thu Apr 03 2025 10:14:21 [SERVER-NAME] info: 10.0.60.126 - GET / 200 - 3.228 ms
+Thu Apr 03 2025 10:14:21 [SERVER-NAME] info: 10.0.60.126 - GET / 200 - 0.871 ms
+Thu Apr 03 2025 10:29:5 [SERVER-NAME] info: 10.0.60.126 - GET / 200 - 0.842 ms
+Thu Apr 03 2025 10:29:5 [SERVER-NAME] info: 10.0.60.126 - GET / 200 - 0.615 ms

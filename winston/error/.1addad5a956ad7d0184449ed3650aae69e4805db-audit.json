@@ -1,0 +1,45 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 1
+    },
+    "auditLog": "C:\\Users\\Rakib\\OneDrive\\Desktop\\projects\\qiloco backend\\winston\\error\\.1addad5a956ad7d0184449ed3650aae69e4805db-audit.json",
+    "files": [
+        {
+            "date": 1743822839843,
+            "name": "C:\\Users\\Rakib\\OneDrive\\Desktop\\projects\\qiloco backend\\winston\\error\\05-04-2025-09-error.log",
+            "hash": "2ec63f0d0751c4c135b069702fe48078fe89ebd5526a55edf8c3ba58dc3f8d01"
+        },
+        {
+            "date": 1743827511100,
+            "name": "C:\\Users\\Rakib\\OneDrive\\Desktop\\projects\\qiloco backend\\winston\\error\\05-04-2025-10-error.log",
+            "hash": "a87082531e4dc6017a7e7b9375d61d880a1bab563db65e9bc8889bd680c3ff0e"
+        },
+        {
+            "date": 1743830673064,
+            "name": "C:\\Users\\Rakib\\OneDrive\\Desktop\\projects\\qiloco backend\\winston\\error\\05-04-2025-11-error.log",
+            "hash": "81180b76ce76cbc54532238d90dc991c757fafb7b45c3aa981cca504ba226205"
+        },
+        {
+            "date": 1743832848087,
+            "name": "C:\\Users\\Rakib\\OneDrive\\Desktop\\projects\\qiloco backend\\winston\\error\\05-04-2025-12-error.log",
+            "hash": "aa0d25a1d88501d96ac77477271e8b4f5647132cfe84eef8e7c7bd9649d107d4"
+        },
+        {
+            "date": 1743836737405,
+            "name": "C:\\Users\\Rakib\\OneDrive\\Desktop\\projects\\qiloco backend\\winston\\error\\05-04-2025-13-error.log",
+            "hash": "9f04cbe3488f3f632603aba4d52510b0ec57b5118ae5911b55e9f1ff0c7f1d62"
+        },
+        {
+            "date": 1743840836336,
+            "name": "C:\\Users\\Rakib\\OneDrive\\Desktop\\projects\\qiloco backend\\winston\\error\\05-04-2025-14-error.log",
+            "hash": "2b373299ff3b96079759ce3215d7582462ebfa32862ff2e36f1704c267971c00"
+        },
+        {
+            "date": 1743844100254,
+            "name": "C:\\Users\\Rakib\\OneDrive\\Desktop\\projects\\qiloco backend\\winston\\error\\05-04-2025-15-error.log",
+            "hash": "72c842afb5f5c89ec632da6e8ce95d7a620e12d482d67bb38c8ae4819491fd8e"
+        }
+    ],
+    "hashType": "sha256"
+}

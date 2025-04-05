@@ -12,6 +12,7 @@ import { VendorEarningRoute } from '../app/modules/vendor/vendors/earning/earnin
 import { ReviewRoutes } from '../app/modules/review/review.routes';
 import { NotificationRoutes } from '../app/modules/notification/notification.routes';
 import { ContactRoutes } from '../app/modules/contcatus/contactus.route';
+import { SubscribeRouter } from '../app/modules/subscribe/subscribe.route';
 
 const router = express.Router();
 const routes = [
@@ -66,6 +67,10 @@ const routes = [
   {
     path: '/contact',
     route: ContactRoutes,
+  },
+  {
+    path: '/subscribe',
+    route: SubscribeRouter,
   },
 ];
 

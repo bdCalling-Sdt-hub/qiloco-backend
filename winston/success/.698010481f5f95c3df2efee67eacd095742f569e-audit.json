@@ -1,0 +1,45 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 1
+    },
+    "auditLog": "C:\\Users\\Rakib\\OneDrive\\Desktop\\projects\\qiloco backend\\winston\\success\\.698010481f5f95c3df2efee67eacd095742f569e-audit.json",
+    "files": [
+        {
+            "date": 1743822839839,
+            "name": "C:\\Users\\Rakib\\OneDrive\\Desktop\\projects\\qiloco backend\\winston\\success\\05-04-2025-09-success.log",
+            "hash": "348d9c077b1c4844b17cdc87599471c8e33ba4e92d5e516d50b3d63773a7739c"
+        },
+        {
+            "date": 1743827510786,
+            "name": "C:\\Users\\Rakib\\OneDrive\\Desktop\\projects\\qiloco backend\\winston\\success\\05-04-2025-10-success.log",
+            "hash": "7eb4208c08678809d9d94107c5945bd86a6ece5e8962770ec9767a37659feee5"
+        },
+        {
+            "date": 1743830672969,
+            "name": "C:\\Users\\Rakib\\OneDrive\\Desktop\\projects\\qiloco backend\\winston\\success\\05-04-2025-11-success.log",
+            "hash": "e3551f7aeb1600f23c8ccca98ac344c2c6c5a35608dfc3aeb801c4eb040a9a31"
+        },
+        {
+            "date": 1743832806196,
+            "name": "C:\\Users\\Rakib\\OneDrive\\Desktop\\projects\\qiloco backend\\winston\\success\\05-04-2025-12-success.log",
+            "hash": "153a1faf5ec75c64b9be94b8b645f4f666e5fdfef363c849ed6dc13d40229925"
+        },
+        {
+            "date": 1743836771100,
+            "name": "C:\\Users\\Rakib\\OneDrive\\Desktop\\projects\\qiloco backend\\winston\\success\\05-04-2025-13-success.log",
+            "hash": "470b0df944aed201353e85da3abc64908dd5881cc9dc769f5e03978b9460da68"
+        },
+        {
+            "date": 1743841028334,
+            "name": "C:\\Users\\Rakib\\OneDrive\\Desktop\\projects\\qiloco backend\\winston\\success\\05-04-2025-14-success.log",
+            "hash": "a448dd329c54932c511dab2f009cda94a24ecb533c0338a1c1ac39e1563d6c58"
+        },
+        {
+            "date": 1743843618926,
+            "name": "C:\\Users\\Rakib\\OneDrive\\Desktop\\projects\\qiloco backend\\winston\\success\\05-04-2025-15-success.log",
+            "hash": "567bf73aacdec9e679df24f10e2e8c0a0437bce06122e7f0366bfb921f93fd3a"
+        }
+    ],
+    "hashType": "sha256"
+}

@@ -1,0 +1,3 @@
+Thu Apr 03 2025 10:14:21 [SERVER-NAME] error: 10.0.60.126 - GET /favicon.ico 404 - 1.124 ms
+Thu Apr 03 2025 10:29:5 [SERVER-NAME] error: 10.0.60.126 - GET /favicon.ico 404 - 0.557 ms
+Thu Apr 03 2025 10:57:48 [SERVER-NAME] error: 10.0.60.210 - GET /api/v1/users/profile 401 - 7.530 ms

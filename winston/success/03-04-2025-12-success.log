@@ -1,0 +1,277 @@
+Thu Apr 03 2025 12:5:33 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Apr 03 2025 12:5:36 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6007[39m
+Thu Apr 03 2025 12:5:46 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Apr 03 2025 12:5:49 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Apr 03 2025 12:5:51 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Apr 03 2025 12:5:54 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Apr 03 2025 12:5:59 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Apr 03 2025 12:6:1 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Apr 03 2025 12:6:4 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6007[39m
+Thu Apr 03 2025 12:8:26 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Apr 03 2025 12:8:30 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Apr 03 2025 12:8:33 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6007[39m
+Thu Apr 03 2025 12:8:38 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Apr 03 2025 12:8:39 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Apr 03 2025 12:8:42 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6007[39m
+Thu Apr 03 2025 12:11:0 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Apr 03 2025 12:11:4 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6007[39m
+Thu Apr 03 2025 12:12:34 [SERVER-NAME] info: 10.0.60.126 - GET / 200 - 3.271 ms
+Thu Apr 03 2025 12:12:35 [SERVER-NAME] info: 10.0.60.126 - GET / 200 - 0.701 ms
+Thu Apr 03 2025 12:13:6 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/users/profile 204 - 0.505 ms
+Thu Apr 03 2025 12:13:17 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/users/profile 204 - 0.120 ms
+Thu Apr 03 2025 12:13:25 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/auth/login 204 - 0.329 ms
+Thu Apr 03 2025 12:13:35 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/auth/login 204 - 0.059 ms
+Thu Apr 03 2025 12:13:35 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/auth/login 200 - 486.808 ms
+Thu Apr 03 2025 12:13:35 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/notification 204 - 0.175 ms
+Thu Apr 03 2025 12:13:35 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/vendor/dashboard 204 - 0.165 ms
+Thu Apr 03 2025 12:13:35 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/users/profile 204 - 0.187 ms
+Thu Apr 03 2025 12:13:36 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/users/profile 200 - 551.747 ms
+Thu Apr 03 2025 12:13:36 [SERVER-NAME] info: [34mA user connected[39m
+Thu Apr 03 2025 12:13:36 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/notification 200 - 878.404 ms
+Thu Apr 03 2025 12:13:37 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/vendor/dashboard 200 - 1130.277 ms
+Thu Apr 03 2025 12:13:37 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/vendor/dashboard/erarming?year=2025 204 - 0.131 ms
+Thu Apr 03 2025 12:13:37 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/orders 204 - 0.070 ms
+Thu Apr 03 2025 12:13:37 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/vendor/dashboard/overview?year=2025 204 - 0.154 ms
+Thu Apr 03 2025 12:13:38 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/vendor/dashboard/erarming?year=2025 200 - 580.811 ms
+Thu Apr 03 2025 12:13:38 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/vendor/dashboard/overview?year=2025 200 - 544.969 ms
+Thu Apr 03 2025 12:13:38 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders 200 - 864.418 ms
+Thu Apr 03 2025 12:14:42 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu Apr 03 2025 12:14:43 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/notification 204 - 0.069 ms
+Thu Apr 03 2025 12:14:43 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/users/profile 204 - 0.039 ms
+Thu Apr 03 2025 12:14:44 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/users/profile 304 - 547.043 ms
+Thu Apr 03 2025 12:14:44 [SERVER-NAME] info: [34mA user connected[39m
+Thu Apr 03 2025 12:14:44 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/notification 304 - 837.487 ms
+Thu Apr 03 2025 12:14:50 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/vendor/dashboard 204 - 0.071 ms
+Thu Apr 03 2025 12:14:51 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/vendor/dashboard 304 - 1140.571 ms
+Thu Apr 03 2025 12:14:51 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/vendor/dashboard/erarming?year=2025 204 - 0.062 ms
+Thu Apr 03 2025 12:14:51 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/vendor/dashboard/overview?year=2025 204 - 0.152 ms
+Thu Apr 03 2025 12:14:51 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/orders 204 - 0.198 ms
+Thu Apr 03 2025 12:14:52 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/vendor/dashboard/erarming?year=2025 304 - 557.740 ms
+Thu Apr 03 2025 12:14:52 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/vendor/dashboard/overview?year=2025 304 - 543.419 ms
+Thu Apr 03 2025 12:14:52 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders 304 - 848.484 ms
+Thu Apr 03 2025 12:16:50 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/auth/login 200 - 499.150 ms
+Thu Apr 03 2025 12:16:59 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/users/profile 200 - 567.916 ms
+Thu Apr 03 2025 12:17:46 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu Apr 03 2025 12:17:46 [SERVER-NAME] info: [34mA user connected[39m
+Thu Apr 03 2025 12:17:46 [SERVER-NAME] info: 10.0.60.210 - GET //image/marijuana-1743228486045.png 200 - 7.455 ms
+Thu Apr 03 2025 12:17:50 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu Apr 03 2025 12:17:50 [SERVER-NAME] info: [34mA user connected[39m
+Thu Apr 03 2025 12:17:53 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu Apr 03 2025 12:17:54 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/users/profile 204 - 0.152 ms
+Thu Apr 03 2025 12:17:54 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/notification 204 - 0.080 ms
+Thu Apr 03 2025 12:17:55 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/users/profile 304 - 575.114 ms
+Thu Apr 03 2025 12:17:55 [SERVER-NAME] info: [34mA user connected[39m
+Thu Apr 03 2025 12:17:55 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/notification 304 - 822.822 ms
+Thu Apr 03 2025 12:18:0 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/product?page=1 204 - 0.133 ms
+Thu Apr 03 2025 12:18:1 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/product?page=1 200 - 830.882 ms
+Thu Apr 03 2025 12:18:3 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/vendor/dashboard 204 - 0.096 ms
+Thu Apr 03 2025 12:18:4 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/vendor/dashboard 304 - 1102.559 ms
+Thu Apr 03 2025 12:18:5 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/vendor/dashboard/erarming?year=2025 204 - 0.045 ms
+Thu Apr 03 2025 12:18:5 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/orders 204 - 0.041 ms
+Thu Apr 03 2025 12:18:5 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/vendor/dashboard/overview?year=2025 204 - 0.040 ms
+Thu Apr 03 2025 12:18:5 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/vendor/dashboard/erarming?year=2025 304 - 553.320 ms
+Thu Apr 03 2025 12:18:5 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/vendor/dashboard/overview?year=2025 304 - 561.194 ms
+Thu Apr 03 2025 12:18:6 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders 304 - 860.048 ms
+Thu Apr 03 2025 12:18:26 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu Apr 03 2025 12:18:26 [SERVER-NAME] info: [34mA user connected[39m
+Thu Apr 03 2025 12:18:30 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu Apr 03 2025 12:18:30 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/users/profile 204 - 0.111 ms
+Thu Apr 03 2025 12:18:30 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/notification 204 - 0.083 ms
+Thu Apr 03 2025 12:18:31 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/users/profile 304 - 571.571 ms
+Thu Apr 03 2025 12:18:31 [SERVER-NAME] info: [34mA user connected[39m
+Thu Apr 03 2025 12:18:31 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/notification 304 - 849.136 ms
+Thu Apr 03 2025 12:19:9 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/users/profile 204 - 0.268 ms
+Thu Apr 03 2025 12:19:10 [SERVER-NAME] info: 10.0.60.126 - PATCH /api/v1/users/profile 200 - 1079.619 ms
+Thu Apr 03 2025 12:19:11 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/users/profile 200 - 557.506 ms
+Thu Apr 03 2025 12:19:12 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu Apr 03 2025 12:19:13 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/notification 204 - 0.068 ms
+Thu Apr 03 2025 12:19:13 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/users/profile 304 - 555.690 ms
+Thu Apr 03 2025 12:19:14 [SERVER-NAME] info: [34mA user connected[39m
+Thu Apr 03 2025 12:19:14 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/notification 304 - 847.511 ms
+Thu Apr 03 2025 12:19:20 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/users/profile 204 - 0.108 ms
+Thu Apr 03 2025 12:19:21 [SERVER-NAME] info: 10.0.60.126 - PATCH /api/v1/users/profile 200 - 853.141 ms
+Thu Apr 03 2025 12:19:22 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/users/profile 200 - 566.861 ms
+Thu Apr 03 2025 12:19:25 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu Apr 03 2025 12:19:25 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/notification 204 - 0.116 ms
+Thu Apr 03 2025 12:19:25 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/users/profile 204 - 0.033 ms
+Thu Apr 03 2025 12:19:26 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/users/profile 304 - 557.033 ms
+Thu Apr 03 2025 12:19:26 [SERVER-NAME] info: [34mA user connected[39m
+Thu Apr 03 2025 12:19:26 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/notification 304 - 848.000 ms
+Thu Apr 03 2025 12:19:38 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu Apr 03 2025 12:19:38 [SERVER-NAME] info: [34mA user connected[39m
+Thu Apr 03 2025 12:23:16 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/notification 204 - 0.111 ms
+Thu Apr 03 2025 12:23:16 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/admin/dashboard 204 - 0.066 ms
+Thu Apr 03 2025 12:23:16 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/users/profile 204 - 0.058 ms
+Thu Apr 03 2025 12:23:19 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/notification 204 - 0.337 ms
+Thu Apr 03 2025 12:23:19 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/admin/dashboard 204 - 0.036 ms
+Thu Apr 03 2025 12:23:19 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/users/profile 204 - 0.032 ms
+Thu Apr 03 2025 12:23:30 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/auth/login 204 - 0.094 ms
+Thu Apr 03 2025 12:23:33 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/auth/login 204 - 0.048 ms
+Thu Apr 03 2025 12:23:33 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/auth/login 204 - 0.049 ms
+Thu Apr 03 2025 12:23:34 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/auth/login 204 - 0.198 ms
+Thu Apr 03 2025 12:24:42 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Apr 03 2025 12:24:44 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Apr 03 2025 12:24:46 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Apr 03 2025 12:24:49 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6007[39m
+Thu Apr 03 2025 12:24:53 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/auth/login 204 - 0.640 ms
+Thu Apr 03 2025 12:24:54 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/auth/login 200 - 504.577 ms
+Thu Apr 03 2025 12:24:54 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/users/profile 204 - 0.081 ms
+Thu Apr 03 2025 12:24:54 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/notification 204 - 0.138 ms
+Thu Apr 03 2025 12:24:54 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/admin/dashboard 204 - 0.064 ms
+Thu Apr 03 2025 12:24:54 [SERVER-NAME] info: [34mA user connected[39m
+Thu Apr 03 2025 12:24:54 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/users/profile 200 - 552.147 ms
+Thu Apr 03 2025 12:24:54 [SERVER-NAME] info: [34mA user connected[39m
+Thu Apr 03 2025 12:24:55 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/notification 200 - 867.372 ms
+Thu Apr 03 2025 12:24:55 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/admin/dashboard 200 - 844.420 ms
+Thu Apr 03 2025 12:24:55 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/admin/dashboard/erarming?year=2025 204 - 0.066 ms
+Thu Apr 03 2025 12:24:55 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/admin/dashboard/overview?year=2025 204 - 0.051 ms
+Thu Apr 03 2025 12:24:55 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/admin/dashboard/products?page=1 204 - 0.047 ms
+Thu Apr 03 2025 12:24:56 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/admin/dashboard/erarming?year=2025 200 - 567.864 ms
+Thu Apr 03 2025 12:24:56 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/admin/dashboard/overview?year=2025 200 - 582.487 ms
+Thu Apr 03 2025 12:24:56 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/admin/dashboard/products?page=1 200 - 827.313 ms
+Thu Apr 03 2025 12:25:4 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/product?page=1 204 - 0.055 ms
+Thu Apr 03 2025 12:25:5 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/product?page=1 200 - 826.231 ms
+Thu Apr 03 2025 12:25:6 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/orders?page=1 204 - 0.395 ms
+Thu Apr 03 2025 12:25:7 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders?page=1 200 - 834.231 ms
+Thu Apr 03 2025 12:25:12 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/orders/67e7822a7fcedaaf9002af28 204 - 0.197 ms
+Thu Apr 03 2025 12:25:13 [SERVER-NAME] info: 10.0.60.126 - PATCH /api/v1/orders/67e7822a7fcedaaf9002af28 200 - 841.764 ms
+Thu Apr 03 2025 12:25:13 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/orders?page=1 204 - 0.069 ms
+Thu Apr 03 2025 12:25:14 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders?page=1 200 - 829.402 ms
+Thu Apr 03 2025 12:25:18 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders?page=1 304 - 834.856 ms
+Thu Apr 03 2025 12:25:32 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu Apr 03 2025 12:25:33 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/notification 204 - 0.174 ms
+Thu Apr 03 2025 12:25:33 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/orders?page=1 204 - 0.408 ms
+Thu Apr 03 2025 12:25:33 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/users/profile 204 - 0.134 ms
+Thu Apr 03 2025 12:25:33 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/users/profile 304 - 562.008 ms
+Thu Apr 03 2025 12:25:33 [SERVER-NAME] info: [34mA user connected[39m
+Thu Apr 03 2025 12:25:34 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/notification 304 - 832.487 ms
+Thu Apr 03 2025 12:25:34 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders?page=1 304 - 866.366 ms
+Thu Apr 03 2025 12:25:47 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/product?page=1 204 - 0.048 ms
+Thu Apr 03 2025 12:25:48 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/product?page=1 200 - 874.292 ms
+Thu Apr 03 2025 12:25:49 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/orders 204 - 0.050 ms
+Thu Apr 03 2025 12:25:49 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders 304 - 864.683 ms
+Thu Apr 03 2025 12:25:52 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/orders/67e7600c7fcedaaf9002a9ea 204 - 0.052 ms
+Thu Apr 03 2025 12:27:56 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu Apr 03 2025 12:27:56 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/orders?page=1 204 - 0.054 ms
+Thu Apr 03 2025 12:27:56 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/users/profile 204 - 0.042 ms
+Thu Apr 03 2025 12:27:56 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/notification 204 - 0.037 ms
+Thu Apr 03 2025 12:27:57 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/users/profile 304 - 571.980 ms
+Thu Apr 03 2025 12:27:57 [SERVER-NAME] info: [34mA user connected[39m
+Thu Apr 03 2025 12:27:57 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders?page=1 304 - 824.881 ms
+Thu Apr 03 2025 12:27:57 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/notification 304 - 843.037 ms
+Thu Apr 03 2025 12:29:15 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/orders/67e7822a7fcedaaf9002af28 204 - 0.249 ms
+Thu Apr 03 2025 12:29:16 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/orders?page=1 204 - 0.296 ms
+Thu Apr 03 2025 12:29:17 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders?page=1 304 - 843.389 ms
+Thu Apr 03 2025 12:29:20 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu Apr 03 2025 12:29:20 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/users/profile 204 - 0.347 ms
+Thu Apr 03 2025 12:29:20 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/notification 204 - 0.048 ms
+Thu Apr 03 2025 12:29:21 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/users/profile 304 - 573.204 ms
+Thu Apr 03 2025 12:29:21 [SERVER-NAME] info: [34mA user connected[39m
+Thu Apr 03 2025 12:29:21 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/notification 304 - 831.556 ms
+Thu Apr 03 2025 12:29:22 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders?page=1 304 - 1358.365 ms
+Thu Apr 03 2025 12:29:25 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/orders/67e7822a7fcedaaf9002af28 204 - 0.149 ms
+Thu Apr 03 2025 12:29:26 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/orders?page=1 204 - 0.114 ms
+Thu Apr 03 2025 12:29:27 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders?page=1 304 - 850.893 ms
+Thu Apr 03 2025 12:29:29 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders?page=1 304 - 848.604 ms
+Thu Apr 03 2025 12:32:27 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu Apr 03 2025 12:32:44 [SERVER-NAME] info: [34mA user connected[39m
+Thu Apr 03 2025 12:32:50 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu Apr 03 2025 12:32:50 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/users/profile 204 - 0.050 ms
+Thu Apr 03 2025 12:32:50 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/orders?page=1 204 - 0.045 ms
+Thu Apr 03 2025 12:32:50 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/notification 204 - 0.040 ms
+Thu Apr 03 2025 12:32:51 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/users/profile 304 - 561.766 ms
+Thu Apr 03 2025 12:32:51 [SERVER-NAME] info: [34mA user connected[39m
+Thu Apr 03 2025 12:32:51 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders?page=1 304 - 820.921 ms
+Thu Apr 03 2025 12:32:51 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/notification 304 - 859.588 ms
+Thu Apr 03 2025 12:32:57 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu Apr 03 2025 12:32:58 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/notification 204 - 0.051 ms
+Thu Apr 03 2025 12:32:58 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/users/profile 204 - 0.049 ms
+Thu Apr 03 2025 12:32:58 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/orders 204 - 0.036 ms
+Thu Apr 03 2025 12:32:59 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/users/profile 304 - 547.784 ms
+Thu Apr 03 2025 12:32:59 [SERVER-NAME] info: [34mA user connected[39m
+Thu Apr 03 2025 12:32:59 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/notification 304 - 861.937 ms
+Thu Apr 03 2025 12:32:59 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders 304 - 842.844 ms
+Thu Apr 03 2025 12:33:24 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu Apr 03 2025 12:33:41 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/users/profile 204 - 0.210 ms
+Thu Apr 03 2025 12:33:41 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/orders?page=1 204 - 0.193 ms
+Thu Apr 03 2025 12:33:41 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/notification 204 - 0.094 ms
+Thu Apr 03 2025 12:33:42 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/users/profile 304 - 559.780 ms
+Thu Apr 03 2025 12:33:42 [SERVER-NAME] info: [34mA user connected[39m
+Thu Apr 03 2025 12:33:42 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/notification 304 - 822.619 ms
+Thu Apr 03 2025 12:33:42 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders?page=1 304 - 859.893 ms
+Thu Apr 03 2025 12:34:47 [SERVER-NAME] info: 10.0.60.126 - GET /image/cannabis-1743166108657.png 200 - 5.100 ms
+Thu Apr 03 2025 12:35:23 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/product?page=1 204 - 0.251 ms
+Thu Apr 03 2025 12:35:24 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/product?page=1 304 - 865.705 ms
+Thu Apr 03 2025 12:35:24 [SERVER-NAME] info: 10.0.60.126 - GET //image/cannabis-1742965558257.png 200 - 2.388 ms
+Thu Apr 03 2025 12:35:24 [SERVER-NAME] info: 10.0.60.126 - GET //image/cannabis-1742965759624.png 200 - 8.015 ms
+Thu Apr 03 2025 12:35:24 [SERVER-NAME] info: 10.0.60.126 - GET //image/frame-15-1742965530632.png 200 - 4.051 ms
+Thu Apr 03 2025 12:35:25 [SERVER-NAME] info: 10.0.60.126 - GET //image/frame-15-1743166058192.png 200 - 18.339 ms
+Thu Apr 03 2025 12:35:25 [SERVER-NAME] info: 10.0.60.126 - GET //image/frame-15-1742965548255.png 200 - 24.793 ms
+Thu Apr 03 2025 12:35:25 [SERVER-NAME] info: 10.0.60.126 - GET //image/frame-15-1742965742622.png 200 - 23.335 ms
+Thu Apr 03 2025 12:35:25 [SERVER-NAME] info: 10.0.60.126 - GET //image/marijuana-1742967383444.png 200 - 2.561 ms
+Thu Apr 03 2025 12:35:25 [SERVER-NAME] info: 10.0.60.126 - GET //image/marijuana-1742965768562.png 200 - 4.062 ms
+Thu Apr 03 2025 12:35:25 [SERVER-NAME] info: 10.0.60.126 - GET //image/cannabis-1742809040709.png 200 - 4.191 ms
+Thu Apr 03 2025 12:35:25 [SERVER-NAME] info: 10.0.60.126 - GET //image/frame-15-1742965539681.png 200 - 2.753 ms
+Thu Apr 03 2025 12:35:26 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/notification 204 - 0.104 ms
+Thu Apr 03 2025 12:35:27 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/notification 304 - 860.561 ms
+Thu Apr 03 2025 12:36:26 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/orders?page=1 204 - 0.048 ms
+Thu Apr 03 2025 12:36:27 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders?page=1 304 - 863.738 ms
+Thu Apr 03 2025 12:37:15 [SERVER-NAME] info: 10.0.60.126 - GET /image/cannabis-1743166108657.png 200 - 1.094 ms
+Thu Apr 03 2025 12:37:17 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu Apr 03 2025 12:37:18 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/users/profile 204 - 0.056 ms
+Thu Apr 03 2025 12:37:18 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/notification 204 - 0.042 ms
+Thu Apr 03 2025 12:37:19 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/users/profile 304 - 570.879 ms
+Thu Apr 03 2025 12:37:19 [SERVER-NAME] info: [34mA user connected[39m
+Thu Apr 03 2025 12:37:19 [SERVER-NAME] info: 10.0.60.126 - GET /image/cannabis-1743166108657.png 304 - 0.457 ms
+Thu Apr 03 2025 12:37:19 [SERVER-NAME] info: 10.0.60.126 - GET //image/cannabis-1743166108657.png 200 - 0.557 ms
+Thu Apr 03 2025 12:37:19 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/notification 304 - 823.552 ms
+Thu Apr 03 2025 12:37:28 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu Apr 03 2025 12:37:29 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/users/profile 204 - 0.052 ms
+Thu Apr 03 2025 12:37:29 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/notification 204 - 0.043 ms
+Thu Apr 03 2025 12:37:29 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/users/profile 304 - 573.909 ms
+Thu Apr 03 2025 12:37:29 [SERVER-NAME] info: [34mA user connected[39m
+Thu Apr 03 2025 12:37:29 [SERVER-NAME] info: 10.0.60.126 - GET /image/cannabis-1743166108657.png 304 - 0.440 ms
+Thu Apr 03 2025 12:37:29 [SERVER-NAME] info: 10.0.60.126 - GET //image/cannabis-1743166108657.png 304 - 0.773 ms
+Thu Apr 03 2025 12:37:30 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/notification 304 - 822.154 ms
+Thu Apr 03 2025 12:37:32 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/admin/dashboard 204 - 0.054 ms
+Thu Apr 03 2025 12:37:33 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/admin/dashboard 304 - 822.452 ms
+Thu Apr 03 2025 12:37:33 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/admin/dashboard/overview?year=2025 204 - 0.051 ms
+Thu Apr 03 2025 12:37:33 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/admin/dashboard/erarming?year=2025 204 - 0.035 ms
+Thu Apr 03 2025 12:37:33 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/admin/dashboard/products?page=1 204 - 0.038 ms
+Thu Apr 03 2025 12:37:34 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/admin/dashboard/overview?year=2025 304 - 546.755 ms
+Thu Apr 03 2025 12:37:34 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/admin/dashboard/erarming?year=2025 304 - 577.780 ms
+Thu Apr 03 2025 12:37:34 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/admin/dashboard/products?page=1 304 - 842.447 ms
+Thu Apr 03 2025 12:38:15 [SERVER-NAME] info: 10.0.60.126 - GET /image/marijuana-1743661160949.png 200 - 0.530 ms
+Thu Apr 03 2025 12:38:23 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu Apr 03 2025 12:38:24 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/notification 204 - 0.059 ms
+Thu Apr 03 2025 12:38:24 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/users/profile 204 - 0.043 ms
+Thu Apr 03 2025 12:38:24 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/users/profile 304 - 562.969 ms
+Thu Apr 03 2025 12:38:24 [SERVER-NAME] info: [34mA user connected[39m
+Thu Apr 03 2025 12:38:24 [SERVER-NAME] info: 10.0.60.126 - GET /image/marijuana-1743661160949.png 200 - 0.634 ms
+Thu Apr 03 2025 12:38:25 [SERVER-NAME] info: 10.0.60.126 - GET //image/marijuana-1743661160949.png 200 - 1.126 ms
+Thu Apr 03 2025 12:38:25 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/notification 304 - 865.955 ms
+Thu Apr 03 2025 12:38:29 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/vendor/dashboard 204 - 0.051 ms
+Thu Apr 03 2025 12:38:30 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/vendor/dashboard 304 - 1146.306 ms
+Thu Apr 03 2025 12:38:31 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/vendor/dashboard/erarming?year=2025 204 - 0.136 ms
+Thu Apr 03 2025 12:38:31 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/vendor/dashboard/overview?year=2025 204 - 0.234 ms
+Thu Apr 03 2025 12:38:31 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/orders 204 - 0.041 ms
+Thu Apr 03 2025 12:38:31 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/vendor/dashboard/overview?year=2025 304 - 561.900 ms
+Thu Apr 03 2025 12:38:31 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/vendor/dashboard/erarming?year=2025 304 - 583.749 ms
+Thu Apr 03 2025 12:38:31 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders 304 - 822.874 ms
+Thu Apr 03 2025 12:42:48 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu Apr 03 2025 12:50:34 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/notification 204 - 0.070 ms
+Thu Apr 03 2025 12:50:34 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/admin/dashboard 204 - 0.039 ms
+Thu Apr 03 2025 12:50:34 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/users/profile 204 - 0.038 ms
+Thu Apr 03 2025 12:50:35 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/users/profile 304 - 563.881 ms
+Thu Apr 03 2025 12:50:35 [SERVER-NAME] info: [34mA user connected[39m
+Thu Apr 03 2025 12:50:35 [SERVER-NAME] info: 10.0.60.126 - GET //image/cannabis-1743166108657.png 304 - 0.298 ms
+Thu Apr 03 2025 12:50:35 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/admin/dashboard 304 - 826.418 ms
+Thu Apr 03 2025 12:50:35 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/notification 304 - 858.474 ms
+Thu Apr 03 2025 12:50:35 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/admin/dashboard/products?page=1 204 - 0.102 ms
+Thu Apr 03 2025 12:50:35 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/admin/dashboard/erarming?year=2025 204 - 0.164 ms
+Thu Apr 03 2025 12:50:35 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/admin/dashboard/overview?year=2025 204 - 0.121 ms
+Thu Apr 03 2025 12:50:36 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/admin/dashboard/erarming?year=2025 304 - 553.560 ms
+Thu Apr 03 2025 12:50:36 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/admin/dashboard/overview?year=2025 304 - 561.868 ms
+Thu Apr 03 2025 12:50:36 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/admin/dashboard/products?page=1 304 - 863.664 ms
+Thu Apr 03 2025 12:51:28 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu Apr 03 2025 12:51:41 [SERVER-NAME] info: [31mA user disconnect[39m

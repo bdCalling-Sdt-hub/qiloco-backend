@@ -1,0 +1,6 @@
+Thu Apr 03 2025 13:1:40 [SERVER-NAME] info: 10.0.60.210 - GET /api/v1/product/all?page=1&limit=12&moodTag=Chill 200 - 581.022 ms
+Thu Apr 03 2025 13:1:40 [SERVER-NAME] info: 10.0.60.210 - GET /api/v1/product/all?page=1&limit=12 200 - 587.852 ms
+Thu Apr 03 2025 13:7:17 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /users/profile 204 - 0.057 ms
+Thu Apr 03 2025 13:7:17 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /product/all?page=1&limit=12&moodTag=Chill 204 - 0.041 ms
+Thu Apr 03 2025 13:7:17 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /product/all?page=1&limit=12 204 - 0.035 ms
+Thu Apr 03 2025 13:7:27 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /product/all?page=1&limit=12&sort=id 204 - 0.152 ms
