@@ -108,8 +108,8 @@ const createCheckoutSession = async (cartItems: CartItem[], userId: string) => {
   const checkoutSession = await stripe.checkout.sessions.create({
     payment_method_types: ['card'],
     mode: 'payment',
-    success_url: 'https://example.com/success',
-    cancel_url: 'https://example.com/cancel',
+    success_url: 'https://2a7c-103-174-189-193.ngrok-free.app',
+    cancel_url: 'https://2a7c-103-174-189-193.ngrok-free.app',
     line_items: lineItems,
     shipping_address_collection: {
       allowed_countries: ['US', 'CA', 'GB', 'BD'],

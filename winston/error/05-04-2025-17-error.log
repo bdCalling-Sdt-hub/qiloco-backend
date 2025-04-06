@@ -1,0 +1,55 @@
+Sat Apr 05 2025 17:0:20 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/users/profile 401 - 3.892 ms
+Sat Apr 05 2025 17:0:25 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/users/profile 401 - 1.040 ms
+Sat Apr 05 2025 17:0:34 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/users/profile 401 - 0.984 ms
+Sat Apr 05 2025 17:0:35 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/users/profile 401 - 0.769 ms
+Sat Apr 05 2025 17:0:43 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/auth/login 400 - 296.668 ms
+Sat Apr 05 2025 17:0:48 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/auth/login 400 - 287.532 ms
+Sat Apr 05 2025 17:0:51 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/users/profile 401 - 0.668 ms
+Sat Apr 05 2025 17:1:10 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/auth/login 400 - 284.219 ms
+Sat Apr 05 2025 17:1:16 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/auth/login 400 - 283.898 ms
+Sat Apr 05 2025 17:1:59 [SERVER-NAME] error: 10.0.60.147 - POST /api/v1/subscribe 409 - 579.336 ms
+Sat Apr 05 2025 17:3:11 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/auth/login 400 - 808.345 ms
+Sat Apr 05 2025 17:3:21 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/users/profile 401 - 0.900 ms
+Sat Apr 05 2025 17:3:48 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/users/profile 401 - 0.892 ms
+Sat Apr 05 2025 17:3:50 [SERVER-NAME] error: 10.0.60.147 - GET /api/v1/subscribe 401 - 0.833 ms
+Sat Apr 05 2025 17:3:58 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/users/profile 401 - 1.168 ms
+Sat Apr 05 2025 17:4:0 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/users/profile 401 - 0.997 ms
+Sat Apr 05 2025 17:4:1 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/users/profile 401 - 0.656 ms
+Sat Apr 05 2025 17:4:11 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/auth/login 400 - 283.727 ms
+Sat Apr 05 2025 17:4:22 [SERVER-NAME] error: 10.0.60.210 - POST /api/v1/auth/login 400 - 284.050 ms
+Sat Apr 05 2025 17:5:31 [SERVER-NAME] error: 10.0.60.147 - POST /api/v1/subscribe 409 - 579.006 ms
+Sat Apr 05 2025 17:7:48 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/auth/login 400 - 502.472 ms
+Sat Apr 05 2025 17:7:54 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/auth/login 400 - 490.285 ms
+Sat Apr 05 2025 17:8:2 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/auth/login 400 - 486.885 ms
+Sat Apr 05 2025 17:8:52 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/auth/login 400 - 500.317 ms
+Sat Apr 05 2025 17:11:41 [SERVER-NAME] error: UnhandleException Detected listen EADDRINUSE: address already in use 10.0.60.126:6007
+Sat Apr 05 2025 17:11:46 [SERVER-NAME] error: UnhandleException Detected listen EADDRINUSE: address already in use 10.0.60.126:6007
+Sat Apr 05 2025 17:11:51 [SERVER-NAME] error: UnhandleException Detected listen EADDRINUSE: address already in use 10.0.60.126:6007
+Sat Apr 05 2025 17:12:3 [SERVER-NAME] error: UnhandleException Detected listen EADDRINUSE: address already in use 10.0.60.126:6007
+Sat Apr 05 2025 17:13:38 [SERVER-NAME] error: 10.0.60.147 - GET /api/v1/subscribe 401 - 3.957 ms
+Sat Apr 05 2025 17:15:47 [SERVER-NAME] error: 10.0.60.147 - GET /api/v1/subscribe 401 - 1.107 ms
+Sat Apr 05 2025 17:16:40 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/users/profile 401 - 1.234 ms
+Sat Apr 05 2025 17:16:49 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/users/profile 401 - 0.753 ms
+Sat Apr 05 2025 17:16:54 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/users/profile 401 - 0.724 ms
+Sat Apr 05 2025 17:16:57 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/users/profile 401 - 0.702 ms
+Sat Apr 05 2025 17:17:1 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/users/profile 401 - 1.290 ms
+Sat Apr 05 2025 17:17:7 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/users/profile 401 - 0.723 ms
+Sat Apr 05 2025 17:17:12 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/users/profile 401 - 0.724 ms
+Sat Apr 05 2025 17:19:54 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/users/profile 401 - 0.841 ms
+Sat Apr 05 2025 17:20:9 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/auth/login 400 - 300.614 ms
+Sat Apr 05 2025 17:21:7 [SERVER-NAME] error: 10.0.60.147 - POST /api/v1/subscribe 409 - 574.102 ms
+Sat Apr 05 2025 17:24:0 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/users/profile 401 - 1.069 ms
+Sat Apr 05 2025 17:24:32 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/users/profile 401 - 1.231 ms
+Sat Apr 05 2025 17:24:40 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/users/profile 401 - 1.188 ms
+Sat Apr 05 2025 17:24:48 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/users/profile 401 - 0.814 ms
+Sat Apr 05 2025 17:26:6 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/users/profile 401 - 0.597 ms
+Sat Apr 05 2025 17:28:55 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/users/profile 401 - 0.852 ms
+Sat Apr 05 2025 17:29:9 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/auth/login 400 - 278.375 ms
+Sat Apr 05 2025 17:31:44 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/users/profile 401 - 0.638 ms
+Sat Apr 05 2025 17:34:7 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/users/profile 401 - 0.898 ms
+Sat Apr 05 2025 17:39:40 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/users/profile 401 - 0.724 ms
+Sat Apr 05 2025 17:45:43 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/users/profile 401 - 0.777 ms
+Sat Apr 05 2025 17:45:49 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/users/profile 401 - 0.636 ms
+Sat Apr 05 2025 17:55:52 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/users/profile 401 - 2.289 ms
+Sat Apr 05 2025 17:56:18 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/users/profile 401 - 0.644 ms
+Sat Apr 05 2025 17:56:25 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/users/profile 401 - 0.630 ms

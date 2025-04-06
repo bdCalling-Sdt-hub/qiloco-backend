@@ -4,9 +4,9 @@ import sendResponse from '../../../shared/sendResponse';
 import { SubscribeService } from './subscribe.service';
 
 const getEmail = catchAsync(async (req, res) => {
-  const { id }: any = req.user;
+  const { email }: any = req.user;
   // Check if the email already exists
-  const result = await SubscribeService.getEmail(id);
+  const result = await SubscribeService.getEmail(email);
 
   sendResponse(res, {
     success: true,

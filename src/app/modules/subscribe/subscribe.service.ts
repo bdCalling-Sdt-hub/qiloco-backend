@@ -2,8 +2,8 @@ import { StatusCodes } from 'http-status-codes';
 import AppError from '../../../errors/AppError';
 import { Subscribe } from './subscribe.model';
 
-const getEmail = async (id: string) => {
-  const isExistEmail = await Subscribe.findById(id);
+const getEmail = async (email: string) => {
+  const isExistEmail = await Subscribe.findOne({ email });
   if (!isExistEmail) {
     return false;
   }

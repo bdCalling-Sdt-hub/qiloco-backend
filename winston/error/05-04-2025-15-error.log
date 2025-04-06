@@ -7,3 +7,4 @@ Sat Apr 05 2025 15:11:58 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/subscri
 Sat Apr 05 2025 15:14:33 [SERVER-NAME] error: 10.0.60.147 - GET /api/v1/product/67de510f4d0a7de90339eaa4 401 - 4.606 ms
 Sat Apr 05 2025 15:14:37 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/subscribe 400 - 1.607 ms
 Sat Apr 05 2025 15:15:32 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/subscribe 404 - 620.429 ms
+Sat Apr 05 2025 15:57:30 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/users/profile 401 - 1.596 ms
