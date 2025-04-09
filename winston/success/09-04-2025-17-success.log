@@ -1,0 +1,286 @@
+Wed Apr 09 2025 17:12:40 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed Apr 09 2025 17:12:40 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed Apr 09 2025 17:12:42 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed Apr 09 2025 17:12:42 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed Apr 09 2025 17:12:44 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed Apr 09 2025 17:12:44 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed Apr 09 2025 17:12:47 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6007[39m
+Wed Apr 09 2025 17:22:57 [SERVER-NAME] info: 10.0.60.210 - GET /image/frame-2147226548-1743833581282.png 200 - 1.806 ms
+Wed Apr 09 2025 17:22:58 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/product/67de513b4d0a7de90339eaaa 204 - 0.543 ms
+Wed Apr 09 2025 17:22:58 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/subscribe 204 - 0.092 ms
+Wed Apr 09 2025 17:22:58 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/users/profile 204 - 0.048 ms
+Wed Apr 09 2025 17:22:58 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/product/67de513b4d0a7de90339eaaa 200 - 557.413 ms
+Wed Apr 09 2025 17:22:58 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/users/profile 304 - 577.156 ms
+Wed Apr 09 2025 17:22:58 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/subscribe 201 - 584.527 ms
+Wed Apr 09 2025 17:22:58 [SERVER-NAME] info: 10.0.60.210 - GET /image/frame-15-1743909925692.png 200 - 0.825 ms
+Wed Apr 09 2025 17:22:58 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/product/related?type=asd&limit=4 204 - 0.059 ms
+Wed Apr 09 2025 17:22:59 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/product/related?type=asd&limit=4 200 - 297.959 ms
+Wed Apr 09 2025 17:22:59 [SERVER-NAME] info: 10.0.60.210 - GET /image/frame-15-1742965504224.png 200 - 1.099 ms
+Wed Apr 09 2025 17:22:59 [SERVER-NAME] info: 10.0.60.210 - GET /image/frame-15-1742965539681.png 200 - 0.675 ms
+Wed Apr 09 2025 17:23:0 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/orders/create-chaekout-session 204 - 0.082 ms
+Wed Apr 09 2025 17:23:2 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/orders/create-chaekout-session 200 - 1901.847 ms
+Wed Apr 09 2025 17:23:18 [SERVER-NAME] warn: [42m[1mUnhandled event type: charge.succeeded[22m[49m
+Wed Apr 09 2025 17:23:18 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 2.218 ms
+Wed Apr 09 2025 17:23:18 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.succeeded[22m[49m
+Wed Apr 09 2025 17:23:18 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.860 ms
+Wed Apr 09 2025 17:23:18 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.created[22m[49m
+Wed Apr 09 2025 17:23:18 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.727 ms
+Wed Apr 09 2025 17:23:20 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1173.992 ms
+Wed Apr 09 2025 17:23:20 [SERVER-NAME] warn: [42m[1mUnhandled event type: charge.updated[22m[49m
+Wed Apr 09 2025 17:23:20 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.035 ms
+Wed Apr 09 2025 17:23:37 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed Apr 09 2025 17:24:1 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed Apr 09 2025 17:24:4 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6007[39m
+Wed Apr 09 2025 17:24:13 [SERVER-NAME] info: 10.0.60.210 - GET /image/frame-2147226548-1743833581282.png 200 - 3.547 ms
+Wed Apr 09 2025 17:24:13 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/product/67de513b4d0a7de90339eaaa 204 - 0.526 ms
+Wed Apr 09 2025 17:24:13 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/subscribe 204 - 0.133 ms
+Wed Apr 09 2025 17:24:13 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/users/profile 204 - 0.095 ms
+Wed Apr 09 2025 17:24:14 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/users/profile 304 - 574.004 ms
+Wed Apr 09 2025 17:24:14 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/product/67de513b4d0a7de90339eaaa 200 - 595.644 ms
+Wed Apr 09 2025 17:24:14 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/subscribe 201 - 581.095 ms
+Wed Apr 09 2025 17:24:14 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/product/related?type=asd&limit=4 204 - 0.099 ms
+Wed Apr 09 2025 17:24:14 [SERVER-NAME] info: 10.0.60.210 - GET /image/frame-15-1743909925692.png 200 - 1.229 ms
+Wed Apr 09 2025 17:24:15 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/product/related?type=asd&limit=4 200 - 292.742 ms
+Wed Apr 09 2025 17:24:15 [SERVER-NAME] info: 10.0.60.210 - GET /image/frame-15-1742965504224.png 200 - 0.791 ms
+Wed Apr 09 2025 17:24:15 [SERVER-NAME] info: 10.0.60.210 - GET /image/frame-15-1742965539681.png 200 - 0.672 ms
+Wed Apr 09 2025 17:24:15 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/orders/create-chaekout-session 204 - 0.069 ms
+Wed Apr 09 2025 17:24:17 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/orders/create-chaekout-session 200 - 1889.640 ms
+Wed Apr 09 2025 17:24:34 [SERVER-NAME] warn: [42m[1mUnhandled event type: charge.succeeded[22m[49m
+Wed Apr 09 2025 17:24:34 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.628 ms
+Wed Apr 09 2025 17:24:34 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.succeeded[22m[49m
+Wed Apr 09 2025 17:24:34 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.988 ms
+Wed Apr 09 2025 17:24:34 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.created[22m[49m
+Wed Apr 09 2025 17:24:34 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.923 ms
+Wed Apr 09 2025 17:24:35 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1170.536 ms
+Wed Apr 09 2025 17:24:36 [SERVER-NAME] warn: [42m[1mUnhandled event type: charge.updated[22m[49m
+Wed Apr 09 2025 17:24:36 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.163 ms
+Wed Apr 09 2025 17:26:35 [SERVER-NAME] info: 10.0.60.126 - GET / 200 - 0.818 ms
+Wed Apr 09 2025 17:28:27 [SERVER-NAME] info: 10.0.60.126 - GET / 200 - 0.471 ms
+Wed Apr 09 2025 17:28:27 [SERVER-NAME] info: 10.0.60.126 - GET / 200 - 0.549 ms
+Wed Apr 09 2025 17:28:28 [SERVER-NAME] info: 10.0.60.126 - GET / 200 - 0.484 ms
+Wed Apr 09 2025 17:28:28 [SERVER-NAME] info: 10.0.60.126 - GET / 200 - 0.488 ms
+Wed Apr 09 2025 17:37:1 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed Apr 09 2025 17:37:1 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed Apr 09 2025 17:37:4 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6007[39m
+Wed Apr 09 2025 17:38:7 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed Apr 09 2025 17:38:7 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed Apr 09 2025 17:38:10 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6007[39m
+Wed Apr 09 2025 17:38:13 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed Apr 09 2025 17:38:13 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed Apr 09 2025 17:38:16 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6007[39m
+Wed Apr 09 2025 17:38:38 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed Apr 09 2025 17:38:41 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6007[39m
+Wed Apr 09 2025 17:38:55 [SERVER-NAME] info: 10.0.60.210 - GET /image/frame-2147226548-1743833581282.png 200 - 2.398 ms
+Wed Apr 09 2025 17:38:55 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/users/profile 204 - 0.356 ms
+Wed Apr 09 2025 17:38:55 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/product/67de513b4d0a7de90339eaaa 204 - 0.098 ms
+Wed Apr 09 2025 17:38:55 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/subscribe 204 - 0.054 ms
+Wed Apr 09 2025 17:38:56 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/subscribe 201 - 567.238 ms
+Wed Apr 09 2025 17:38:56 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/product/67de513b4d0a7de90339eaaa 200 - 576.006 ms
+Wed Apr 09 2025 17:38:56 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/users/profile 304 - 582.796 ms
+Wed Apr 09 2025 17:38:56 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/product/related?type=asd&limit=4 204 - 0.054 ms
+Wed Apr 09 2025 17:38:56 [SERVER-NAME] info: 10.0.60.210 - GET /image/frame-15-1743909925692.png 200 - 0.706 ms
+Wed Apr 09 2025 17:38:56 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/product/related?type=asd&limit=4 200 - 290.377 ms
+Wed Apr 09 2025 17:38:56 [SERVER-NAME] info: 10.0.60.210 - GET /image/frame-15-1742965504224.png 200 - 0.848 ms
+Wed Apr 09 2025 17:38:56 [SERVER-NAME] info: 10.0.60.210 - GET /image/frame-15-1742965539681.png 200 - 0.673 ms
+Wed Apr 09 2025 17:38:57 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/orders/create-chaekout-session 204 - 0.069 ms
+Wed Apr 09 2025 17:38:59 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/orders/create-chaekout-session 200 - 1847.569 ms
+Wed Apr 09 2025 17:39:14 [SERVER-NAME] warn: [42m[1mUnhandled event type: charge.succeeded[22m[49m
+Wed Apr 09 2025 17:39:14 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 2.044 ms
+Wed Apr 09 2025 17:39:14 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.succeeded[22m[49m
+Wed Apr 09 2025 17:39:14 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.852 ms
+Wed Apr 09 2025 17:39:14 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.created[22m[49m
+Wed Apr 09 2025 17:39:14 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.886 ms
+Wed Apr 09 2025 17:39:16 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1168.328 ms
+Wed Apr 09 2025 17:39:17 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders/success?session_id=cs_test_a16T4y8OSyCduul0iYiJzvregRJLPQOisDob1yxfa0DChPLA9BJyuu4RQB 200 - 311.855 ms
+Wed Apr 09 2025 17:39:17 [SERVER-NAME] warn: [42m[1mUnhandled event type: charge.updated[22m[49m
+Wed Apr 09 2025 17:39:17 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.027 ms
+Wed Apr 09 2025 17:39:17 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders/success?session_id=cs_test_a16T4y8OSyCduul0iYiJzvregRJLPQOisDob1yxfa0DChPLA9BJyuu4RQB 200 - 320.560 ms
+Wed Apr 09 2025 17:40:22 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/subscribe 204 - 0.119 ms
+Wed Apr 09 2025 17:40:22 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/product/all?page=1&limit=12 204 - 0.091 ms
+Wed Apr 09 2025 17:40:22 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/product/all?page=1&limit=12&moodTag=Chill 204 - 0.091 ms
+Wed Apr 09 2025 17:40:22 [SERVER-NAME] info: 10.0.60.210 - GET /image/frame-2147226548-1743833581282.png 200 - 0.879 ms
+Wed Apr 09 2025 17:40:22 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/users/profile 204 - 0.211 ms
+Wed Apr 09 2025 17:40:22 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/subscribe 201 - 577.386 ms
+Wed Apr 09 2025 17:40:22 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/product/all?page=1&limit=12 200 - 570.567 ms
+Wed Apr 09 2025 17:40:22 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/product/all?page=1&limit=12&moodTag=Chill 304 - 590.066 ms
+Wed Apr 09 2025 17:40:22 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/users/profile 304 - 571.624 ms
+Wed Apr 09 2025 17:40:23 [SERVER-NAME] info: 10.0.60.210 - GET /image/frame-15-1743167795161.png 200 - 0.927 ms
+Wed Apr 09 2025 17:40:23 [SERVER-NAME] info: 10.0.60.210 - GET /image/frame-15-1743909943135.png 200 - 1.032 ms
+Wed Apr 09 2025 17:40:23 [SERVER-NAME] info: 10.0.60.210 - GET /image/frame-15-1743853355650.png 200 - 1.911 ms
+Wed Apr 09 2025 17:40:23 [SERVER-NAME] info: 10.0.60.210 - GET /image/frame-15-1743853268728.png 200 - 1.617 ms
+Wed Apr 09 2025 17:40:23 [SERVER-NAME] info: 10.0.60.210 - GET /image/frame-15-1742965491290.png 200 - 1.483 ms
+Wed Apr 09 2025 17:40:23 [SERVER-NAME] info: 10.0.60.210 - GET /image/frame-15-1743166058192.png 200 - 2.097 ms
+Wed Apr 09 2025 17:40:23 [SERVER-NAME] info: 10.0.60.210 - GET /image/frame-15-1743853337961.png 200 - 1.594 ms
+Wed Apr 09 2025 17:40:23 [SERVER-NAME] info: 10.0.60.210 - GET /image/frame-15-1743853347323.png 200 - 2.101 ms
+Wed Apr 09 2025 17:40:23 [SERVER-NAME] info: 10.0.60.210 - GET /image/frame-15-1743909933862.png 200 - 0.938 ms
+Wed Apr 09 2025 17:40:23 [SERVER-NAME] info: 10.0.60.210 - GET /image/frame-15-1742965491290.png 200 - 0.806 ms
+Wed Apr 09 2025 17:40:23 [SERVER-NAME] info: 10.0.60.210 - GET /image/image-5-1742965365854.png 200 - 0.933 ms
+Wed Apr 09 2025 17:40:56 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/orders/create-chaekout-session 204 - 0.073 ms
+Wed Apr 09 2025 17:40:58 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/orders/create-chaekout-session 200 - 1819.651 ms
+Wed Apr 09 2025 17:41:16 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.succeeded[22m[49m
+Wed Apr 09 2025 17:41:16 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.743 ms
+Wed Apr 09 2025 17:41:16 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.created[22m[49m
+Wed Apr 09 2025 17:41:16 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.914 ms
+Wed Apr 09 2025 17:41:17 [SERVER-NAME] warn: [42m[1mUnhandled event type: charge.succeeded[22m[49m
+Wed Apr 09 2025 17:41:17 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.899 ms
+Wed Apr 09 2025 17:41:17 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1151.076 ms
+Wed Apr 09 2025 17:41:18 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders/success?session_id=cs_test_a1v742HiSouhtlyX51XdcKhyh9umgY32RuHh6SPyiLoTi9otBJwCx0r6pW 200 - 305.629 ms
+Wed Apr 09 2025 17:41:18 [SERVER-NAME] warn: [42m[1mUnhandled event type: charge.updated[22m[49m
+Wed Apr 09 2025 17:41:18 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.579 ms
+Wed Apr 09 2025 17:41:19 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders/success?session_id=cs_test_a1v742HiSouhtlyX51XdcKhyh9umgY32RuHh6SPyiLoTi9otBJwCx0r6pW 200 - 308.287 ms
+Wed Apr 09 2025 17:44:24 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/product/all?page=1&limit=12&moodTag=Chill 204 - 0.057 ms
+Wed Apr 09 2025 17:44:24 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/subscribe 204 - 0.044 ms
+Wed Apr 09 2025 17:44:24 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/product/all?page=1&limit=12 204 - 0.041 ms
+Wed Apr 09 2025 17:44:24 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/users/profile 204 - 0.040 ms
+Wed Apr 09 2025 17:44:24 [SERVER-NAME] info: 10.0.60.210 - GET /image/frame-2147226548-1743833581282.png 200 - 0.615 ms
+Wed Apr 09 2025 17:44:25 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/product/all?page=1&limit=12 200 - 566.391 ms
+Wed Apr 09 2025 17:44:25 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/subscribe 201 - 573.457 ms
+Wed Apr 09 2025 17:44:25 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/product/all?page=1&limit=12&moodTag=Chill 304 - 577.463 ms
+Wed Apr 09 2025 17:44:25 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/users/profile 304 - 587.887 ms
+Wed Apr 09 2025 17:44:25 [SERVER-NAME] info: 10.0.60.210 - GET /image/frame-15-1743167795161.png 200 - 1.332 ms
+Wed Apr 09 2025 17:44:25 [SERVER-NAME] info: 10.0.60.210 - GET /image/frame-15-1743166058192.png 200 - 0.679 ms
+Wed Apr 09 2025 17:44:25 [SERVER-NAME] info: 10.0.60.210 - GET /image/frame-15-1743909943135.png 200 - 0.620 ms
+Wed Apr 09 2025 17:44:27 [SERVER-NAME] info: 10.0.60.210 - GET /image/frame-15-1743853268728.png 200 - 0.770 ms
+Wed Apr 09 2025 17:44:27 [SERVER-NAME] info: 10.0.60.210 - GET /image/frame-15-1743853337961.png 200 - 1.514 ms
+Wed Apr 09 2025 17:44:27 [SERVER-NAME] info: 10.0.60.210 - GET /image/frame-15-1743853347323.png 200 - 0.614 ms
+Wed Apr 09 2025 17:44:27 [SERVER-NAME] info: 10.0.60.210 - GET /image/frame-15-1743909933862.png 200 - 0.930 ms
+Wed Apr 09 2025 17:44:27 [SERVER-NAME] info: 10.0.60.210 - GET /image/frame-15-1742965491290.png 200 - 1.858 ms
+Wed Apr 09 2025 17:44:27 [SERVER-NAME] info: 10.0.60.210 - GET /image/frame-15-1742965491290.png 200 - 2.401 ms
+Wed Apr 09 2025 17:44:27 [SERVER-NAME] info: 10.0.60.210 - GET /image/frame-15-1743853355650.png 200 - 2.525 ms
+Wed Apr 09 2025 17:44:27 [SERVER-NAME] info: 10.0.60.210 - GET /image/image-5-1742965365854.png 200 - 1.756 ms
+Wed Apr 09 2025 17:44:37 [SERVER-NAME] info: 10.0.60.210 - GET /image/frame-2147226548-1743833581282.png 200 - 0.816 ms
+Wed Apr 09 2025 17:44:37 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/orders/create-chaekout-session 204 - 0.057 ms
+Wed Apr 09 2025 17:44:39 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/orders/create-chaekout-session 200 - 1844.554 ms
+Wed Apr 09 2025 17:44:55 [SERVER-NAME] warn: [42m[1mUnhandled event type: charge.succeeded[22m[49m
+Wed Apr 09 2025 17:44:55 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.910 ms
+Wed Apr 09 2025 17:44:55 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.succeeded[22m[49m
+Wed Apr 09 2025 17:44:55 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.771 ms
+Wed Apr 09 2025 17:44:55 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.created[22m[49m
+Wed Apr 09 2025 17:44:55 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.796 ms
+Wed Apr 09 2025 17:44:57 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1186.182 ms
+Wed Apr 09 2025 17:44:57 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders/success?session_id=cs_test_a1CsTg7vcnAhZigP4jVQfu9Ca13Ln9iujBKYyUH2PTxJIi3Q2g9iejvPg9 200 - 303.865 ms
+Wed Apr 09 2025 17:44:58 [SERVER-NAME] warn: [42m[1mUnhandled event type: charge.updated[22m[49m
+Wed Apr 09 2025 17:44:58 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.846 ms
+Wed Apr 09 2025 17:44:58 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders/success?session_id=cs_test_a1CsTg7vcnAhZigP4jVQfu9Ca13Ln9iujBKYyUH2PTxJIi3Q2g9iejvPg9 200 - 305.053 ms
+Wed Apr 09 2025 17:47:5 [SERVER-NAME] info: 10.0.60.210 - GET /image/frame-2147226548-1743833581282.png 200 - 0.625 ms
+Wed Apr 09 2025 17:47:5 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/product/all?page=1&limit=12&moodTag=Chill 204 - 0.068 ms
+Wed Apr 09 2025 17:47:5 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/users/profile 204 - 0.058 ms
+Wed Apr 09 2025 17:47:5 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/subscribe 204 - 0.045 ms
+Wed Apr 09 2025 17:47:5 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/product/all?page=1&limit=12 204 - 0.064 ms
+Wed Apr 09 2025 17:47:6 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/subscribe 201 - 565.650 ms
+Wed Apr 09 2025 17:47:6 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/product/all?page=1&limit=12&moodTag=Chill 200 - 576.798 ms
+Wed Apr 09 2025 17:47:6 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/users/profile 304 - 587.243 ms
+Wed Apr 09 2025 17:47:6 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/product/all?page=1&limit=12 200 - 591.727 ms
+Wed Apr 09 2025 17:47:6 [SERVER-NAME] info: 10.0.60.210 - GET /image/frame-15-1743909933862.png 200 - 0.657 ms
+Wed Apr 09 2025 17:47:6 [SERVER-NAME] info: 10.0.60.210 - GET /image/frame-15-1743167795161.png 200 - 0.637 ms
+Wed Apr 09 2025 17:47:6 [SERVER-NAME] info: 10.0.60.210 - GET /image/frame-15-1742965491290.png 200 - 0.650 ms
+Wed Apr 09 2025 17:47:6 [SERVER-NAME] info: 10.0.60.210 - GET /image/frame-15-1742965491290.png 200 - 0.534 ms
+Wed Apr 09 2025 17:47:6 [SERVER-NAME] info: 10.0.60.210 - GET /image/image-5-1742965365854.png 200 - 0.621 ms
+Wed Apr 09 2025 17:47:6 [SERVER-NAME] info: 10.0.60.210 - GET /image/frame-15-1743166058192.png 200 - 0.663 ms
+Wed Apr 09 2025 17:47:6 [SERVER-NAME] info: 10.0.60.210 - GET /image/frame-15-1743853355650.png 200 - 0.466 ms
+Wed Apr 09 2025 17:47:6 [SERVER-NAME] info: 10.0.60.210 - GET /image/frame-15-1743909943135.png 200 - 1.622 ms
+Wed Apr 09 2025 17:47:6 [SERVER-NAME] info: 10.0.60.210 - GET /image/frame-15-1743853337961.png 200 - 1.621 ms
+Wed Apr 09 2025 17:47:6 [SERVER-NAME] info: 10.0.60.210 - GET /image/frame-15-1743853268728.png 200 - 1.476 ms
+Wed Apr 09 2025 17:47:6 [SERVER-NAME] info: 10.0.60.210 - GET /image/frame-15-1743853347323.png 200 - 1.810 ms
+Wed Apr 09 2025 17:47:14 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/product/all?page=1&limit=12&sort=id 204 - 0.042 ms
+Wed Apr 09 2025 17:47:15 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/product/all?page=1&limit=12&sort=id 200 - 589.775 ms
+Wed Apr 09 2025 17:47:15 [SERVER-NAME] info: 10.0.60.210 - GET /image/frame-15-1742965530632.png 200 - 1.821 ms
+Wed Apr 09 2025 17:47:15 [SERVER-NAME] info: 10.0.60.210 - GET /image/frame-15-1743909925692.png 200 - 1.702 ms
+Wed Apr 09 2025 17:47:15 [SERVER-NAME] info: 10.0.60.210 - GET /image/image-5-1742965365854.png 200 - 0.989 ms
+Wed Apr 09 2025 17:47:15 [SERVER-NAME] info: 10.0.60.210 - GET /image/frame-15-1742965539681.png 200 - 0.953 ms
+Wed Apr 09 2025 17:47:15 [SERVER-NAME] info: 10.0.60.210 - GET /image/frame-15-1742965742622.png 200 - 0.833 ms
+Wed Apr 09 2025 17:47:15 [SERVER-NAME] info: 10.0.60.210 - GET /image/frame-15-1742965358093.png 200 - 0.799 ms
+Wed Apr 09 2025 17:47:15 [SERVER-NAME] info: 10.0.60.210 - GET /image/frame-15-1743909891514.png 200 - 1.536 ms
+Wed Apr 09 2025 17:47:15 [SERVER-NAME] info: 10.0.60.210 - GET /image/frame-15-1743909883281.png 200 - 1.714 ms
+Wed Apr 09 2025 17:47:15 [SERVER-NAME] info: 10.0.60.210 - GET /image/frame-15-1742965548255.png 200 - 0.913 ms
+Wed Apr 09 2025 17:47:15 [SERVER-NAME] info: 10.0.60.210 - GET /image/frame-15-1743909918249.png 200 - 1.265 ms
+Wed Apr 09 2025 17:47:15 [SERVER-NAME] info: 10.0.60.210 - GET /image/frame-15-1743909909500.png 200 - 1.263 ms
+Wed Apr 09 2025 17:47:15 [SERVER-NAME] info: 10.0.60.210 - GET /image/frame-15-1743909933862.png 200 - 1.260 ms
+Wed Apr 09 2025 17:47:17 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/product/67df8a1dc77abfb4f30ed328 204 - 0.044 ms
+Wed Apr 09 2025 17:47:17 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/product/67df8a1dc77abfb4f30ed328 200 - 589.989 ms
+Wed Apr 09 2025 17:47:17 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/product/related?type=Hybrid&limit=4 204 - 0.042 ms
+Wed Apr 09 2025 17:47:18 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/product/related?type=Hybrid&limit=4 200 - 295.352 ms
+Wed Apr 09 2025 17:48:49 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/orders/create-chaekout-session 204 - 0.049 ms
+Wed Apr 09 2025 17:48:51 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/orders/create-chaekout-session 200 - 1840.767 ms
+Wed Apr 09 2025 17:49:6 [SERVER-NAME] warn: [42m[1mUnhandled event type: charge.succeeded[22m[49m
+Wed Apr 09 2025 17:49:6 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.951 ms
+Wed Apr 09 2025 17:49:6 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.succeeded[22m[49m
+Wed Apr 09 2025 17:49:6 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.866 ms
+Wed Apr 09 2025 17:49:6 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.created[22m[49m
+Wed Apr 09 2025 17:49:6 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.869 ms
+Wed Apr 09 2025 17:49:8 [SERVER-NAME] warn: [42m[1mUnhandled event type: charge.updated[22m[49m
+Wed Apr 09 2025 17:49:8 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.727 ms
+Wed Apr 09 2025 17:49:15 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1184.522 ms
+Wed Apr 09 2025 17:49:15 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders/success?session_id=cs_test_a1HCHNQ1GoTHDjcHnbOt8gRY0OR4eZZx7JQlbSmMxyiNxOSGsEjVolb9wI 200 - 305.772 ms
+Wed Apr 09 2025 17:49:16 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders/success?session_id=cs_test_a1HCHNQ1GoTHDjcHnbOt8gRY0OR4eZZx7JQlbSmMxyiNxOSGsEjVolb9wI 200 - 304.657 ms
+Wed Apr 09 2025 17:49:25 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/users/profile 204 - 0.064 ms
+Wed Apr 09 2025 17:49:25 [SERVER-NAME] info: 10.0.60.210 - GET /image/frame-2147226548-1743833581282.png 200 - 0.896 ms
+Wed Apr 09 2025 17:49:25 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/product/all?page=1&limit=12&moodTag=Chill 204 - 0.044 ms
+Wed Apr 09 2025 17:49:25 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/subscribe 204 - 0.063 ms
+Wed Apr 09 2025 17:49:25 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/product/all?page=1&limit=12 204 - 0.054 ms
+Wed Apr 09 2025 17:49:26 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/users/profile 304 - 587.659 ms
+Wed Apr 09 2025 17:49:26 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/product/all?page=1&limit=12 200 - 564.423 ms
+Wed Apr 09 2025 17:49:26 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/subscribe 201 - 575.907 ms
+Wed Apr 09 2025 17:49:26 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/product/all?page=1&limit=12&moodTag=Chill 200 - 588.042 ms
+Wed Apr 09 2025 17:49:26 [SERVER-NAME] info: 10.0.60.210 - GET /image/frame-15-1743167795161.png 200 - 0.721 ms
+Wed Apr 09 2025 17:49:26 [SERVER-NAME] info: 10.0.60.210 - GET /image/frame-15-1743166058192.png 200 - 0.737 ms
+Wed Apr 09 2025 17:49:26 [SERVER-NAME] info: 10.0.60.210 - GET /image/frame-15-1743909943135.png 200 - 0.743 ms
+Wed Apr 09 2025 17:49:26 [SERVER-NAME] info: 10.0.60.210 - GET /image/frame-15-1743853347323.png 200 - 0.964 ms
+Wed Apr 09 2025 17:49:26 [SERVER-NAME] info: 10.0.60.210 - GET /image/frame-15-1742965491290.png 200 - 0.897 ms
+Wed Apr 09 2025 17:49:26 [SERVER-NAME] info: 10.0.60.210 - GET /image/frame-15-1743853337961.png 200 - 0.701 ms
+Wed Apr 09 2025 17:49:26 [SERVER-NAME] info: 10.0.60.210 - GET /image/frame-15-1743853355650.png 200 - 0.803 ms
+Wed Apr 09 2025 17:49:26 [SERVER-NAME] info: 10.0.60.210 - GET /image/frame-15-1743853268728.png 200 - 1.222 ms
+Wed Apr 09 2025 17:49:26 [SERVER-NAME] info: 10.0.60.210 - GET /image/frame-15-1742965491290.png 200 - 1.813 ms
+Wed Apr 09 2025 17:49:26 [SERVER-NAME] info: 10.0.60.210 - GET /image/frame-15-1743909933862.png 200 - 1.553 ms
+Wed Apr 09 2025 17:49:26 [SERVER-NAME] info: 10.0.60.210 - GET /image/image-5-1742965365854.png 200 - 1.792 ms
+Wed Apr 09 2025 17:49:46 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/orders/create-chaekout-session 204 - 0.041 ms
+Wed Apr 09 2025 17:49:48 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/orders/create-chaekout-session 200 - 1724.969 ms
+Wed Apr 09 2025 17:49:57 [SERVER-NAME] warn: [42m[1mUnhandled event type: charge.succeeded[22m[49m
+Wed Apr 09 2025 17:49:57 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.723 ms
+Wed Apr 09 2025 17:49:57 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.succeeded[22m[49m
+Wed Apr 09 2025 17:49:57 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.643 ms
+Wed Apr 09 2025 17:49:57 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.created[22m[49m
+Wed Apr 09 2025 17:49:57 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.931 ms
+Wed Apr 09 2025 17:49:58 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1186.996 ms
+Wed Apr 09 2025 17:49:59 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders/success?session_id=cs_test_a1F4zcQV1XbhTsTJNtSCJ4zGcWTwS0EBw59lDD3BBRapoFWF9QCKTOgDtW 200 - 301.105 ms
+Wed Apr 09 2025 17:49:59 [SERVER-NAME] warn: [42m[1mUnhandled event type: charge.updated[22m[49m
+Wed Apr 09 2025 17:49:59 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.006 ms
+Wed Apr 09 2025 17:50:0 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders/success?session_id=cs_test_a1F4zcQV1XbhTsTJNtSCJ4zGcWTwS0EBw59lDD3BBRapoFWF9QCKTOgDtW 200 - 304.786 ms
+Wed Apr 09 2025 17:50:57 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders/success?session_id=cs_test_a1F4zcQV1XbhTsTJNtSCJ4zGcWTwS0EBw59lDD3BBRapoFWF9QCKTOgDtW 200 - 302.516 ms
+Wed Apr 09 2025 17:50:57 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders/success?session_id=cs_test_a1F4zcQV1XbhTsTJNtSCJ4zGcWTwS0EBw59lDD3BBRapoFWF9QCKTOgDtW 200 - 305.927 ms
+Wed Apr 09 2025 17:51:27 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders/success?session_id=cs_test_a1F4zcQV1XbhTsTJNtSCJ4zGcWTwS0EBw59lDD3BBRapoFWF9QCKTOgDtW 200 - 309.579 ms
+Wed Apr 09 2025 17:51:27 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders/success?session_id=cs_test_a1F4zcQV1XbhTsTJNtSCJ4zGcWTwS0EBw59lDD3BBRapoFWF9QCKTOgDtW 200 - 307.724 ms
+Wed Apr 09 2025 17:51:41 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders/success?session_id=cs_test_a1F4zcQV1XbhTsTJNtSCJ4zGcWTwS0EBw59lDD3BBRapoFWF9QCKTOgDtW 200 - 309.643 ms
+Wed Apr 09 2025 17:51:42 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders/success?session_id=cs_test_a1F4zcQV1XbhTsTJNtSCJ4zGcWTwS0EBw59lDD3BBRapoFWF9QCKTOgDtW 200 - 304.442 ms
+Wed Apr 09 2025 17:51:55 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders/success?session_id=cs_test_a1F4zcQV1XbhTsTJNtSCJ4zGcWTwS0EBw59lDD3BBRapoFWF9QCKTOgDtW 200 - 295.547 ms
+Wed Apr 09 2025 17:51:56 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders/success?session_id=cs_test_a1F4zcQV1XbhTsTJNtSCJ4zGcWTwS0EBw59lDD3BBRapoFWF9QCKTOgDtW 200 - 313.759 ms
+Wed Apr 09 2025 17:52:10 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders/success?session_id=cs_test_a1F4zcQV1XbhTsTJNtSCJ4zGcWTwS0EBw59lDD3BBRapoFWF9QCKTOgDtW 200 - 300.797 ms
+Wed Apr 09 2025 17:52:10 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders/success?session_id=cs_test_a1F4zcQV1XbhTsTJNtSCJ4zGcWTwS0EBw59lDD3BBRapoFWF9QCKTOgDtW 200 - 312.715 ms
+Wed Apr 09 2025 17:52:18 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders/success?session_id=cs_test_a1F4zcQV1XbhTsTJNtSCJ4zGcWTwS0EBw59lDD3BBRapoFWF9QCKTOgDtW 200 - 306.460 ms
+Wed Apr 09 2025 17:52:19 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders/success?session_id=cs_test_a1F4zcQV1XbhTsTJNtSCJ4zGcWTwS0EBw59lDD3BBRapoFWF9QCKTOgDtW 200 - 301.756 ms
+Wed Apr 09 2025 17:52:28 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders/success?session_id=cs_test_a1F4zcQV1XbhTsTJNtSCJ4zGcWTwS0EBw59lDD3BBRapoFWF9QCKTOgDtW 200 - 302.603 ms
+Wed Apr 09 2025 17:52:28 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders/success?session_id=cs_test_a1F4zcQV1XbhTsTJNtSCJ4zGcWTwS0EBw59lDD3BBRapoFWF9QCKTOgDtW 200 - 307.095 ms
+Wed Apr 09 2025 17:52:43 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders/success?session_id=cs_test_a1F4zcQV1XbhTsTJNtSCJ4zGcWTwS0EBw59lDD3BBRapoFWF9QCKTOgDtW 200 - 305.166 ms
+Wed Apr 09 2025 17:52:43 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders/success?session_id=cs_test_a1F4zcQV1XbhTsTJNtSCJ4zGcWTwS0EBw59lDD3BBRapoFWF9QCKTOgDtW 200 - 305.932 ms
+Wed Apr 09 2025 17:53:17 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders/success?session_id=cs_test_a1F4zcQV1XbhTsTJNtSCJ4zGcWTwS0EBw59lDD3BBRapoFWF9QCKTOgDtW 200 - 301.312 ms
+Wed Apr 09 2025 17:53:17 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders/success?session_id=cs_test_a1F4zcQV1XbhTsTJNtSCJ4zGcWTwS0EBw59lDD3BBRapoFWF9QCKTOgDtW 200 - 291.867 ms
+Wed Apr 09 2025 17:53:56 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders/success?session_id=cs_test_a1F4zcQV1XbhTsTJNtSCJ4zGcWTwS0EBw59lDD3BBRapoFWF9QCKTOgDtW 200 - 306.472 ms
+Wed Apr 09 2025 17:53:56 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders/success?session_id=cs_test_a1F4zcQV1XbhTsTJNtSCJ4zGcWTwS0EBw59lDD3BBRapoFWF9QCKTOgDtW 200 - 307.863 ms
+Wed Apr 09 2025 17:54:45 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders/success?session_id=cs_test_a1F4zcQV1XbhTsTJNtSCJ4zGcWTwS0EBw59lDD3BBRapoFWF9QCKTOgDtW 200 - 303.287 ms
+Wed Apr 09 2025 17:54:46 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders/success?session_id=cs_test_a1F4zcQV1XbhTsTJNtSCJ4zGcWTwS0EBw59lDD3BBRapoFWF9QCKTOgDtW 200 - 311.052 ms
+Wed Apr 09 2025 17:55:17 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders/success?session_id=cs_test_a1F4zcQV1XbhTsTJNtSCJ4zGcWTwS0EBw59lDD3BBRapoFWF9QCKTOgDtW 200 - 304.662 ms
+Wed Apr 09 2025 17:55:18 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders/success?session_id=cs_test_a1F4zcQV1XbhTsTJNtSCJ4zGcWTwS0EBw59lDD3BBRapoFWF9QCKTOgDtW 200 - 308.320 ms
+Wed Apr 09 2025 17:55:59 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders/success?session_id=cs_test_a1F4zcQV1XbhTsTJNtSCJ4zGcWTwS0EBw59lDD3BBRapoFWF9QCKTOgDtW 200 - 301.697 ms
+Wed Apr 09 2025 17:56:0 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders/success?session_id=cs_test_a1F4zcQV1XbhTsTJNtSCJ4zGcWTwS0EBw59lDD3BBRapoFWF9QCKTOgDtW 200 - 304.749 ms
+Wed Apr 09 2025 17:57:31 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders/success?session_id=cs_test_a1F4zcQV1XbhTsTJNtSCJ4zGcWTwS0EBw59lDD3BBRapoFWF9QCKTOgDtW 200 - 475.746 ms
+Wed Apr 09 2025 17:57:32 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders/success?session_id=cs_test_a1F4zcQV1XbhTsTJNtSCJ4zGcWTwS0EBw59lDD3BBRapoFWF9QCKTOgDtW 200 - 310.799 ms
+Wed Apr 09 2025 17:57:43 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders/success?session_id=cs_test_a1F4zcQV1XbhTsTJNtSCJ4zGcWTwS0EBw59lDD3BBRapoFWF9QCKTOgDtW 200 - 318.731 ms
+Wed Apr 09 2025 17:57:44 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders/success?session_id=cs_test_a1F4zcQV1XbhTsTJNtSCJ4zGcWTwS0EBw59lDD3BBRapoFWF9QCKTOgDtW 200 - 309.205 ms
+Wed Apr 09 2025 17:58:41 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders/success?session_id=cs_test_a1F4zcQV1XbhTsTJNtSCJ4zGcWTwS0EBw59lDD3BBRapoFWF9QCKTOgDtW 200 - 302.830 ms
+Wed Apr 09 2025 17:58:42 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders/success?session_id=cs_test_a1F4zcQV1XbhTsTJNtSCJ4zGcWTwS0EBw59lDD3BBRapoFWF9QCKTOgDtW 200 - 311.974 ms
+Wed Apr 09 2025 17:59:12 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders/success?session_id=cs_test_a1F4zcQV1XbhTsTJNtSCJ4zGcWTwS0EBw59lDD3BBRapoFWF9QCKTOgDtW 200 - 311.959 ms
+Wed Apr 09 2025 17:59:13 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders/success?session_id=cs_test_a1F4zcQV1XbhTsTJNtSCJ4zGcWTwS0EBw59lDD3BBRapoFWF9QCKTOgDtW 200 - 309.104 ms
+Wed Apr 09 2025 17:59:28 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders/success?session_id=cs_test_a1F4zcQV1XbhTsTJNtSCJ4zGcWTwS0EBw59lDD3BBRapoFWF9QCKTOgDtW 200 - 304.758 ms
+Wed Apr 09 2025 17:59:28 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders/success?session_id=cs_test_a1F4zcQV1XbhTsTJNtSCJ4zGcWTwS0EBw59lDD3BBRapoFWF9QCKTOgDtW 200 - 306.158 ms
+Wed Apr 09 2025 17:59:37 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders/success?session_id=cs_test_a1F4zcQV1XbhTsTJNtSCJ4zGcWTwS0EBw59lDD3BBRapoFWF9QCKTOgDtW 200 - 313.105 ms
+Wed Apr 09 2025 17:59:37 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders/success?session_id=cs_test_a1F4zcQV1XbhTsTJNtSCJ4zGcWTwS0EBw59lDD3BBRapoFWF9QCKTOgDtW 200 - 309.324 ms

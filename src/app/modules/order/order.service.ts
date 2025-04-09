@@ -58,7 +58,7 @@ const createCheckoutSession = async (cartItems: CartItem[], userId: string) => {
   }
 
   const lineItems = [];
-  const ordersBySellerMetadata: Record<string, OrderMetadata>= {};
+  const ordersBySellerMetadata: Record<string, OrderMetadata> = {};
   let globalOrderNumber = generateOrderNumber();
 
   // Process each seller's items
@@ -108,8 +108,8 @@ const createCheckoutSession = async (cartItems: CartItem[], userId: string) => {
   const checkoutSession = await stripe.checkout.sessions.create({
     payment_method_types: ['card'],
     mode: 'payment',
-    success_url: 'https://2a7c-103-174-189-193.ngrok-free.app',
-    cancel_url: 'https://2a7c-103-174-189-193.ngrok-free.app',
+    success_url: 'http://10.0.60.126:6007/api/v1/orders/success?session_id={CHECKOUT_SESSION_ID}',
+    cancel_url: 'http://10.0.60.126:6007/api/v1/orders/cancel',
     line_items: lineItems,
     shipping_address_collection: {
       allowed_countries: ['US', 'CA', 'GB', 'BD'],
@@ -290,6 +290,11 @@ const userSingleOrder = async (id: string) => {
   }
   return order;
 };
+
+const successMessage = async (id: string) => {
+  const session = await stripe.checkout.sessions.retrieve(id);
+  return session;
+};
 export const OrderServices = {
   createCheckoutSession,
   getCustomerOrders,
@@ -298,4 +303,5 @@ export const OrderServices = {
   updateOrderItemStatus,
   userOrders,
   userSingleOrder,
+  successMessage,
 };

@@ -1,0 +1,18 @@
+Wed Apr 09 2025 18:0:35 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders/success?session_id=cs_test_a1F4zcQV1XbhTsTJNtSCJ4zGcWTwS0EBw59lDD3BBRapoFWF9QCKTOgDtW 200 - 309.983 ms
+Wed Apr 09 2025 18:0:36 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders/success?session_id=cs_test_a1F4zcQV1XbhTsTJNtSCJ4zGcWTwS0EBw59lDD3BBRapoFWF9QCKTOgDtW 200 - 305.071 ms
+Wed Apr 09 2025 18:1:19 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders/success?session_id=cs_test_a1F4zcQV1XbhTsTJNtSCJ4zGcWTwS0EBw59lDD3BBRapoFWF9QCKTOgDtW 200 - 321.820 ms
+Wed Apr 09 2025 18:1:19 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders/success?session_id=cs_test_a1F4zcQV1XbhTsTJNtSCJ4zGcWTwS0EBw59lDD3BBRapoFWF9QCKTOgDtW 200 - 301.668 ms
+Wed Apr 09 2025 18:1:50 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders/success?session_id=cs_test_a1F4zcQV1XbhTsTJNtSCJ4zGcWTwS0EBw59lDD3BBRapoFWF9QCKTOgDtW 200 - 314.640 ms
+Wed Apr 09 2025 18:1:50 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders/success?session_id=cs_test_a1F4zcQV1XbhTsTJNtSCJ4zGcWTwS0EBw59lDD3BBRapoFWF9QCKTOgDtW 200 - 301.456 ms
+Wed Apr 09 2025 18:2:5 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders/success?session_id=cs_test_a1F4zcQV1XbhTsTJNtSCJ4zGcWTwS0EBw59lDD3BBRapoFWF9QCKTOgDtW 200 - 300.033 ms
+Wed Apr 09 2025 18:2:5 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders/success?session_id=cs_test_a1F4zcQV1XbhTsTJNtSCJ4zGcWTwS0EBw59lDD3BBRapoFWF9QCKTOgDtW 200 - 301.660 ms
+Wed Apr 09 2025 18:3:56 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed Apr 09 2025 18:3:56 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed Apr 09 2025 18:3:58 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed Apr 09 2025 18:3:58 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed Apr 09 2025 18:4:1 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed Apr 09 2025 18:4:1 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed Apr 09 2025 18:4:4 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6007[39m
+Wed Apr 09 2025 18:4:54 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed Apr 09 2025 18:5:38 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed Apr 09 2025 18:5:41 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6007[39m

@@ -1,3 +1,0 @@
-Tue Apr 08 2025 14:28:25 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/users/profile 401 - 16.414 ms
-Tue Apr 08 2025 14:29:12 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/subscribe 401 - 1.816 ms
-Tue Apr 08 2025 14:29:46 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/users/profile 401 - 1.291 ms

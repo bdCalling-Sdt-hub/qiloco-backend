@@ -1,0 +1,6 @@
+Wed Apr 09 2025 14:3:46 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/subscribe 401 - 2.445 ms
+Wed Apr 09 2025 14:18:28 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/subscribe 403 - 284.783 ms
+Wed Apr 09 2025 14:19:5 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/subscribe 403 - 284.390 ms
+Wed Apr 09 2025 14:19:12 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/subscribe 403 - 284.886 ms
+Wed Apr 09 2025 14:56:1 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/subscribe 401 - 2.338 ms
+Wed Apr 09 2025 14:56:17 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/subscribe 401 - 0.515 ms

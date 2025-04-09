@@ -6,9 +6,11 @@ import globalErrorHandler from './globalErrorHandler/globalErrorHandler';
 import { notFound } from './app/middleware/notFound';
 import { welcome } from './utils/welcome';
 import handleStripeWebhook from './helpers/handleStripeWebhook';
-
+import path from 'path';
 const app: Application = express();
-
+// Set the view engine to EJS
+app.set('view engine', 'ejs');
+app.set('views', path.join(__dirname, 'views'));
 //morgan
 app.use(Morgan.successHandler);
 app.use(Morgan.errorHandler);
@@ -31,14 +33,20 @@ app.use(
 //     credentials: false,
 //   }),
 // );
-app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
 
 //file retrieve
 app.use(express.static('uploads'));
 app.use(express.static('public'));
 
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+// app.use((req, res, next) => {
+//   console.log(`${req.method} request to ${req.url}`);
+//   next();
+// });
+
 app.use('/api/v1', router);
+
 //live response
 app.get('/', (req: Request, res: Response) => {
   res.send(welcome());

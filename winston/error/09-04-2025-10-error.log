@@ -5,3 +5,4 @@ Wed Apr 09 2025 10:5:37 [SERVER-NAME] error: UnhandleException Detected listen E
 Wed Apr 09 2025 10:5:43 [SERVER-NAME] error: UnhandleException Detected listen EADDRINUSE: address already in use 10.0.60.126:6007
 Wed Apr 09 2025 10:6:23 [SERVER-NAME] error: UnhandleException Detected listen EADDRINUSE: address already in use 10.0.60.126:6007
 Wed Apr 09 2025 10:7:26 [SERVER-NAME] error: UnhandleException Detected listen EADDRINUSE: address already in use 10.0.60.126:6007
+Wed Apr 09 2025 10:57:53 [SERVER-NAME] error: 10.0.60.126 - PATCH /api/v1/orders/67e78af97fcedaaf9002b056 400 - 597.509 ms

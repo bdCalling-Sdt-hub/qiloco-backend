@@ -2,6 +2,7 @@ import { StatusCodes } from 'http-status-codes';
 import catchAsync from '../../../utils/catchAsync';
 import sendResponse from '../../../shared/sendResponse';
 import { OrderServices } from './order.service';
+import stripe from '../../../config/stripe';
 
 // Create a new order
 const createOrder = catchAsync(async (req, res) => {
@@ -37,7 +38,7 @@ const getSingleOrder = catchAsync(async (req, res) => {
     data: result,
   });
 });
-// update order status 
+// update order status
 const updateOrderStatus = catchAsync(async (req, res) => {
   const { id } = req.params;
   const { status } = req.body;
@@ -50,7 +51,7 @@ const updateOrderStatus = catchAsync(async (req, res) => {
   });
 });
 
-// get my orders 
+// get my orders
 const getMyOrders = catchAsync(async (req, res) => {
   const { id }: any = req.user;
   const result = await OrderServices.userOrders(id, req.query);
@@ -61,7 +62,7 @@ const getMyOrders = catchAsync(async (req, res) => {
     data: result,
   });
 });
-// get my order 
+// get my order
 const getMyOrder = catchAsync(async (req, res) => {
   const { id } = req.params;
   const result = await OrderServices.userSingleOrder(id);
@@ -73,11 +74,23 @@ const getMyOrder = catchAsync(async (req, res) => {
   });
 });
 
+// Assuming you have OrderServices imported properly
+const orderSuccess = catchAsync(async (req, res) => {
+  const sessionId = req.query.session_id as string;
+  const session = await OrderServices.successMessage(sessionId);
+  res.render('success', { session });
+});
+// Assuming you have OrderServices imported properly
+const orderCancel = catchAsync(async (req, res) => {
+  res.render('cancel');
+});
 export const OrderController = {
   createOrder,
   getOrders,
   getSingleOrder,
   updateOrderStatus,
   getMyOrders,
-  getMyOrder
+  getMyOrder,
+  orderSuccess,
+  orderCancel,
 };
