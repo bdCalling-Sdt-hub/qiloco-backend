@@ -1,0 +1,114 @@
+Wed Apr 09 2025 10:0:43 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/contact?page=undefined 204 - 0.106 ms
+Wed Apr 09 2025 10:0:44 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/contact?page=undefined 200 - 570.292 ms
+Wed Apr 09 2025 10:0:55 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/settings 204 - 0.071 ms
+Wed Apr 09 2025 10:0:55 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/settings 200 - 286.661 ms
+Wed Apr 09 2025 10:1:5 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/settings 204 - 0.066 ms
+Wed Apr 09 2025 10:1:5 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/settings 200 - 283.607 ms
+Wed Apr 09 2025 10:1:27 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/vendor/earnings?page=1 204 - 0.062 ms
+Wed Apr 09 2025 10:1:29 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/vendor/earnings?page=1 200 - 1903.366 ms
+Wed Apr 09 2025 10:2:20 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/orders?page=1 204 - 0.069 ms
+Wed Apr 09 2025 10:2:21 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders?page=1 304 - 1132.551 ms
+Wed Apr 09 2025 10:2:50 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/vendor/earnings 200 - 567.112 ms
+Wed Apr 09 2025 10:3:48 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/notification 204 - 0.047 ms
+Wed Apr 09 2025 10:3:48 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/admin/dashboard 204 - 0.030 ms
+Wed Apr 09 2025 10:3:48 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/users/profile 204 - 0.032 ms
+Wed Apr 09 2025 10:3:48 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/users/profile 304 - 560.773 ms
+Wed Apr 09 2025 10:3:49 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/admin/dashboard 304 - 876.002 ms
+Wed Apr 09 2025 10:3:49 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/notification 304 - 1130.909 ms
+Wed Apr 09 2025 10:3:49 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/admin/dashboard/erarming?year=2025 204 - 0.050 ms
+Wed Apr 09 2025 10:3:49 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/admin/dashboard/overview?year=2025 204 - 0.040 ms
+Wed Apr 09 2025 10:3:49 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/admin/dashboard/products?page=1 204 - 0.033 ms
+Wed Apr 09 2025 10:3:50 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/admin/dashboard/overview?year=2025 304 - 566.218 ms
+Wed Apr 09 2025 10:3:50 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/admin/dashboard/erarming?year=2025 304 - 588.738 ms
+Wed Apr 09 2025 10:3:50 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/admin/dashboard/products?page=1 304 - 839.394 ms
+Wed Apr 09 2025 10:3:58 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed Apr 09 2025 10:3:58 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed Apr 09 2025 10:4:1 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6007[39m
+Wed Apr 09 2025 10:4:12 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/auth/login 204 - 0.610 ms
+Wed Apr 09 2025 10:4:12 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/auth/login 200 - 544.017 ms
+Wed Apr 09 2025 10:4:13 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/notification 204 - 0.110 ms
+Wed Apr 09 2025 10:4:13 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/users/profile 204 - 0.137 ms
+Wed Apr 09 2025 10:4:13 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/vendor/dashboard 204 - 0.044 ms
+Wed Apr 09 2025 10:4:13 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/users/profile 200 - 550.668 ms
+Wed Apr 09 2025 10:4:14 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/notification 200 - 878.432 ms
+Wed Apr 09 2025 10:4:14 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/vendor/dashboard 200 - 1137.350 ms
+Wed Apr 09 2025 10:4:14 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/vendor/dashboard/overview?year=2025 204 - 0.054 ms
+Wed Apr 09 2025 10:4:14 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/vendor/dashboard/erarming?year=2025 204 - 0.060 ms
+Wed Apr 09 2025 10:4:14 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/orders 204 - 0.071 ms
+Wed Apr 09 2025 10:4:15 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/vendor/dashboard/overview?year=2025 200 - 569.598 ms
+Wed Apr 09 2025 10:4:15 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/vendor/dashboard/erarming?year=2025 200 - 578.980 ms
+Wed Apr 09 2025 10:4:15 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders 200 - 834.521 ms
+Wed Apr 09 2025 10:4:17 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/product?page=1 204 - 0.055 ms
+Wed Apr 09 2025 10:4:17 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/product?page=1 200 - 829.177 ms
+Wed Apr 09 2025 10:4:38 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed Apr 09 2025 10:4:38 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed Apr 09 2025 10:4:41 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6007[39m
+Wed Apr 09 2025 10:4:50 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed Apr 09 2025 10:4:50 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed Apr 09 2025 10:4:53 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6007[39m
+Wed Apr 09 2025 10:5:0 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/admin/earnings?page=1 204 - 0.690 ms
+Wed Apr 09 2025 10:5:1 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/admin/earnings?page=1 200 - 575.330 ms
+Wed Apr 09 2025 10:5:33 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed Apr 09 2025 10:5:33 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed Apr 09 2025 10:5:34 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed Apr 09 2025 10:5:34 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed Apr 09 2025 10:5:37 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6007[39m
+Wed Apr 09 2025 10:5:40 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed Apr 09 2025 10:5:40 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed Apr 09 2025 10:5:43 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6007[39m
+Wed Apr 09 2025 10:6:19 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed Apr 09 2025 10:6:19 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed Apr 09 2025 10:6:22 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6007[39m
+Wed Apr 09 2025 10:7:1 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/orders 204 - 0.907 ms
+Wed Apr 09 2025 10:7:2 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/notification 204 - 0.205 ms
+Wed Apr 09 2025 10:7:2 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/users/profile 204 - 0.088 ms
+Wed Apr 09 2025 10:7:2 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/users/profile 304 - 567.447 ms
+Wed Apr 09 2025 10:7:2 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders 304 - 877.791 ms
+Wed Apr 09 2025 10:7:2 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/notification 304 - 868.245 ms
+Wed Apr 09 2025 10:7:22 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed Apr 09 2025 10:7:24 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/orders?page=1 204 - 0.057 ms
+Wed Apr 09 2025 10:7:26 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders?page=1 200 - 1796.612 ms
+Wed Apr 09 2025 10:7:26 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/orders?page=1 204 - 0.053 ms
+Wed Apr 09 2025 10:7:27 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders?page=1 304 - 858.007 ms
+Wed Apr 09 2025 10:7:39 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/product?page=1 204 - 0.194 ms
+Wed Apr 09 2025 10:7:40 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/product?page=1 200 - 864.640 ms
+Wed Apr 09 2025 10:7:40 [SERVER-NAME] info: 10.0.60.126 - GET //image/frame-15-1743853371521.png 304 - 2.805 ms
+Wed Apr 09 2025 10:7:40 [SERVER-NAME] info: 10.0.60.126 - GET //image/frame-15-1743853347323.png 304 - 2.526 ms
+Wed Apr 09 2025 10:7:40 [SERVER-NAME] info: 10.0.60.126 - GET //image/frame-15-1742965504224.png 304 - 3.812 ms
+Wed Apr 09 2025 10:7:40 [SERVER-NAME] info: 10.0.60.126 - GET //image/frame-15-1742965491290.png 304 - 2.331 ms
+Wed Apr 09 2025 10:7:40 [SERVER-NAME] info: 10.0.60.126 - GET //image/frame-15-1743167795161.png 304 - 2.934 ms
+Wed Apr 09 2025 10:7:40 [SERVER-NAME] info: 10.0.60.126 - GET //image/frame-15-1743853268728.png 304 - 3.304 ms
+Wed Apr 09 2025 10:7:40 [SERVER-NAME] info: 10.0.60.126 - GET //image/frame-15-1743853378572.png 304 - 3.614 ms
+Wed Apr 09 2025 10:7:40 [SERVER-NAME] info: 10.0.60.126 - GET //image/frame-15-1743853337961.png 304 - 4.460 ms
+Wed Apr 09 2025 10:7:40 [SERVER-NAME] info: 10.0.60.126 - GET //image/frame-15-1742965402687.png 304 - 5.081 ms
+Wed Apr 09 2025 10:7:40 [SERVER-NAME] info: 10.0.60.126 - GET //image/frame-15-1743853355650.png 304 - 0.579 ms
+Wed Apr 09 2025 10:8:30 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/vendor/earnings?page=1 204 - 0.075 ms
+Wed Apr 09 2025 10:8:31 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/vendor/earnings?page=1 200 - 572.415 ms
+Wed Apr 09 2025 10:8:57 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed Apr 09 2025 10:9:0 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6007[39m
+Wed Apr 09 2025 10:9:4 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/product?page=1 204 - 0.571 ms
+Wed Apr 09 2025 10:9:4 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/users/profile 204 - 0.100 ms
+Wed Apr 09 2025 10:9:4 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/notification 204 - 0.050 ms
+Wed Apr 09 2025 10:9:5 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/users/profile 304 - 583.287 ms
+Wed Apr 09 2025 10:9:5 [SERVER-NAME] info: 10.0.60.126 - GET //image/marijuana-1743832806633.png 304 - 0.833 ms
+Wed Apr 09 2025 10:9:5 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/notification 304 - 851.330 ms
+Wed Apr 09 2025 10:9:5 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/product?page=1 200 - 873.141 ms
+Wed Apr 09 2025 10:9:5 [SERVER-NAME] info: 10.0.60.126 - GET //image/frame-15-1743167795161.png 304 - 0.428 ms
+Wed Apr 09 2025 10:9:5 [SERVER-NAME] info: 10.0.60.126 - GET //image/frame-15-1743853268728.png 304 - 1.031 ms
+Wed Apr 09 2025 10:9:5 [SERVER-NAME] info: 10.0.60.126 - GET //image/frame-15-1742965504224.png 304 - 1.670 ms
+Wed Apr 09 2025 10:9:5 [SERVER-NAME] info: 10.0.60.126 - GET //image/frame-15-1743853337961.png 304 - 0.925 ms
+Wed Apr 09 2025 10:9:5 [SERVER-NAME] info: 10.0.60.126 - GET //image/frame-15-1743853378572.png 304 - 1.330 ms
+Wed Apr 09 2025 10:9:5 [SERVER-NAME] info: 10.0.60.126 - GET //image/frame-15-1742965491290.png 304 - 1.640 ms
+Wed Apr 09 2025 10:9:5 [SERVER-NAME] info: 10.0.60.126 - GET //image/frame-15-1743853371521.png 304 - 2.428 ms
+Wed Apr 09 2025 10:9:5 [SERVER-NAME] info: 10.0.60.126 - GET //image/frame-15-1742965402687.png 304 - 3.093 ms
+Wed Apr 09 2025 10:9:5 [SERVER-NAME] info: 10.0.60.126 - GET //image/frame-15-1743853347323.png 304 - 3.696 ms
+Wed Apr 09 2025 10:9:5 [SERVER-NAME] info: 10.0.60.126 - GET //image/frame-15-1743853355650.png 304 - 4.191 ms
+Wed Apr 09 2025 10:9:7 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/product?page=1 204 - 0.049 ms
+Wed Apr 09 2025 10:9:8 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/product?page=1 200 - 865.546 ms
+Wed Apr 09 2025 10:9:16 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/notification 204 - 0.101 ms
+Wed Apr 09 2025 10:9:17 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/notification 304 - 1674.429 ms
+Wed Apr 09 2025 10:10:53 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/orders 204 - 0.207 ms
+Wed Apr 09 2025 10:10:54 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/orders 304 - 872.599 ms
+Wed Apr 09 2025 10:11:9 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/admin/earnings?page=1 204 - 0.098 ms
+Wed Apr 09 2025 10:11:10 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/admin/earnings?page=1 200 - 580.420 ms
+Wed Apr 09 2025 10:13:16 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/vendor/earnings 200 - 577.296 ms

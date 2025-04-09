@@ -1,7 +1,0 @@
-Sat Apr 05 2025 14:13:56 [SERVER-NAME] error: 10.0.60.147 - GET /api/v1/users/profile 401 - 2.828 ms
-Sat Apr 05 2025 14:14:0 [SERVER-NAME] error: 10.0.60.147 - GET /api/v1/users/profile 401 - 0.582 ms
-Sat Apr 05 2025 14:14:2 [SERVER-NAME] error: 10.0.60.147 - GET /api/v1/users/profile 401 - 0.650 ms
-Sat Apr 05 2025 14:17:26 [SERVER-NAME] error: 10.0.60.147 - GET /api/v1/users/profile 401 - 0.794 ms
-Sat Apr 05 2025 14:17:31 [SERVER-NAME] error: 10.0.60.147 - GET /api/v1/users/profile 401 - 2.533 ms
-Sat Apr 05 2025 14:57:41 [SERVER-NAME] error: 10.0.60.126 - GET /favicon.ico 404 - 0.808 ms
-Sat Apr 05 2025 14:58:25 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/users/profile 401 - 3.786 ms

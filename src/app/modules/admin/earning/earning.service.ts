@@ -6,7 +6,8 @@ const earnings = async (query: Record<string, unknown>) => {
     Order.find({ paymentStatus: 'paid' }),
     query,
   );
-  query.fields = 'orderNumber,email,createdAt,totalPrice';
+  query.fields =
+    'orderNumber,email,createdAt,totalPrice,paymentIntentId,paymentStatus';
   const orders = await queryBuilder
     .filter()
     .sort()

@@ -1,0 +1,14 @@
+Tue Apr 08 2025 18:1:0 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/notification 204 - 0.898 ms
+Tue Apr 08 2025 18:1:0 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/users/profile 204 - 0.218 ms
+Tue Apr 08 2025 18:1:0 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/admin/dashboard 204 - 0.094 ms
+Tue Apr 08 2025 18:1:1 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/users/profile 304 - 583.675 ms
+Tue Apr 08 2025 18:1:1 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/notification 304 - 879.118 ms
+Tue Apr 08 2025 18:1:1 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/admin/dashboard 304 - 879.007 ms
+Tue Apr 08 2025 18:1:1 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/admin/dashboard/erarming?year=2025 204 - 0.087 ms
+Tue Apr 08 2025 18:1:1 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/admin/dashboard/overview?year=2025 204 - 0.052 ms
+Tue Apr 08 2025 18:1:1 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/admin/dashboard/products?page=1 204 - 0.086 ms
+Tue Apr 08 2025 18:1:2 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/admin/dashboard/overview?year=2025 304 - 568.449 ms
+Tue Apr 08 2025 18:1:2 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/admin/dashboard/erarming?year=2025 304 - 585.995 ms
+Tue Apr 08 2025 18:1:2 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/admin/dashboard/products?page=1 304 - 880.895 ms
+Tue Apr 08 2025 18:1:17 [SERVER-NAME] info: 10.0.60.126 - OPTIONS /api/v1/auth/login 204 - 0.105 ms
+Tue Apr 08 2025 18:1:18 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/auth/login 200 - 689.380 ms

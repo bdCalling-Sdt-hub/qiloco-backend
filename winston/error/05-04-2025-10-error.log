@@ -1,5 +1,0 @@
-Sat Apr 05 2025 10:31:51 [SERVER-NAME] error: 10.0.60.126 - GET /favicon.ico 404 - 0.873 ms
-Sat Apr 05 2025 10:35:46 [SERVER-NAME] error: 10.0.60.126 - GET /favicon.ico 404 - 0.837 ms
-Sat Apr 05 2025 10:36:9 [SERVER-NAME] error: 10.0.60.126 - POST //api/v1/auth/login 404 - 30.126 ms
-Sat Apr 05 2025 10:36:16 [SERVER-NAME] error: 10.0.60.126 - POST //api/v1/auth/login 404 - 0.881 ms
-Sat Apr 05 2025 10:38:12 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/users/profile 401 - 3.531 ms

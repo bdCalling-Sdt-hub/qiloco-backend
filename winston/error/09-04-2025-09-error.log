@@ -1,0 +1,11 @@
+Wed Apr 09 2025 9:8:39 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/users/profile 401 - 1.547 ms
+Wed Apr 09 2025 9:40:50 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/subscribe 401 - 1.844 ms
+Wed Apr 09 2025 9:41:9 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/subscribe 401 - 0.607 ms
+Wed Apr 09 2025 9:41:30 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/users/profile 401 - 0.611 ms
+Wed Apr 09 2025 9:41:39 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/users/profile 401 - 0.746 ms
+Wed Apr 09 2025 9:41:41 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/users/profile 401 - 0.663 ms
+Wed Apr 09 2025 9:53:27 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/subscribe 401 - 1.124 ms
+Wed Apr 09 2025 9:53:57 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/subscribe 401 - 1.043 ms
+Wed Apr 09 2025 9:54:34 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/users/profile 401 - 0.995 ms
+Wed Apr 09 2025 9:55:51 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/users/profile 401 - 0.976 ms
+Wed Apr 09 2025 9:56:3 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/auth/login 400 - 522.510 ms
