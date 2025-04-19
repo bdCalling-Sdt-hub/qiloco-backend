@@ -46,7 +46,7 @@ const deleteReview = catchAsync(async (req, res) => {
   });
 });
 // Delete a review
-const analisysReview = catchAsync(async (req, res) => {
+const analysisReview = catchAsync(async (req, res) => {
   const productId = req.params.id;
   const result = await ReviewService.getProductReviewStats(productId);
   sendResponse(res, {
@@ -61,5 +61,5 @@ export const ReviewController = {
   createReview,
   updateReview,
   deleteReview,
-  analisysReview,
+  analysisReview,
 };

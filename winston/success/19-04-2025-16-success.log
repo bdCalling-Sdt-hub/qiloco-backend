@@ -1,0 +1,4 @@
+Sat Apr 19 2025 16:18:51 [SERVER-NAME] warn: [42m[1mUnhandled event type: account.updated[22m[49m
+Sat Apr 19 2025 16:18:51 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 6.981 ms
+Sat Apr 19 2025 16:18:51 [SERVER-NAME] warn: [42m[1mUnhandled event type: capability.updated[22m[49m
+Sat Apr 19 2025 16:18:51 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.060 ms

@@ -122,9 +122,6 @@ const getProductReviewStats = async (productId: string) => {
     },
   ]);
 
-  // Debugging the result of aggregation
-  console.log(product);
-
   if (!product || product.length === 0) {
     throw new AppError(StatusCodes.NOT_FOUND, 'No reviews found for the product');
   }

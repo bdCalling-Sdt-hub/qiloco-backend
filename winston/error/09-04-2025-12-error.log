@@ -1,9 +1,0 @@
-Wed Apr 09 2025 12:11:57 [SERVER-NAME] error: 10.0.60.126 - PATCH /api/v1/orders/67e762f37fcedaaf9002aa43 400 - 574.832 ms
-Wed Apr 09 2025 12:26:44 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/subscribe 401 - 3.910 ms
-Wed Apr 09 2025 12:53:3 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/subscribe 403 - 284.834 ms
-Wed Apr 09 2025 12:53:21 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/subscribe 403 - 285.416 ms
-Wed Apr 09 2025 12:53:57 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/subscribe 403 - 297.808 ms
-Wed Apr 09 2025 12:54:39 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/subscribe 403 - 297.806 ms
-Wed Apr 09 2025 12:55:29 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/subscribe 401 - 2.069 ms
-Wed Apr 09 2025 12:57:3 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/subscribe 401 - 0.722 ms
-Wed Apr 09 2025 12:57:40 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/users/profile 401 - 0.684 ms

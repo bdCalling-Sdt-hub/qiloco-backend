@@ -14,7 +14,7 @@ router.post(
 );
 router.get(
   '/:id',
-  ReviewController.analisysReview,
+  ReviewController.analysisReview,
 );
 
 
