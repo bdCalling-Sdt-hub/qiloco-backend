@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import catchAsync from '../../../shared/catchAsync';
+import catchAsync from '../../../utils/catchAsync';
 import sendResponse from '../../../shared/sendResponse';
 import { FaqService } from './faq.service';
 

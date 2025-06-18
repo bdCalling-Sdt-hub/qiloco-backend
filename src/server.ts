@@ -8,7 +8,7 @@ import { socketHelper } from './helpers/socketHelper';
 import { errorLogger, logger } from './shared/logger';
 
 //uncaught exception
-process.on('uncaughtException', error => {
+process.on('uncaughtException', (error) => {
   errorLogger.error('UnhandleException Detected', error);
   process.exit(1);
 });
@@ -25,7 +25,9 @@ async function main() {
 
     server = app.listen(port, config.ip_address as string, () => {
       logger.info(
-        colors.yellow(`♻️  Application listening on http://${config.ip_address}:${config.port}`)
+        colors.yellow(
+          `♻️  Application listening on http://${config.ip_address}:${config.port}`,
+        ),
       );
     });
 
@@ -44,7 +46,7 @@ async function main() {
   }
 
   //handle unhandleRejection
-  process.on('unhandledRejection', error => {
+  process.on('unhandledRejection', (error) => {
     if (server) {
       server.close(() => {
         errorLogger.error('UnhandleRejection Detected', error);

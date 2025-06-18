@@ -1,5 +1,6 @@
 import { Request, Response, NextFunction } from 'express';
-import catchAsync from '../../shared/catchAsync';
+import catchAsync from '../../utils/catchAsync';
+
 const parseData = () => {
   return catchAsync(async (req, res, next) => {
     if (req?.body?.data) {

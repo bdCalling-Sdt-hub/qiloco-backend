@@ -1,3 +1,4 @@
-import { USER_ROLE } from '../modules/users/user.constant';
+import { USER_ROLES } from "../enums/user";
 
-export type TUserRole = keyof typeof USER_ROLE;
+
+export type TUserRole = keyof typeof USER_ROLES;

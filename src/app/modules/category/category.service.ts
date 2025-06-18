@@ -2,7 +2,6 @@ import { StatusCodes } from 'http-status-codes'
 import { ICategory } from './category.interface'
 import { Category } from './category.model'
 import unlinkFile from '../../../shared/unlinkFile'
-import { Bookmark } from '../bookmark/bookmark.model'
 import AppError from '../../../errors/AppError'
 
 const createCategoryToDB = async (payload: ICategory) => {
