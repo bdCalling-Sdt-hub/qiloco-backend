@@ -6,25 +6,11 @@ import auth from '../../middleware/auth';
 import validateRequest from '../../middleware/validateRequest';
 const router = express.Router();
 // Create a review
-router.post(
-  '/:id',
-  auth(USER_ROLES.USER),
-  validateRequest(ReviewValidation.reviewZodSchema),
-  ReviewController.createReview,
-);
-router.get(
-  '/:id',
-  ReviewController.analysisReview,
-);
-
+router.post('/:id', auth(USER_ROLES.USER), validateRequest(ReviewValidation.reviewZodSchema), ReviewController.createReview);
+router.get('/:id', ReviewController.analysisReview);
 
 // Update a review
-router.put(
-  '/:id',
-  auth(USER_ROLES.USER),
-  validateRequest(ReviewValidation.updateReviewZodSchema),
-  ReviewController.updateReview,
-);
+router.put('/:id', auth(USER_ROLES.USER), validateRequest(ReviewValidation.updateReviewZodSchema), ReviewController.updateReview);
 
 // Delete a review
 router.delete('/:id', auth(USER_ROLES.USER), ReviewController.deleteReview);

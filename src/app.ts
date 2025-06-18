@@ -15,17 +15,13 @@ app.set('views', path.join(__dirname, 'views'));
 app.use(Morgan.successHandler);
 app.use(Morgan.errorHandler);
 //router
-app.post(
-  '/api/v1/stripe/webhook',
-  express.raw({ type: 'application/json' }),
-  handleStripeWebhook,
-);
+app.post('/api/v1/stripe/webhook', express.raw({ type: 'application/json' }), handleStripeWebhook);
 //body parser
 app.use(
-  cors({
-    origin: '*',
-    credentials: false,
-  }),
+     cors({
+          origin: '*',
+          credentials: false,
+     }),
 );
 // app.use(
 //   cors({
@@ -49,7 +45,7 @@ app.use('/api/v1', router);
 
 //live response
 app.get('/', (req: Request, res: Response) => {
-  res.send(welcome());
+     res.send(welcome());
 });
 
 //global error handle

@@ -8,16 +8,11 @@ import { USER_ROLES } from '../../../../enums/user';
 const router = express.Router();
 
 router.post(
-  '/login',
-  // validateRequest(VendorValidation.vendorValidationSchema),
-  VendorController.createVendor
+     '/login',
+     // validateRequest(VendorValidation.vendorValidationSchema),
+     VendorController.createVendor,
 );
-router.post(
-  '/create',
-  auth(USER_ROLES.USER),
-  validateRequest(VendorValidation.vendorSchema),
-  VendorController.createVendor
-);
+router.post('/create', auth(USER_ROLES.USER), validateRequest(VendorValidation.vendorSchema), VendorController.createVendor);
 
 // router.post(
 //   '/dashboard/reset-password',

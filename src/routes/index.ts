@@ -16,68 +16,68 @@ import { SubscribeRouter } from '../app/modules/subscribe/subscribe.route';
 
 const router = express.Router();
 const routes = [
-  {
-    path: '/auth',
-    route: AuthRouter,
-  },
-  {
-    path: '/users',
-    route: UserRouter,
-  },
-  {
-    path: '/vendor',
-    route: VendorRouter,
-  },
-  {
-    path: '/product',
-    route: ProductRoutes,
-  },
-  {
-    path: '/settings',
-    route: SettingsRouter,
-  },
-  {
-    path: '/orders',
-    route: OrderRoutes,
-  },
-  {
-    path: '/admin',
-    route: AdminDashboardRoute,
-  },
-  {
-    path: '/admin',
-    route: AdminEarningRoute,
-  },
-  {
-    path: '/vendor',
-    route: VendorDashboardRoute,
-  },
-  {
-    path: '/vendor',
-    route: VendorEarningRoute,
-  },
-  {
-    path: '/reviews',
-    route: ReviewRoutes,
-  },
-  {
-    path: '/notification',
-    route: NotificationRoutes,
-  },
-  {
-    path: '/contact',
-    route: ContactRoutes,
-  },
-  {
-    path: '/subscribe',
-    route: SubscribeRouter,
-  },
+     {
+          path: '/auth',
+          route: AuthRouter,
+     },
+     {
+          path: '/users',
+          route: UserRouter,
+     },
+     {
+          path: '/vendor',
+          route: VendorRouter,
+     },
+     {
+          path: '/product',
+          route: ProductRoutes,
+     },
+     {
+          path: '/settings',
+          route: SettingsRouter,
+     },
+     {
+          path: '/orders',
+          route: OrderRoutes,
+     },
+     {
+          path: '/admin',
+          route: AdminDashboardRoute,
+     },
+     {
+          path: '/admin',
+          route: AdminEarningRoute,
+     },
+     {
+          path: '/vendor',
+          route: VendorDashboardRoute,
+     },
+     {
+          path: '/vendor',
+          route: VendorEarningRoute,
+     },
+     {
+          path: '/reviews',
+          route: ReviewRoutes,
+     },
+     {
+          path: '/notification',
+          route: NotificationRoutes,
+     },
+     {
+          path: '/contact',
+          route: ContactRoutes,
+     },
+     {
+          path: '/subscribe',
+          route: SubscribeRouter,
+     },
 ];
 
 routes.forEach((element) => {
-  if (element?.path && element?.route) {
-    router.use(element?.path, element?.route);
-  }
+     if (element?.path && element?.route) {
+          router.use(element?.path, element?.route);
+     }
 });
 
 export default router;

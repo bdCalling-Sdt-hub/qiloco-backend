@@ -1,55 +1,55 @@
 {
-    "keep": {
-        "days": true,
-        "amount": 1
-    },
-    "auditLog": "C:\\Users\\Rakib\\OneDrive\\Desktop\\qiloco backend\\winston\\success\\.959b3f4cfa3b1c11e845febabf82571c684fb59b-audit.json",
-    "files": [
-        {
-            "date": 1743651327088,
-            "name": "C:\\Users\\Rakib\\OneDrive\\Desktop\\qiloco backend\\winston\\success\\03-04-2025-09-success.log",
-            "hash": "b8eb1842f369ccb984e3f06ec21549520fbbc1c451163a86d6282948f05a650a"
-        },
-        {
-            "date": 1743653587506,
-            "name": "C:\\Users\\Rakib\\OneDrive\\Desktop\\qiloco backend\\winston\\success\\03-04-2025-10-success.log",
-            "hash": "40ab89c85c4fbf351555592a204503e3c46dfb1a1107ea7da15aade414b2c693"
-        },
-        {
-            "date": 1743656445420,
-            "name": "C:\\Users\\Rakib\\OneDrive\\Desktop\\qiloco backend\\winston\\success\\03-04-2025-11-success.log",
-            "hash": "aeb0668d918c4dfdf326ea6835854a7ab57fd4ac5e1dbdd12b90bc9eb7599b7b"
-        },
-        {
-            "date": 1743660333534,
-            "name": "C:\\Users\\Rakib\\OneDrive\\Desktop\\qiloco backend\\winston\\success\\03-04-2025-12-success.log",
-            "hash": "365a500d204726c07354f8fcbd145e80fa68ed39ac68e2d42b82f0addb29cfef"
-        },
-        {
-            "date": 1743663700272,
-            "name": "C:\\Users\\Rakib\\OneDrive\\Desktop\\qiloco backend\\winston\\success\\03-04-2025-13-success.log",
-            "hash": "48bb2e3a1a8e8098a57e951b0d202b04f24d3ae0a63f3b1f45e885e4889009e2"
-        },
-        {
-            "date": 1743668003161,
-            "name": "C:\\Users\\Rakib\\OneDrive\\Desktop\\qiloco backend\\winston\\success\\03-04-2025-14-success.log",
-            "hash": "032c984dd03441eaada8799c1eab461be63a28ee0c925151b870f9b2ba4fca7a"
-        },
-        {
-            "date": 1743671286222,
-            "name": "C:\\Users\\Rakib\\OneDrive\\Desktop\\qiloco backend\\winston\\success\\03-04-2025-15-success.log",
-            "hash": "fc975cac318fa4906c6d0bc4815f9a1a0d1ed30e7e838c4d8d689c2324736407"
-        },
-        {
-            "date": 1743681388364,
-            "name": "C:\\Users\\Rakib\\OneDrive\\Desktop\\qiloco backend\\winston\\success\\03-04-2025-17-success.log",
-            "hash": "a124df8ae0b6993a1cf8716cf11f60318f48a5b2ab8bf8c53af14289920bcf3e"
-        },
-        {
-            "date": 1743681840477,
-            "name": "C:\\Users\\Rakib\\OneDrive\\Desktop\\qiloco backend\\winston\\success\\03-04-2025-18-success.log",
-            "hash": "a586103907bd63f140257ae74ae1decd2481e0639b64ab910d2336c532c8429d"
-        }
-    ],
-    "hashType": "sha256"
+     "keep": {
+          "days": true,
+          "amount": 1
+     },
+     "auditLog": "C:\\Users\\Rakib\\OneDrive\\Desktop\\qiloco backend\\winston\\success\\.959b3f4cfa3b1c11e845febabf82571c684fb59b-audit.json",
+     "files": [
+          {
+               "date": 1743651327088,
+               "name": "C:\\Users\\Rakib\\OneDrive\\Desktop\\qiloco backend\\winston\\success\\03-04-2025-09-success.log",
+               "hash": "b8eb1842f369ccb984e3f06ec21549520fbbc1c451163a86d6282948f05a650a"
+          },
+          {
+               "date": 1743653587506,
+               "name": "C:\\Users\\Rakib\\OneDrive\\Desktop\\qiloco backend\\winston\\success\\03-04-2025-10-success.log",
+               "hash": "40ab89c85c4fbf351555592a204503e3c46dfb1a1107ea7da15aade414b2c693"
+          },
+          {
+               "date": 1743656445420,
+               "name": "C:\\Users\\Rakib\\OneDrive\\Desktop\\qiloco backend\\winston\\success\\03-04-2025-11-success.log",
+               "hash": "aeb0668d918c4dfdf326ea6835854a7ab57fd4ac5e1dbdd12b90bc9eb7599b7b"
+          },
+          {
+               "date": 1743660333534,
+               "name": "C:\\Users\\Rakib\\OneDrive\\Desktop\\qiloco backend\\winston\\success\\03-04-2025-12-success.log",
+               "hash": "365a500d204726c07354f8fcbd145e80fa68ed39ac68e2d42b82f0addb29cfef"
+          },
+          {
+               "date": 1743663700272,
+               "name": "C:\\Users\\Rakib\\OneDrive\\Desktop\\qiloco backend\\winston\\success\\03-04-2025-13-success.log",
+               "hash": "48bb2e3a1a8e8098a57e951b0d202b04f24d3ae0a63f3b1f45e885e4889009e2"
+          },
+          {
+               "date": 1743668003161,
+               "name": "C:\\Users\\Rakib\\OneDrive\\Desktop\\qiloco backend\\winston\\success\\03-04-2025-14-success.log",
+               "hash": "032c984dd03441eaada8799c1eab461be63a28ee0c925151b870f9b2ba4fca7a"
+          },
+          {
+               "date": 1743671286222,
+               "name": "C:\\Users\\Rakib\\OneDrive\\Desktop\\qiloco backend\\winston\\success\\03-04-2025-15-success.log",
+               "hash": "fc975cac318fa4906c6d0bc4815f9a1a0d1ed30e7e838c4d8d689c2324736407"
+          },
+          {
+               "date": 1743681388364,
+               "name": "C:\\Users\\Rakib\\OneDrive\\Desktop\\qiloco backend\\winston\\success\\03-04-2025-17-success.log",
+               "hash": "a124df8ae0b6993a1cf8716cf11f60318f48a5b2ab8bf8c53af14289920bcf3e"
+          },
+          {
+               "date": 1743681840477,
+               "name": "C:\\Users\\Rakib\\OneDrive\\Desktop\\qiloco backend\\winston\\success\\03-04-2025-18-success.log",
+               "hash": "a586103907bd63f140257ae74ae1decd2481e0639b64ab910d2336c532c8429d"
+          }
+     ],
+     "hashType": "sha256"
 }

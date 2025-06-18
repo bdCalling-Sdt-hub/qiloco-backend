@@ -4,33 +4,33 @@ import sendResponse from '../../../shared/sendResponse';
 import { SubscribeService } from './subscribe.service';
 
 const getEmail = catchAsync(async (req, res) => {
-  const { email }: any = req.user;
-  // Check if the email already exists
-  const result = await SubscribeService.getEmail(email);
+     const { email }: any = req.user;
+     // Check if the email already exists
+     const result = await SubscribeService.getEmail(email);
 
-  sendResponse(res, {
-    success: true,
-    statusCode: StatusCodes.CREATED,
-    message: 'Successful retrived email',
-    data: {
-      subscribed: result,
-    },
-  });
+     sendResponse(res, {
+          success: true,
+          statusCode: StatusCodes.CREATED,
+          message: 'Successful retrived email',
+          data: {
+               subscribed: result,
+          },
+     });
 });
 const subscribe = catchAsync(async (req, res) => {
-  const data = req.body;
-  // Check if the email already exists
-  const result = await SubscribeService.saveEmail(data);
+     const data = req.body;
+     // Check if the email already exists
+     const result = await SubscribeService.saveEmail(data);
 
-  sendResponse(res, {
-    success: true,
-    statusCode: StatusCodes.CREATED,
-    message: 'Successfully subscribed!',
-    data: result,
-  });
+     sendResponse(res, {
+          success: true,
+          statusCode: StatusCodes.CREATED,
+          message: 'Successfully subscribed!',
+          data: result,
+     });
 });
 
 export const SubscribeController = {
-  subscribe,
-  getEmail,
+     subscribe,
+     getEmail,
 };
