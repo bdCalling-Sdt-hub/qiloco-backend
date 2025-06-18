@@ -1,4 +1,4 @@
-name: Jonowoods Backend CI/CD
+name: Qiloco Backend CI/CD
 
 on:
      push:
